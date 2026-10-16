@@ -1,5 +1,6 @@
 
 import os
+import subprocess
 
 import httpx
 import numpy as np
@@ -12,8 +13,7 @@ from voice.tts import speak
 RIA_API = "http://127.0.0.1:8000/chat"
 
 MODEL_SIZE = os.getenv(
-    "RIA_WHISPER_MODEL",
-    "small"
+    "RIA_WHISPER_MODEL", "small"
 )
 
 whisper = WhisperModel(
@@ -24,8 +24,6 @@ whisper = WhisperModel(
 
 
 def transcribe_audio(audio):
-    """Convert speech to text."""
-
     print("📝 Transcribing...")
 
     segments, info = whisper.transcribe(
@@ -43,8 +41,6 @@ def transcribe_audio(audio):
 
 
 def talk_to_ria(text, session_id, language="auto"):
-    """Send text to Ria's local AI backend."""
-
     payload = {
         "message": text,
         "language": language
@@ -57,37 +53,37 @@ def talk_to_ria(text, session_id, language="auto"):
         timeout=180.0,
         trust_env=False
     ) as client:
-
         response = client.post(
             RIA_API,
             json=payload
         )
 
         response.raise_for_status()
-
         return response.json()
 
 
 def main():
-    """Run Ria's voice conversation loop."""
-
     print("=" * 45)
     print("Ria — Personal AI Voice Companion")
     print("=" * 45)
-
     print("Press ENTER to speak.")
-    print("Recording stops automatically after silence.")
+    print("Speak during playback to interrupt Ria.")
+    print("Use headphones to avoid speaker feedback.")
     print("Type q and ENTER to exit.")
 
     session_id = None
+    listen_immediately = False
 
     while True:
         try:
-            action = input("\nPress ENTER to speak: ")
+            if not listen_immediately:
+                action = input("\nPress ENTER to speak: ")
 
-            if action.lower().strip() == "q":
-                print("Ria voice session ended.")
-                break
+                if action.lower().strip() == "q":
+                    print("Ria voice session ended.")
+                    break
+
+            listen_immediately = False
 
             audio = record_until_silence()
 
@@ -106,21 +102,23 @@ def main():
             print(f"Detected language: {detected_language}")
 
             result = talk_to_ria(
-                text,
-                session_id
+                text, session_id
             )
 
             session_id = result["session_id"]
 
             reply = result["reply"]
             language = result.get(
-                "language",
-                "english"
+                "language", "english"
             )
 
             print(f"\nRia: {reply}")
 
-            speak(reply, language)
+            interrupted = speak(reply, language)
+
+            if interrupted:
+                print("🎙️ Listening for your next question...")
+                listen_immediately = True
 
         except KeyboardInterrupt:
             print("\nRia voice session stopped.")
@@ -129,7 +127,8 @@ def main():
         except (
             httpx.HTTPError,
             OSError,
-            ValueError
+            ValueError,
+            subprocess.CalledProcessError
         ) as exc:
             print(f"Voice error: {exc}")
 
