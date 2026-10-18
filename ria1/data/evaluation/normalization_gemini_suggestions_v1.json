@@ -1,0 +1,1229 @@
+{
+  "source_hash": "2513d1e5b58c3b1c45b051b37ec1871fbbd1a498707f8a6ebfefcc09fa1586cc",
+  "suggestions": {
+    "1": {
+      "classification": "faithful_script",
+      "meaning_preserved": true,
+      "critical_error": false,
+      "reason": "The Tamil sentence accurately and naturally translates the Tanglish sentence 'Naan innaiku office-ku late-ah vandhen' preserving the exact meaning, tense, and subject.",
+      "suggested_tamil": "",
+      "model": "gemini-3.5-flash-lite",
+      "evaluated_at": "2026-10-17T13:21:59.430651+00:00"
+    },
+    "2": {
+      "classification": "faithful_script",
+      "meaning_preserved": true,
+      "critical_error": false,
+      "reason": "The Tamil sentence perfectly captures the meaning, tone, and grammar of the Tanglish input, including the English loanword 'help' in Tamil script.",
+      "suggested_tamil": "",
+      "model": "gemini-3.5-flash-lite",
+      "evaluated_at": "2026-10-17T13:22:01.815409+00:00"
+    },
+    "3": {
+      "classification": "faithful_script",
+      "meaning_preserved": true,
+      "critical_error": false,
+      "reason": "The Tamil sentence perfectly preserves the meaning, tense, subject, and colloquial tone of the Tanglish sentence.",
+      "suggested_tamil": "",
+      "model": "gemini-3.5-flash-lite",
+      "evaluated_at": "2026-10-17T13:22:03.688537+00:00"
+    },
+    "4": {
+      "classification": "faithful_script",
+      "meaning_preserved": true,
+      "critical_error": false,
+      "reason": "The Tamil sentence perfectly captures the meaning, subject, tense, and colloquial tone of the Tanglish input.",
+      "suggested_tamil": "",
+      "model": "gemini-3.5-flash-lite",
+      "evaluated_at": "2026-10-17T13:22:06.140921+00:00"
+    },
+    "5": {
+      "classification": "faithful_script",
+      "meaning_preserved": true,
+      "critical_error": false,
+      "reason": "The Tamil sentence accurately and naturally translates the Tanglish sentence, preserving the exact meaning, pronouns, and colloquial tone.",
+      "suggested_tamil": "",
+      "model": "gemini-3.5-flash-lite",
+      "evaluated_at": "2026-10-17T13:22:08.512176+00:00"
+    },
+    "6": {
+      "classification": "faithful_script",
+      "meaning_preserved": true,
+      "critical_error": false,
+      "reason": "The Tamil sentence accurately and directly translates the Tanglish question 'Neenga enga poringa?' meaning 'Where are you going?'.",
+      "suggested_tamil": "",
+      "model": "gemini-3.5-flash-lite",
+      "evaluated_at": "2026-10-17T13:22:10.715316+00:00"
+    },
+    "7": {
+      "classification": "faithful_script",
+      "meaning_preserved": true,
+      "critical_error": false,
+      "reason": "The Tamil sentence perfectly captures the meaning, pronoun (avanga), tense (vandhutaanga), and natural conversational tone of the Tanglish input.",
+      "suggested_tamil": "",
+      "model": "gemini-3.5-flash-lite",
+      "evaluated_at": "2026-10-17T13:22:12.827242+00:00"
+    },
+    "8": {
+      "classification": "faithful_script",
+      "meaning_preserved": true,
+      "critical_error": false,
+      "reason": "The Tamil sentence accurately captures the exact meaning of the Tanglish sentence 'Naan saapadu ready pannitten.' using appropriate colloquial script.",
+      "suggested_tamil": "",
+      "model": "gemini-3.5-flash-lite",
+      "evaluated_at": "2026-10-17T13:22:15.178497+00:00"
+    },
+    "9": {
+      "classification": "faithful_script",
+      "meaning_preserved": true,
+      "critical_error": false,
+      "reason": "The Tamil sentence accurately and colloquially captures the exact meaning of the Tanglish sentence 'Nee sonnadhu enakku puriyala' (What you said is not clear to me / I didn't understand what you said).",
+      "suggested_tamil": "",
+      "model": "gemini-3.5-flash-lite",
+      "evaluated_at": "2026-10-17T13:22:17.177553+00:00"
+    },
+    "10": {
+      "classification": "faithful_script",
+      "meaning_preserved": true,
+      "critical_error": false,
+      "reason": "The Tamil sentence accurately and faithfully translates the Tanglish input, matching the subject, pronouns, tense, and vocabulary (including loanwords).",
+      "suggested_tamil": "",
+      "model": "gemini-3.5-flash-lite",
+      "evaluated_at": "2026-10-17T13:22:19.145234+00:00"
+    },
+    "11": {
+      "classification": "faithful_script",
+      "meaning_preserved": true,
+      "critical_error": false,
+      "reason": "The Tamil sentence perfectly captures the exact meaning, tense, and colloquial tone of the Tanglish input.",
+      "suggested_tamil": "",
+      "model": "gemini-3.5-flash-lite",
+      "evaluated_at": "2026-10-17T13:22:21.129222+00:00"
+    },
+    "12": {
+      "classification": "faithful_script",
+      "meaning_preserved": true,
+      "critical_error": false,
+      "reason": "The Tamil sentence accurately and colloquially captures the exact meaning of the Tanglish sentence 'Nee eppo thirumbi varuva?'.",
+      "suggested_tamil": "",
+      "model": "gemini-3.5-flash-lite",
+      "evaluated_at": "2026-10-17T13:22:23.640457+00:00"
+    },
+    "13": {
+      "classification": "faithful_script",
+      "meaning_preserved": true,
+      "critical_error": false,
+      "reason": "The Tamil sentence accurately and colloquially captures the meaning of the Tanglish input, maintaining the correct pronoun, tense, and intent.",
+      "suggested_tamil": "",
+      "model": "gemini-3.5-flash-lite",
+      "evaluated_at": "2026-10-17T13:22:26.047734+00:00"
+    },
+    "14": {
+      "classification": "faithful_script",
+      "meaning_preserved": true,
+      "critical_error": false,
+      "reason": "The Tamil sentence accurately and colloquially translates the Tanglish sentence 'Naanga innum start pannala.'",
+      "suggested_tamil": "",
+      "model": "gemini-3.5-flash-lite",
+      "evaluated_at": "2026-10-17T13:22:28.426218+00:00"
+    },
+    "15": {
+      "classification": "faithful_script",
+      "meaning_preserved": true,
+      "critical_error": false,
+      "reason": "The Tamil sentence accurately and naturally translates the Tanglish sentence 'Naan daily konjam guitar practice panren.'",
+      "suggested_tamil": "",
+      "model": "gemini-3.5-flash-lite",
+      "evaluated_at": "2026-10-17T13:22:30.529560+00:00"
+    },
+    "16": {
+      "classification": "faithful_script",
+      "meaning_preserved": true,
+      "critical_error": false,
+      "reason": "The Tamil sentence accurately and naturally translates the Tanglish input, preserving all elements including the subject, question, and the imperative verb 'sollu'.",
+      "suggested_tamil": "",
+      "model": "gemini-3.5-flash-lite",
+      "evaluated_at": "2026-10-17T13:22:32.833637+00:00"
+    },
+    "17": {
+      "classification": "faithful_script",
+      "meaning_preserved": true,
+      "critical_error": false,
+      "reason": "Both sentences convey the same meaning ‘They invited me’, with matching pronouns, tense, and code‑switched verb; only script and minor spelling differences exist.",
+      "suggested_tamil": "",
+      "model": "openai/gpt-oss-120b",
+      "provider": "groq",
+      "evaluated_at": "2026-10-17T13:47:55.299702+00:00"
+    },
+    "18": {
+      "classification": "faithful_script",
+      "meaning_preserved": true,
+      "critical_error": false,
+      "reason": "Tanglish and Tamil sentences convey the same meaning with matching pronouns, tense, and code‑switched word; script conversion is accurate.",
+      "suggested_tamil": "",
+      "model": "openai/gpt-oss-120b",
+      "provider": "groq",
+      "evaluated_at": "2026-10-17T13:48:02.282301+00:00"
+    },
+    "19": {
+      "classification": "faithful_script",
+      "meaning_preserved": true,
+      "critical_error": false,
+      "reason": "Tanglish and Tamil convey the same meaning with colloquial spelling; no change in actor, tense, or intent.",
+      "suggested_tamil": "",
+      "model": "openai/gpt-oss-120b",
+      "provider": "groq",
+      "evaluated_at": "2026-10-17T13:48:09.410800+00:00"
+    },
+    "20": {
+      "classification": "faithful_script",
+      "meaning_preserved": true,
+      "critical_error": false,
+      "reason": "The Tanglish and Tamil sentences convey the same meaning with natural colloquial spelling; no change in actor, tense, or intent.",
+      "suggested_tamil": "",
+      "model": "openai/gpt-oss-120b",
+      "provider": "groq",
+      "evaluated_at": "2026-10-17T13:48:16.690613+00:00"
+    },
+    "21": {
+      "classification": "faithful_script",
+      "meaning_preserved": true,
+      "critical_error": false,
+      "reason": "Tanglish and Tamil sentences convey the same meaning (I tried this before) with matching pronouns, tense, and actors; only script and minor colloquial spelling differ.",
+      "suggested_tamil": "",
+      "model": "openai/gpt-oss-120b",
+      "provider": "groq",
+      "evaluated_at": "2026-10-17T13:48:24.258492+00:00"
+    },
+    "22": {
+      "classification": "faithful_script",
+      "meaning_preserved": true,
+      "critical_error": false,
+      "reason": "Tanglish and Tamil sentences convey the same meaning with only colloquial spelling differences and transliterated English word.",
+      "suggested_tamil": "",
+      "model": "openai/gpt-oss-120b",
+      "provider": "groq",
+      "evaluated_at": "2026-10-17T13:48:29.084660+00:00"
+    },
+    "23": {
+      "classification": "faithful_script",
+      "meaning_preserved": true,
+      "critical_error": false,
+      "reason": "Faithful conversion; only script change and minor spelling differences, meaning unchanged",
+      "suggested_tamil": "",
+      "model": "openai/gpt-oss-120b",
+      "provider": "groq",
+      "evaluated_at": "2026-10-17T13:48:36.748110+00:00"
+    },
+    "24": {
+      "classification": "faithful_script",
+      "meaning_preserved": true,
+      "critical_error": false,
+      "reason": "Both sentences convey the same meaning: 'My sister gave me advice', with only script differences and transliteration of the English word.",
+      "suggested_tamil": "",
+      "model": "openai/gpt-oss-120b",
+      "provider": "groq",
+      "evaluated_at": "2026-10-17T13:48:43.797986+00:00"
+    },
+    "25": {
+      "classification": "faithful_script",
+      "meaning_preserved": true,
+      "critical_error": false,
+      "reason": "The Tanglish and Tamil sentences convey the same meaning with only minor spelling variations typical of colloquial script conversion.",
+      "suggested_tamil": "",
+      "model": "openai/gpt-oss-120b",
+      "provider": "groq",
+      "evaluated_at": "2026-10-17T13:48:50.884411+00:00"
+    },
+    "26": {
+      "classification": "faithful_script",
+      "meaning_preserved": true,
+      "critical_error": false,
+      "reason": "Both convey the same meaning – ‘It’s time to eat.’ – only script and minor spelling differ.",
+      "suggested_tamil": "",
+      "model": "openai/gpt-oss-120b",
+      "provider": "groq",
+      "evaluated_at": "2026-10-17T13:48:58.254561+00:00"
+    },
+    "27": {
+      "classification": "faithful_script",
+      "meaning_preserved": true,
+      "critical_error": false,
+      "reason": "Accurate colloquial conversion, same meaning and tense",
+      "suggested_tamil": "",
+      "model": "openai/gpt-oss-120b",
+      "provider": "groq",
+      "evaluated_at": "2026-10-17T13:49:05.217292+00:00"
+    },
+    "28": {
+      "classification": "faithful_script",
+      "meaning_preserved": true,
+      "critical_error": false,
+      "reason": "Faithful script conversion with natural colloquial spelling variations",
+      "suggested_tamil": "",
+      "model": "openai/gpt-oss-120b",
+      "provider": "groq",
+      "evaluated_at": "2026-10-17T13:49:12.165068+00:00"
+    },
+    "29": {
+      "classification": "faithful_script",
+      "meaning_preserved": true,
+      "critical_error": false,
+      "reason": "Tanglish and Tamil convey the same past event ‘Yesterday it rained heavily’, with only colloquial spelling differences.",
+      "suggested_tamil": "",
+      "model": "openai/gpt-oss-120b",
+      "provider": "groq",
+      "evaluated_at": "2026-10-17T13:49:19.429984+00:00"
+    },
+    "30": {
+      "classification": "faithful_script",
+      "meaning_preserved": true,
+      "critical_error": false,
+      "reason": "Accurate colloquial script conversion, same meaning, only spelling/punctuation differences",
+      "suggested_tamil": "",
+      "model": "openai/gpt-oss-120b",
+      "provider": "groq",
+      "evaluated_at": "2026-10-17T13:49:27.029359+00:00"
+    },
+    "31": {
+      "classification": "faithful_script",
+      "meaning_preserved": true,
+      "critical_error": false,
+      "reason": "The Tanglish and Tamil sentences convey the same meaning with only colloquial spelling differences.",
+      "suggested_tamil": "",
+      "model": "openai/gpt-oss-120b",
+      "provider": "groq",
+      "evaluated_at": "2026-10-17T13:49:34.607812+00:00"
+    },
+    "32": {
+      "classification": "faithful_script",
+      "meaning_preserved": true,
+      "critical_error": false,
+      "reason": "Accurate conversion; same meaning, only minor spelling/punctuation differences and retained English loanword.",
+      "suggested_tamil": "",
+      "model": "openai/gpt-oss-120b",
+      "provider": "groq",
+      "evaluated_at": "2026-10-17T13:49:41.575432+00:00"
+    },
+    "33": {
+      "classification": "faithful_script",
+      "meaning_preserved": true,
+      "critical_error": false,
+      "reason": "Direct transliteration with same meaning and tone",
+      "suggested_tamil": "",
+      "model": "openai/gpt-oss-120b",
+      "provider": "groq",
+      "evaluated_at": "2026-10-17T13:49:48.421803+00:00"
+    },
+    "34": {
+      "classification": "faithful_script",
+      "meaning_preserved": true,
+      "critical_error": false,
+      "reason": "Accurate transliteration of Tanglish to Tamil script with natural colloquial spelling; meaning unchanged.",
+      "suggested_tamil": "",
+      "model": "openai/gpt-oss-120b",
+      "provider": "groq",
+      "evaluated_at": "2026-10-17T13:49:55.779300+00:00"
+    },
+    "35": {
+      "classification": "faithful_script",
+      "meaning_preserved": true,
+      "critical_error": false,
+      "reason": "Accurate colloquial conversion with minor spelling variations",
+      "suggested_tamil": "",
+      "model": "openai/gpt-oss-120b",
+      "provider": "groq",
+      "evaluated_at": "2026-10-17T13:50:02.766510+00:00"
+    },
+    "36": {
+      "classification": "faithful_script",
+      "meaning_preserved": true,
+      "critical_error": false,
+      "reason": "Accurate colloquial script conversion, meaning unchanged",
+      "suggested_tamil": "",
+      "model": "openai/gpt-oss-120b",
+      "provider": "groq",
+      "evaluated_at": "2026-10-17T13:50:09.935815+00:00"
+    },
+    "37": {
+      "classification": "incorrect",
+      "meaning_preserved": true,
+      "critical_error": true,
+      "reason": "Tamil script missing final character 'ை' in 'இல்லை', making it incomplete",
+      "suggested_tamil": "எனக்கு இந்த மேட்டர் புரியவே இல்லை.",
+      "model": "openai/gpt-oss-120b",
+      "provider": "groq",
+      "evaluated_at": "2026-10-17T13:50:17.821704+00:00"
+    },
+    "38": {
+      "classification": "faithful_script",
+      "meaning_preserved": true,
+      "critical_error": false,
+      "reason": "The Tanglish and Tamil sentences convey the same meaning with colloquial spelling differences; no change in actor, tense, or intent.",
+      "suggested_tamil": "",
+      "model": "openai/gpt-oss-120b",
+      "provider": "groq",
+      "evaluated_at": "2026-10-17T13:50:24.984686+00:00"
+    },
+    "39": {
+      "classification": "faithful_script",
+      "meaning_preserved": true,
+      "critical_error": false,
+      "reason": "The Tanglish sentence matches the Tamil script meaning exactly, with only natural colloquial spelling differences.",
+      "suggested_tamil": "",
+      "model": "openai/gpt-oss-120b",
+      "provider": "groq",
+      "evaluated_at": "2026-10-17T13:50:32.020920+00:00"
+    },
+    "40": {
+      "classification": "faithful_script",
+      "meaning_preserved": true,
+      "critical_error": false,
+      "reason": "Accurate transliteration with colloquial spelling, same meaning",
+      "suggested_tamil": "",
+      "model": "openai/gpt-oss-120b",
+      "provider": "groq",
+      "evaluated_at": "2026-10-17T13:50:38.913735+00:00"
+    },
+    "41": {
+      "classification": "faithful_script",
+      "meaning_preserved": true,
+      "critical_error": false,
+      "reason": "Minor orthographic variation (கேக்க vs கேட்க) but meaning unchanged",
+      "suggested_tamil": "இந்த பாட்டு கேட்க நல்லா இருக்கு.",
+      "model": "openai/gpt-oss-120b",
+      "provider": "groq",
+      "evaluated_at": "2026-10-17T13:50:46.395480+00:00"
+    },
+    "42": {
+      "classification": "faithful_script",
+      "meaning_preserved": true,
+      "critical_error": false,
+      "reason": "Tanglish and Tamil convey the same meaning with colloquial spelling; no change in actor, tense, or negation.",
+      "suggested_tamil": "",
+      "model": "openai/gpt-oss-120b",
+      "provider": "groq",
+      "evaluated_at": "2026-10-17T13:50:54.087115+00:00"
+    },
+    "43": {
+      "classification": "faithful_script",
+      "meaning_preserved": true,
+      "critical_error": false,
+      "reason": "Tanglish and Tamil convey the same meaning with colloquial spelling; no change in actor, tense, or intent.",
+      "suggested_tamil": "",
+      "model": "openai/gpt-oss-120b",
+      "provider": "groq",
+      "evaluated_at": "2026-10-17T13:51:01.191141+00:00"
+    },
+    "44": {
+      "classification": "faithful_script",
+      "meaning_preserved": true,
+      "critical_error": false,
+      "reason": "Accurate conversion; same speaker, tense, and meaning with only colloquial spelling variations",
+      "suggested_tamil": "",
+      "model": "openai/gpt-oss-120b",
+      "provider": "groq",
+      "evaluated_at": "2026-10-17T13:51:08.438057+00:00"
+    },
+    "45": {
+      "classification": "faithful_script",
+      "meaning_preserved": true,
+      "critical_error": false,
+      "reason": "Tanglish and Tamil convey the same meaning ‘I don’t like this situation’, with colloquial spelling differences only.",
+      "suggested_tamil": "",
+      "model": "openai/gpt-oss-120b",
+      "provider": "groq",
+      "evaluated_at": "2026-10-17T13:51:15.750719+00:00"
+    },
+    "46": {
+      "classification": "faithful_script",
+      "meaning_preserved": true,
+      "critical_error": false,
+      "reason": "Tanglish and Tamil convey same present‑tense negation about today’s mood; only a minor orthographic omission (இல்ல instead of இல்லை) which is colloquial, not a meaning change.",
+      "suggested_tamil": "",
+      "model": "openai/gpt-oss-120b",
+      "provider": "groq",
+      "evaluated_at": "2026-10-17T13:51:23.414090+00:00"
+    },
+    "47": {
+      "classification": "faithful_script",
+      "meaning_preserved": true,
+      "critical_error": false,
+      "reason": "Tanglish and Tamil sentences convey the same meaning with matching pronouns, tense, and colloquial spelling.",
+      "suggested_tamil": "",
+      "model": "openai/gpt-oss-120b",
+      "provider": "groq",
+      "evaluated_at": "2026-10-17T13:51:30.482805+00:00"
+    },
+    "48": {
+      "classification": "faithful_script",
+      "meaning_preserved": true,
+      "critical_error": false,
+      "reason": "Faithful conversion with natural colloquial spelling differences",
+      "suggested_tamil": "",
+      "model": "openai/gpt-oss-120b",
+      "provider": "groq",
+      "evaluated_at": "2026-10-17T13:51:37.873410+00:00"
+    },
+    "49": {
+      "classification": "faithful_script",
+      "meaning_preserved": true,
+      "critical_error": false,
+      "reason": "Tanglish and Tamil convey same conditional improvement meaning with equivalent transliterated words",
+      "suggested_tamil": "",
+      "model": "openai/gpt-oss-120b",
+      "provider": "groq",
+      "evaluated_at": "2026-10-17T13:51:45.268960+00:00"
+    },
+    "50": {
+      "classification": "faithful_script",
+      "meaning_preserved": true,
+      "critical_error": false,
+      "reason": "Accurate script conversion preserving meaning, pronouns, negation, and tense",
+      "suggested_tamil": "",
+      "model": "openai/gpt-oss-120b",
+      "provider": "groq",
+      "evaluated_at": "2026-10-17T13:51:52.205627+00:00"
+    },
+    "51": {
+      "classification": "faithful_script",
+      "meaning_preserved": true,
+      "critical_error": false,
+      "reason": "Accurate colloquial conversion, same meaning and negation",
+      "suggested_tamil": "",
+      "model": "openai/gpt-oss-120b",
+      "provider": "groq",
+      "evaluated_at": "2026-10-17T13:51:59.298380+00:00"
+    },
+    "52": {
+      "classification": "faithful_script",
+      "meaning_preserved": true,
+      "critical_error": false,
+      "reason": "Accurate colloquial conversion, same tense and negation, English loan word retained",
+      "suggested_tamil": "",
+      "model": "openai/gpt-oss-120b",
+      "provider": "groq",
+      "evaluated_at": "2026-10-17T13:52:06.359987+00:00"
+    },
+    "53": {
+      "classification": "faithful_script",
+      "meaning_preserved": true,
+      "critical_error": false,
+      "reason": "Tanglish and Tamil convey the same meaning ‘This is not my laptop’, with only colloquial spelling differences.",
+      "suggested_tamil": "",
+      "model": "openai/gpt-oss-120b",
+      "provider": "groq",
+      "evaluated_at": "2026-10-17T13:52:13.216729+00:00"
+    },
+    "54": {
+      "classification": "faithful_script",
+      "meaning_preserved": true,
+      "critical_error": false,
+      "reason": "Tanglish and Tamil sentences convey the same meaning: meeting was not cancelled but got postponed, with only minor spelling variations.",
+      "suggested_tamil": "",
+      "model": "openai/gpt-oss-120b",
+      "provider": "groq",
+      "evaluated_at": "2026-10-17T13:52:21.017517+00:00"
+    },
+    "55": {
+      "classification": "faithful_script",
+      "meaning_preserved": true,
+      "critical_error": false,
+      "reason": "Both sentences convey the same meaning: ‘I am not angry, I am a little disappointed’, with only colloquial spelling differences.",
+      "suggested_tamil": "",
+      "model": "openai/gpt-oss-120b",
+      "provider": "groq",
+      "evaluated_at": "2026-10-17T13:52:28.446301+00:00"
+    },
+    "56": {
+      "classification": "faithful_script",
+      "meaning_preserved": true,
+      "critical_error": false,
+      "reason": "Tanglish and Tamil convey the same meaning ‘This answer is not correct’; minor spelling omission (இல்ல vs இல்லை) does not change intent.",
+      "suggested_tamil": "",
+      "model": "openai/gpt-oss-120b",
+      "provider": "groq",
+      "evaluated_at": "2026-10-17T13:52:35.520250+00:00"
+    },
+    "57": {
+      "classification": "faithful_script",
+      "meaning_preserved": true,
+      "critical_error": false,
+      "reason": "Accurate transliteration of English terms, meaning unchanged",
+      "suggested_tamil": "",
+      "model": "openai/gpt-oss-120b",
+      "provider": "groq",
+      "evaluated_at": "2026-10-17T13:52:42.871198+00:00"
+    },
+    "58": {
+      "classification": "normalization",
+      "meaning_preserved": true,
+      "critical_error": false,
+      "reason": "Minor spelling error: 'இல்ல' missing the final 'இ', but meaning is unchanged",
+      "suggested_tamil": "இந்த ஆப்பை நான் இன்ஸ்டால் பண்ணவே இல்லை.",
+      "model": "openai/gpt-oss-120b",
+      "provider": "groq",
+      "evaluated_at": "2026-10-17T13:52:50.806596+00:00"
+    },
+    "59": {
+      "classification": "faithful_script",
+      "meaning_preserved": true,
+      "critical_error": false,
+      "reason": "The Tamil sentence accurately reflects the Tanglish meaning, preserving speaker, tense, negation, and code‑switched words.",
+      "suggested_tamil": "",
+      "model": "openai/gpt-oss-120b",
+      "provider": "groq",
+      "evaluated_at": "2026-10-17T13:52:58.191333+00:00"
+    },
+    "60": {
+      "classification": "faithful_script",
+      "meaning_preserved": true,
+      "critical_error": false,
+      "reason": "The Tanglish and Tamil sentences convey the same meaning with equivalent colloquial negation and future intent, only spelling differences in transliteration.",
+      "suggested_tamil": "",
+      "model": "openai/gpt-oss-120b",
+      "provider": "groq",
+      "evaluated_at": "2026-10-17T13:53:05.558012+00:00"
+    },
+    "61": {
+      "classification": "faithful_script",
+      "meaning_preserved": true,
+      "critical_error": false,
+      "reason": "The Tanglish and Tamil sentences convey the same meaning (I want coffee without sugar); only script and minor colloquial spelling differ.",
+      "suggested_tamil": "",
+      "model": "openai/gpt-oss-120b",
+      "provider": "groq",
+      "evaluated_at": "2026-10-17T13:53:13.127379+00:00"
+    },
+    "62": {
+      "classification": "faithful_script",
+      "meaning_preserved": true,
+      "critical_error": false,
+      "reason": "Accurate conversion with colloquial spelling; meaning unchanged",
+      "suggested_tamil": "",
+      "model": "openai/gpt-oss-120b",
+      "provider": "groq",
+      "evaluated_at": "2026-10-17T13:53:20.606231+00:00"
+    },
+    "63": {
+      "classification": "faithful_script",
+      "meaning_preserved": true,
+      "critical_error": false,
+      "reason": "Tanglish and Tamil sentences convey the same meaning with equivalent colloquial wording and punctuation.",
+      "suggested_tamil": "",
+      "model": "openai/gpt-oss-120b",
+      "provider": "groq",
+      "evaluated_at": "2026-10-17T13:53:28.287735+00:00"
+    },
+    "64": {
+      "classification": "faithful_script",
+      "meaning_preserved": true,
+      "critical_error": false,
+      "reason": "Both sentences convey the same meaning with identical speaker, tense, and code‑switched words; only script differences exist.",
+      "suggested_tamil": "",
+      "model": "openai/gpt-oss-120b",
+      "provider": "groq",
+      "evaluated_at": "2026-10-17T13:53:36.058075+00:00"
+    },
+    "65": {
+      "classification": "faithful_script",
+      "meaning_preserved": true,
+      "critical_error": false,
+      "reason": "Faithful conversion; minor colloquial truncation of 'இல்லை' but meaning unchanged",
+      "suggested_tamil": "",
+      "model": "openai/gpt-oss-120b",
+      "provider": "groq",
+      "evaluated_at": "2026-10-17T13:53:43.440411+00:00"
+    },
+    "66": {
+      "classification": "incorrect",
+      "meaning_preserved": false,
+      "critical_error": true,
+      "reason": "Tanglish says 'I wrote that song, didn't sing', but Tamil says 'I wrote that song, song' (noun), changing meaning and verb form.",
+      "suggested_tamil": "அந்த பாடலை நான் எழுதினேன், பாடவில்லை.",
+      "model": "openai/gpt-oss-120b",
+      "provider": "groq",
+      "evaluated_at": "2026-10-17T13:53:51.060902+00:00"
+    },
+    "67": {
+      "classification": "faithful_script",
+      "meaning_preserved": true,
+      "critical_error": false,
+      "reason": "Colloquial spelling of தேவையில்லை as தேவையில்ல, but meaning unchanged",
+      "suggested_tamil": "",
+      "model": "openai/gpt-oss-120b",
+      "provider": "groq",
+      "evaluated_at": "2026-10-17T13:53:58.094648+00:00"
+    },
+    "68": {
+      "classification": "faithful_script",
+      "meaning_preserved": true,
+      "critical_error": false,
+      "reason": "Both sentences convey the same meaning: ‘I didn’t order dinner, I cooked at home.’ Pronouns, tense, negation, and code‑switched words match.",
+      "suggested_tamil": "",
+      "model": "openai/gpt-oss-120b",
+      "provider": "groq",
+      "evaluated_at": "2026-10-17T13:54:05.674538+00:00"
+    },
+    "69": {
+      "classification": "faithful_script",
+      "meaning_preserved": true,
+      "critical_error": false,
+      "reason": "Tanglish and Tamil sentences convey the same meaning, speaker, tense, and negation; only script and minor spelling differences exist.",
+      "suggested_tamil": "",
+      "model": "openai/gpt-oss-120b",
+      "provider": "groq",
+      "evaluated_at": "2026-10-17T13:54:13.854399+00:00"
+    },
+    "70": {
+      "classification": "faithful_script",
+      "meaning_preserved": true,
+      "critical_error": false,
+      "reason": "Accurate transliteration of the Tanglish sentence into Tamil script with colloquial spelling; meaning unchanged",
+      "suggested_tamil": "",
+      "model": "openai/gpt-oss-120b",
+      "provider": "groq",
+      "evaluated_at": "2026-10-17T13:54:21.123232+00:00"
+    },
+    "71": {
+      "classification": "faithful_script",
+      "meaning_preserved": true,
+      "critical_error": false,
+      "reason": "Minor colloquial spelling omission (இல்ல instead of இல்லை) but meaning identical",
+      "suggested_tamil": "",
+      "model": "openai/gpt-oss-120b",
+      "provider": "groq",
+      "evaluated_at": "2026-10-17T13:54:28.212075+00:00"
+    },
+    "72": {
+      "classification": "faithful_script",
+      "meaning_preserved": true,
+      "critical_error": false,
+      "reason": "Tanglish and Tamil sentences convey the same meaning with equivalent negation and request; only spelling differences reflect colloquial script usage.",
+      "suggested_tamil": "",
+      "model": "openai/gpt-oss-120b",
+      "provider": "groq",
+      "evaluated_at": "2026-10-17T13:54:36.423810+00:00"
+    },
+    "73": {
+      "classification": "faithful_script",
+      "meaning_preserved": true,
+      "critical_error": false,
+      "reason": "Tanglish and Tamil convey same meaning with colloquial spelling and code‑switching, no change in actor, tense, or intent.",
+      "suggested_tamil": "",
+      "model": "openai/gpt-oss-120b",
+      "provider": "groq",
+      "evaluated_at": "2026-10-17T13:54:43.736246+00:00"
+    },
+    "74": {
+      "classification": "faithful_script",
+      "meaning_preserved": true,
+      "critical_error": false,
+      "reason": "Tanglish and Tamil convey the same meaning: the assumption is wrong and the speaker is not a beginner; minor spelling variations are acceptable in colloquial script.",
+      "suggested_tamil": "",
+      "model": "openai/gpt-oss-120b",
+      "provider": "groq",
+      "evaluated_at": "2026-10-17T13:54:51.457099+00:00"
+    },
+    "75": {
+      "classification": "faithful_script",
+      "meaning_preserved": true,
+      "critical_error": false,
+      "reason": "Tanglish and Tamil sentences convey the same meaning, tense, pronouns, and code‑switched words; only script differs.",
+      "suggested_tamil": "",
+      "model": "openai/gpt-oss-120b",
+      "provider": "groq",
+      "evaluated_at": "2026-10-17T13:54:59.120619+00:00"
+    },
+    "76": {
+      "classification": "faithful_script",
+      "meaning_preserved": true,
+      "critical_error": false,
+      "reason": "The Tamil script mirrors the Tanglish sentence closely, preserving speaker, tense, and colloquial expressions.",
+      "suggested_tamil": "",
+      "model": "openai/gpt-oss-120b",
+      "provider": "groq",
+      "evaluated_at": "2026-10-17T13:55:06.642467+00:00"
+    },
+    "77": {
+      "classification": "faithful_script",
+      "meaning_preserved": true,
+      "critical_error": false,
+      "reason": "The Tamil script accurately reflects the Tanglish sentence with same actors, tense, and meaning, only transliterating English words.",
+      "suggested_tamil": "",
+      "model": "openai/gpt-oss-120b",
+      "provider": "groq",
+      "evaluated_at": "2026-10-17T13:55:13.944732+00:00"
+    },
+    "78": {
+      "classification": "faithful_script",
+      "meaning_preserved": true,
+      "critical_error": false,
+      "reason": "The Tamil sentence is a direct transliteration of the Tanglish, preserving speaker, tense, and meaning without alteration.",
+      "suggested_tamil": "",
+      "model": "openai/gpt-oss-120b",
+      "provider": "groq",
+      "evaluated_at": "2026-10-17T13:55:21.541640+00:00"
+    },
+    "79": {
+      "classification": "faithful_script",
+      "meaning_preserved": true,
+      "critical_error": false,
+      "reason": "Accurate transliteration with same meaning and code‑switched words",
+      "suggested_tamil": "",
+      "model": "openai/gpt-oss-120b",
+      "provider": "groq",
+      "evaluated_at": "2026-10-17T13:55:28.632624+00:00"
+    },
+    "80": {
+      "classification": "faithful_script",
+      "meaning_preserved": true,
+      "critical_error": false,
+      "reason": "Romanized and Tamil script convey the same colloquial meaning with minor spelling variations, no change in actors, tense, or intent.",
+      "suggested_tamil": "",
+      "model": "openai/gpt-oss-120b",
+      "provider": "groq",
+      "evaluated_at": "2026-10-17T13:55:36.080382+00:00"
+    },
+    "81": {
+      "classification": "faithful_script",
+      "meaning_preserved": true,
+      "critical_error": false,
+      "reason": "Both sentences convey the same meaning: the same mistake happened again and the speaker feels very frustrated; spelling and code‑switching are natural variations.",
+      "suggested_tamil": "",
+      "model": "openai/gpt-oss-120b",
+      "provider": "groq",
+      "evaluated_at": "2026-10-17T13:55:43.658414+00:00"
+    },
+    "82": {
+      "classification": "faithful_script",
+      "meaning_preserved": true,
+      "critical_error": false,
+      "reason": "Tanglish and Tamil convey same speaker, pronouns, negation, commands, and code‑switched words; only colloquial spelling differences",
+      "suggested_tamil": "",
+      "model": "openai/gpt-oss-120b",
+      "provider": "groq",
+      "evaluated_at": "2026-10-17T13:55:51.233860+00:00"
+    },
+    "83": {
+      "classification": "faithful_script",
+      "meaning_preserved": true,
+      "critical_error": false,
+      "reason": "Tanglish and Tamil convey the same meaning with natural colloquial spelling differences",
+      "suggested_tamil": "",
+      "model": "openai/gpt-oss-120b",
+      "provider": "groq",
+      "evaluated_at": "2026-10-17T13:55:58.816421+00:00"
+    },
+    "84": {
+      "classification": "faithful_script",
+      "meaning_preserved": true,
+      "critical_error": false,
+      "reason": "Both sentences give the same imperative: give a straight answer to my question and don’t talk nonsense; only script differs.",
+      "suggested_tamil": "",
+      "model": "openai/gpt-oss-120b",
+      "provider": "groq",
+      "evaluated_at": "2026-10-17T13:56:06.703175+00:00"
+    },
+    "85": {
+      "classification": "faithful_script",
+      "meaning_preserved": true,
+      "critical_error": false,
+      "reason": "The Tanglish and Tamil sentences convey the same meaning ('Today I don't feel like doing anything') with natural colloquial spelling differences.",
+      "suggested_tamil": "",
+      "model": "openai/gpt-oss-120b",
+      "provider": "groq",
+      "evaluated_at": "2026-10-17T13:56:13.912345+00:00"
+    },
+    "86": {
+      "classification": "faithful_script",
+      "meaning_preserved": true,
+      "critical_error": false,
+      "reason": "Tanglish and Tamil convey same speaker, effort, past tense, and negation; only transliteration differences",
+      "suggested_tamil": "",
+      "model": "openai/gpt-oss-120b",
+      "provider": "groq",
+      "evaluated_at": "2026-10-17T13:56:21.245173+00:00"
+    },
+    "87": {
+      "classification": "faithful_script",
+      "meaning_preserved": true,
+      "critical_error": false,
+      "reason": "Tanglish and Tamil sentences convey the same meaning with accurate script conversion, only colloquial spelling differences.",
+      "suggested_tamil": "",
+      "model": "openai/gpt-oss-120b",
+      "provider": "groq",
+      "evaluated_at": "2026-10-17T13:56:28.556614+00:00"
+    },
+    "88": {
+      "classification": "normalization",
+      "meaning_preserved": true,
+      "critical_error": false,
+      "reason": "Meaning same but English vocab replaced with Tamil equivalents",
+      "suggested_tamil": "",
+      "model": "openai/gpt-oss-120b",
+      "provider": "groq",
+      "evaluated_at": "2026-10-17T13:56:36.457333+00:00"
+    },
+    "89": {
+      "classification": "faithful_script",
+      "meaning_preserved": true,
+      "critical_error": false,
+      "reason": "Both sentences convey the same meaning: it seems we need to be a little silent today, with only minor colloquial spelling differences.",
+      "suggested_tamil": "",
+      "model": "openai/gpt-oss-120b",
+      "provider": "groq",
+      "evaluated_at": "2026-10-17T13:56:43.976115+00:00"
+    },
+    "90": {
+      "classification": "faithful_script",
+      "meaning_preserved": true,
+      "critical_error": false,
+      "reason": "Both sentences convey the same meaning with only script and spelling variations, no change in tense, actor, or intent.",
+      "suggested_tamil": "",
+      "model": "openai/gpt-oss-120b",
+      "provider": "groq",
+      "evaluated_at": "2026-10-17T13:56:51.485788+00:00"
+    },
+    "91": {
+      "classification": "faithful_script",
+      "meaning_preserved": true,
+      "critical_error": false,
+      "reason": "Accurate transliteration with minor colloquial spelling differences, meaning unchanged",
+      "suggested_tamil": "",
+      "model": "openai/gpt-oss-120b",
+      "provider": "groq",
+      "evaluated_at": "2026-10-17T13:56:58.422384+00:00"
+    },
+    "92": {
+      "classification": "faithful_script",
+      "meaning_preserved": true,
+      "critical_error": false,
+      "reason": "Tanglish and Tamil sentences convey the same meaning (having doubt about one's decision being correct) with equivalent pronouns, tense, and code‑switched words; only colloquial spelling differs.",
+      "suggested_tamil": "",
+      "model": "openai/gpt-oss-120b",
+      "provider": "groq",
+      "evaluated_at": "2026-10-17T13:57:05.837632+00:00"
+    },
+    "93": {
+      "classification": "faithful_script",
+      "meaning_preserved": true,
+      "critical_error": false,
+      "reason": "Minor spelling variation (டென்ஷனா vs டென்ஷன்) but meaning unchanged",
+      "suggested_tamil": "",
+      "model": "openai/gpt-oss-120b",
+      "provider": "groq",
+      "evaluated_at": "2026-10-17T13:57:13.313199+00:00"
+    },
+    "94": {
+      "classification": "faithful_script",
+      "meaning_preserved": true,
+      "critical_error": false,
+      "reason": "Faithful conversion; same meaning with minor spelling/punctuation differences",
+      "suggested_tamil": "",
+      "model": "openai/gpt-oss-120b",
+      "provider": "groq",
+      "evaluated_at": "2026-10-17T13:57:20.432592+00:00"
+    },
+    "95": {
+      "classification": "faithful_script",
+      "meaning_preserved": true,
+      "critical_error": false,
+      "reason": "The Tamil sentence accurately reflects the Tanglish meaning with natural colloquial spelling; no change in actors, tense, or intent.",
+      "suggested_tamil": "",
+      "model": "openai/gpt-oss-120b",
+      "provider": "groq",
+      "evaluated_at": "2026-10-17T13:57:28.319984+00:00"
+    },
+    "96": {
+      "classification": "faithful_script",
+      "meaning_preserved": true,
+      "critical_error": false,
+      "reason": "Tamil script conveys the same meaning with colloquial spelling; no change in actor, tense, or negation.",
+      "suggested_tamil": "",
+      "model": "openai/gpt-oss-120b",
+      "provider": "groq",
+      "evaluated_at": "2026-10-17T13:57:37.221827+00:00"
+    },
+    "97": {
+      "classification": "faithful_script",
+      "meaning_preserved": true,
+      "critical_error": false,
+      "reason": "Tanglish and Tamil sentences convey the same meaning with equivalent colloquial wording and punctuation; only script and transliteration differ.",
+      "suggested_tamil": "",
+      "model": "openai/gpt-oss-120b",
+      "provider": "groq",
+      "evaluated_at": "2026-10-17T13:57:45.021052+00:00"
+    },
+    "98": {
+      "classification": "incorrect",
+      "meaning_preserved": false,
+      "critical_error": true,
+      "reason": "Tamil sentence uses 'வேணாம்' (don't need) which negates the request, unlike Tanglish 'venam' (need).",
+      "suggested_tamil": "எனக்கு இப்போ சால்யூஷன் வேணும், கொஞ்சம் சப்போர்ட் போதும்.",
+      "model": "openai/gpt-oss-120b",
+      "provider": "groq",
+      "evaluated_at": "2026-10-17T13:57:53.094556+00:00"
+    },
+    "99": {
+      "classification": "faithful_script",
+      "meaning_preserved": true,
+      "critical_error": false,
+      "reason": "Faithful conversion with colloquial spelling; meaning unchanged.",
+      "suggested_tamil": "",
+      "model": "openai/gpt-oss-120b",
+      "provider": "groq",
+      "evaluated_at": "2026-10-17T13:58:01.111733+00:00"
+    },
+    "100": {
+      "classification": "faithful_script",
+      "meaning_preserved": true,
+      "critical_error": false,
+      "reason": "Both sentences issue the same imperative request to show a simple Python example, with equivalent wording and tense.",
+      "suggested_tamil": "",
+      "model": "openai/gpt-oss-120b",
+      "provider": "groq",
+      "evaluated_at": "2026-10-17T13:58:08.526163+00:00"
+    },
+    "101": {
+      "classification": "faithful_script",
+      "meaning_preserved": true,
+      "critical_error": false,
+      "reason": "Both sentences convey the same meaning ‘should be a little playful’, with only colloquial spelling differences in the transliteration of ‘playful’.",
+      "suggested_tamil": "",
+      "model": "openai/gpt-oss-120b",
+      "provider": "groq",
+      "evaluated_at": "2026-10-17T13:58:15.653365+00:00"
+    },
+    "102": {
+      "classification": "normalization",
+      "meaning_preserved": true,
+      "critical_error": false,
+      "reason": "Vocabulary misspellings (என்சினியயர், தண்டிக்கள், ப்ரீபர்) but overall intent to prepare technical questions first is retained",
+      "suggested_tamil": "எ.ஐ. எஞ்சினியர் ரோலுக்காக தொழில்நுட்ப கேள்விகளை முதலில் தயாரிக்கலாம்.",
+      "model": "openai/gpt-oss-120b",
+      "provider": "groq",
+      "evaluated_at": "2026-10-17T13:58:23.721206+00:00"
+    },
+    "103": {
+      "classification": "normalization",
+      "meaning_preserved": true,
+      "critical_error": false,
+      "reason": "Tamil uses polite plural 'pannunga' while Tanglish uses informal 'pannu'; meaning same but verb form differs",
+      "suggested_tamil": "",
+      "model": "openai/gpt-oss-120b",
+      "provider": "groq",
+      "evaluated_at": "2026-10-17T13:58:31.304994+00:00"
+    },
+    "104": {
+      "classification": "faithful_script",
+      "meaning_preserved": true,
+      "critical_error": false,
+      "reason": "Tanglish and Tamil convey the same meaning with equivalent colloquial spelling and punctuation.",
+      "suggested_tamil": "",
+      "model": "openai/gpt-oss-120b",
+      "provider": "groq",
+      "evaluated_at": "2026-10-17T13:58:38.962059+00:00"
+    },
+    "105": {
+      "classification": "faithful_script",
+      "meaning_preserved": true,
+      "critical_error": false,
+      "reason": "The Tanglish and Tamil sentences convey the same idea of having only 15 minutes each day; differences are only script and minor lexical choices.",
+      "suggested_tamil": "",
+      "model": "openai/gpt-oss-120b",
+      "provider": "groq",
+      "evaluated_at": "2026-10-17T13:58:46.658792+00:00"
+    },
+    "106": {
+      "classification": "faithful_script",
+      "meaning_preserved": true,
+      "critical_error": false,
+      "reason": "Tamil sentence faithfully conveys the same idea – wants sci‑fi but not overly complicated – with natural colloquial spelling and added verb for completeness.",
+      "suggested_tamil": "",
+      "model": "openai/gpt-oss-120b",
+      "provider": "groq",
+      "evaluated_at": "2026-10-17T13:58:55.054993+00:00"
+    },
+    "107": {
+      "classification": "incorrect",
+      "meaning_preserved": false,
+      "critical_error": true,
+      "reason": "Added extra subject 'சிஞ்வாட்' and 'naan' not present in tanglish, changing the speaker; also inserted 'database' differently, altering meaning.",
+      "suggested_tamil": "FastAPI-yum MongoDB-yum use panren.",
+      "model": "openai/gpt-oss-120b",
+      "provider": "groq",
+      "evaluated_at": "2026-10-17T13:59:03.350523+00:00"
+    },
+    "108": {
+      "classification": "faithful_script",
+      "meaning_preserved": true,
+      "critical_error": false,
+      "reason": "Tanglish and Tamil sentences convey the same meaning with equivalent wording and punctuation.",
+      "suggested_tamil": "",
+      "model": "openai/gpt-oss-120b",
+      "provider": "groq",
+      "evaluated_at": "2026-10-17T13:59:10.703624+00:00"
+    },
+    "109": {
+      "classification": "incorrect",
+      "meaning_preserved": false,
+      "critical_error": true,
+      "reason": "Tamil sentence adds instructions about drafting an email and saying something, which are not present in the Tanglish; the original only says to be polite and short to HR.",
+      "suggested_tamil": "HR-க்கு, பணிவாகவும், சுருக்கமாகவும் இருங்கள்.",
+      "model": "openai/gpt-oss-120b",
+      "provider": "groq",
+      "evaluated_at": "2026-10-17T13:59:18.752889+00:00"
+    },
+    "110": {
+      "classification": "incorrect",
+      "meaning_preserved": false,
+      "critical_error": true,
+      "reason": "Tamil adds 'compare' (ஒப்பிடணும்) which is not present in the Tanglish, changing the intent.",
+      "suggested_tamil": "ரேண்டம் ஃபாரஸ்ட்டும் XGBoost-ும். இன்ஃபரன்ஸ் வேகம் முக்கியம்.",
+      "model": "openai/gpt-oss-120b",
+      "provider": "groq",
+      "evaluated_at": "2026-10-17T13:59:26.391708+00:00"
+    },
+    "111": {
+      "classification": "faithful_script",
+      "meaning_preserved": true,
+      "critical_error": false,
+      "reason": "Tanglish and Tamil convey the same intent: a slow melody with an energetic chorus; minor wording differences (comma vs period, added 'only') do not change overall meaning.",
+      "suggested_tamil": "",
+      "model": "openai/gpt-oss-120b",
+      "provider": "groq",
+      "evaluated_at": "2026-10-17T13:59:34.686331+00:00"
+    },
+    "112": {
+      "classification": "faithful_script",
+      "meaning_preserved": true,
+      "critical_error": false,
+      "reason": "The Romanized sentence conveys the same meaning – ‘need to finish within 5k (₹5000)’ – with only numeric and spelling variations, no change in tense, negation, or intent.",
+      "suggested_tamil": "",
+      "model": "openai/gpt-oss-120b",
+      "provider": "groq",
+      "evaluated_at": "2026-10-17T13:59:42.981307+00:00"
+    },
+    "113": {
+      "classification": "faithful_script",
+      "meaning_preserved": true,
+      "critical_error": false,
+      "reason": "The Tamil sentence conveys the same request to give details about the retrieval part; the added word \"கொஞ்சம்\" is a natural colloquial nuance and does not alter the core meaning.",
+      "suggested_tamil": "",
+      "model": "openai/gpt-oss-120b",
+      "provider": "groq",
+      "evaluated_at": "2026-10-17T13:59:51.276386+00:00"
+    },
+    "114": {
+      "classification": "faithful_script",
+      "meaning_preserved": true,
+      "critical_error": false,
+      "reason": "The Romanized sentence matches the Tamil script meaning with only minor colloquial spelling differences.",
+      "suggested_tamil": "",
+      "model": "openai/gpt-oss-120b",
+      "provider": "groq",
+      "evaluated_at": "2026-10-17T13:59:58.561364+00:00"
+    },
+    "115": {
+      "classification": "faithful_script",
+      "meaning_preserved": true,
+      "critical_error": false,
+      "reason": "Both sentences convey the same meaning – the same error occurs but on a different line – with only script and minor colloquial spelling differences.",
+      "suggested_tamil": "",
+      "model": "openai/gpt-oss-120b",
+      "provider": "groq",
+      "evaluated_at": "2026-10-17T14:00:06.636505+00:00"
+    },
+    "116": {
+      "classification": "incorrect",
+      "meaning_preserved": false,
+      "critical_error": true,
+      "reason": "Tamil adds extra details (presentation, 'romba', 'madhiri') not present in the Tanglish, changing the meaning.",
+      "suggested_tamil": "சைபர் செக்யூரிட்டி (Cybersecurity) beginners‑க்கு எளிதாக புரிய வேண்டும்.",
+      "model": "openai/gpt-oss-120b",
+      "provider": "groq",
+      "evaluated_at": "2026-10-17T14:00:15.046575+00:00"
+    },
+    "117": {
+      "classification": "incorrect",
+      "meaning_preserved": false,
+      "critical_error": true,
+      "reason": "Tamil sentence uses wrong verb 'யோகலாமா' and misspells 'ரண்டாவது' as 'ரண்டாவது', altering the intended meaning of asking to go directly to the second step.",
+      "suggested_tamil": "நாம் நேரடியாக இரண்டாவது ஸ்டெப்‑க்கு போகலாமா?",
+      "model": "openai/gpt-oss-120b",
+      "provider": "groq",
+      "evaluated_at": "2026-10-17T14:00:23.837727+00:00"
+    },
+    "118": {
+      "classification": "faithful_script",
+      "meaning_preserved": true,
+      "critical_error": false,
+      "reason": "Tanglish captures the same meaning as the Tamil sentence, with minor colloquial spelling and omission of the explicit word 'laptop' but no change in intent or tense.",
+      "suggested_tamil": "",
+      "model": "openai/gpt-oss-120b",
+      "provider": "groq",
+      "evaluated_at": "2026-10-17T14:00:32.028669+00:00"
+    },
+    "119": {
+      "classification": "faithful_script",
+      "meaning_preserved": true,
+      "critical_error": false,
+      "reason": "Both sentences convey the same imperative meaning with matching negation and code‑switched terms, only script differences.",
+      "suggested_tamil": "",
+      "model": "openai/gpt-oss-120b",
+      "provider": "groq",
+      "evaluated_at": "2026-10-17T14:00:39.313777+00:00"
+    },
+    "120": {
+      "classification": "faithful_script",
+      "meaning_preserved": true,
+      "critical_error": false,
+      "reason": "Tanglish and Tamil sentences convey the same meaning with colloquial spelling; no change in actors, tense, or intent.",
+      "suggested_tamil": "",
+      "model": "openai/gpt-oss-120b",
+      "provider": "groq",
+      "evaluated_at": "2026-10-17T14:00:46.471684+00:00"
+    },
+    "121": {
+      "classification": "faithful_script",
+      "meaning_preserved": true,
+      "critical_error": false,
+      "reason": "The Tamil sentence conveys the same imperative meaning as the Tanglish, using colloquial spelling (முதல்ல) and code‑switched English word லிஸ்ட்; no change in actor, tense, or intent.",
+      "suggested_tamil": "",
+      "model": "openai/gpt-oss-120b",
+      "provider": "groq",
+      "evaluated_at": "2026-10-17T14:00:53.790095+00:00"
+    },
+    "122": {
+      "classification": "faithful_script",
+      "meaning_preserved": true,
+      "critical_error": false,
+      "reason": "Both sentences convey the same imperative: remove only the background and do not touch the face, with identical code‑switched English terms and punctuation.",
+      "suggested_tamil": "",
+      "model": "openai/gpt-oss-120b",
+      "provider": "groq",
+      "evaluated_at": "2026-10-17T14:01:02.143508+00:00"
+    },
+    "123": {
+      "classification": "faithful_script",
+      "meaning_preserved": true,
+      "critical_error": false,
+      "reason": "Accurate transliteration of Tanglish sentence into Tamil script, preserving meaning and tone.",
+      "suggested_tamil": "",
+      "model": "openai/gpt-oss-120b",
+      "provider": "groq",
+      "evaluated_at": "2026-10-17T14:01:09.406562+00:00"
+    },
+    "124": {
+      "classification": "faithful_script",
+      "meaning_preserved": true,
+      "critical_error": false,
+      "reason": "Tamil version conveys same sequence: Deep learning, first fundamentals then projects, despite colloquial spelling variations.",
+      "suggested_tamil": "",
+      "model": "openai/gpt-oss-120b",
+      "provider": "groq",
+      "evaluated_at": "2026-10-17T14:01:16.413026+00:00"
+    }
+  }
+}

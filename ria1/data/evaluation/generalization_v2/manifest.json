@@ -1,0 +1,28 @@
+{
+  "total": 40,
+  "single_turn": 32,
+  "context": 8,
+  "categories": {
+    "negation": 4,
+    "tense": 4,
+    "pronouns": 4,
+    "questions": 4,
+    "emotion": 4,
+    "code_switch": 4,
+    "variation": 4,
+    "intent": 4,
+    "context": 8
+  },
+  "overlap_warnings": [],
+  "prompt_sha256": "c7f18273a0112c6f0cf78a88afaf4683a5270bfeada8400863d89259c8e1a706",
+  "answer_key_sha256": "67b1168ed39fd39a364a0afb5d592f3f7e302dc93df2a2e6ec763bc29636e2e5",
+  "status": "candidate_pending_recheck",
+  "limitations": [
+    "Human review is still required.",
+    "Similarity screening is lexical, not semantic.",
+    "Dataset was authored after observing model failures.",
+    "It is a development evaluation set, not an independent blind benchmark.",
+    "Do not use these prompts or answers for training or retrieval."
+  ],
+  "correction_note": "Three candidate prompts replaced. Overlap screening and human review still required."
+}

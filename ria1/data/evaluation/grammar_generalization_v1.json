@@ -1,0 +1,143 @@
+{
+  "created_at": "2026-10-17T10:59:35.652588+00:00",
+  "model": "gemma3:4b",
+  "evaluation_type": "first-run developmental",
+  "grammar_rules_frozen_for_run": true,
+  "tests": [
+    {
+      "id": "RIA-GEN-001",
+      "input": "Amma inniku veetukku varala.",
+      "expected": "Mom didn't come home today.",
+      "actual": "I didn’t go with my mother today.",
+      "retrieved_ids": [
+        "RIA-LF-EV-019",
+        "RIA-LF-NC-003",
+        "RIA-LF-NC-014"
+      ],
+      "review": "pending"
+    },
+    {
+      "id": "RIA-GEN-002",
+      "input": "Amma inniku veetukku pogala.",
+      "expected": "Mom didn't go home today.",
+      "actual": "I didn’t go out with my mother today.",
+      "retrieved_ids": [],
+      "review": "pending"
+    },
+    {
+      "id": "RIA-GEN-003",
+      "input": "Naan naalaikku college-ku varuven.",
+      "expected": "I'll come to college tomorrow.",
+      "actual": "I will not go to college tomorrow.",
+      "retrieved_ids": [
+        "RIA-LF-PV-001",
+        "RIA-LF-PV-017",
+        "RIA-LF-NC-016"
+      ],
+      "review": "pending"
+    },
+    {
+      "id": "RIA-GEN-004",
+      "input": "Naan naalaikku college-ku poven.",
+      "expected": "I'll go to college tomorrow.",
+      "actual": "I do not want to go to college tomorrow.",
+      "retrieved_ids": [
+        "RIA-LF-PV-001",
+        "RIA-LF-PV-017",
+        "RIA-LF-NC-016"
+      ],
+      "review": "pending"
+    },
+    {
+      "id": "RIA-GEN-005",
+      "input": "Avalukku indha food vendaam.",
+      "expected": "She doesn't want this food.",
+      "actual": "She doesn’t want this food.",
+      "retrieved_ids": [
+        "RIA-LF-NC-001",
+        "RIA-LF-NC-008",
+        "RIA-LF-EI-023"
+      ],
+      "review": "pending"
+    },
+    {
+      "id": "RIA-GEN-006",
+      "input": "Indha alavu saapadu podhum.",
+      "expected": "This amount of food is enough.",
+      "actual": "This table is not enough.",
+      "retrieved_ids": [
+        "RIA-LF-PV-008",
+        "RIA-LF-EV-002",
+        "RIA-LF-NC-001"
+      ],
+      "review": "pending"
+    },
+    {
+      "id": "RIA-GEN-007",
+      "input": "Nethu avan call pannala.",
+      "expected": "He didn't call yesterday.",
+      "actual": "He didn’t call me yesterday.",
+      "retrieved_ids": [
+        "RIA-LF-PV-003",
+        "RIA-LF-NC-011",
+        "RIA-LF-EV-005"
+      ],
+      "review": "pending"
+    },
+    {
+      "id": "RIA-GEN-008",
+      "input": "Inniku enakku velai mudiyala.",
+      "expected": "I couldn't finish my work today.",
+      "actual": "I cannot do work today.",
+      "retrieved_ids": [
+        "RIA-LF-EV-011",
+        "RIA-LF-EV-001",
+        "RIA-LF-PV-002"
+      ],
+      "review": "pending"
+    },
+    {
+      "id": "RIA-GEN-009",
+      "input": "Naalaikku vara mudiyuma?",
+      "expected": "Can you come tomorrow?",
+      "actual": "Can you not come tomorrow?",
+      "retrieved_ids": [],
+      "review": "pending"
+    },
+    {
+      "id": "RIA-GEN-010",
+      "input": "Aval konjam kovama irukka.",
+      "expected": "She's a little angry.",
+      "actual": "She is a little bit sad.",
+      "retrieved_ids": [
+        "RIA-LF-NC-006",
+        "RIA-LF-PV-002",
+        "RIA-LF-PV-016"
+      ],
+      "review": "pending"
+    },
+    {
+      "id": "RIA-GEN-011",
+      "input": "Enakku ippo pesa thonala.",
+      "expected": "I don't feel like talking right now.",
+      "actual": "I don't feel like doing anything right now.",
+      "retrieved_ids": [
+        "RIA-LF-EI-011",
+        "RIA-LF-NC-022",
+        "RIA-LF-EI-024"
+      ],
+      "review": "pending"
+    },
+    {
+      "id": "RIA-GEN-012",
+      "input": "Avan vara maattennu sonnaan.",
+      "expected": "He said he wouldn't come.",
+      "actual": "He didn’t come to the meeting.",
+      "retrieved_ids": [
+        "RIA-LF-PV-003",
+        "RIA-LF-NC-011"
+      ],
+      "review": "pending"
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "model": "gemma3:4b",
+  "experiment": "automatic_two_stage_pipeline",
+  "tests": [
+    {
+      "id": "RIA-CONVERT-001",
+      "tanglish": "Amma inniku veetukku varala.",
+      "converted_tamil": "அம்மா இன்னைக்கு வீட்டக்கு வரல.",
+      "reference_tamil": "அம்மா இன்னைக்கு வீட்டுக்கு வரல.",
+      "expected_english": "Mom didn't come home today.",
+      "predicted_english": "Mother didn't come home today.",
+      "human_score": null
+    },
+    {
+      "id": "RIA-CONVERT-002",
+      "tanglish": "Amma inniku veetukku pogala.",
+      "converted_tamil": "அம்மா இன்னைக்கு வீட்டக்கு போகல.",
+      "reference_tamil": "அம்மா இன்னைக்கு வீட்டுக்கு போகல.",
+      "expected_english": "Mom didn't go home today.",
+      "predicted_english": "Mom didn't go out today.",
+      "human_score": null
+    },
+    {
+      "id": "RIA-CONVERT-003",
+      "tanglish": "Naan naalaikku college-ku varuven.",
+      "converted_tamil": "நான் நாளைக்கு கல்லூரிக்கு வருவேன்.",
+      "reference_tamil": "நான் நாளைக்கு காலேஜுக்கு வருவேன்.",
+      "expected_english": "I'll come to college tomorrow.",
+      "predicted_english": "I will come to college tomorrow.",
+      "human_score": null
+    },
+    {
+      "id": "RIA-CONVERT-004",
+      "tanglish": "Naan naalaikku college-ku poven.",
+      "converted_tamil": "நான் நாளைக்கு கல்லூரிக்கு போவேன்.",
+      "reference_tamil": "நான் நாளைக்கு காலேஜுக்கு போவேன்.",
+      "expected_english": "I'll go to college tomorrow.",
+      "predicted_english": "I will go to college tomorrow.",
+      "human_score": null
+    },
+    {
+      "id": "RIA-CONVERT-005",
+      "tanglish": "Avalukku indha food vendaam.",
+      "converted_tamil": "அவளுக்கு இந்த உணவு வேண்டாம்.",
+      "reference_tamil": "அவளுக்கு இந்த சாப்பாடு வேண்டாம்.",
+      "expected_english": "She doesn't want this food.",
+      "predicted_english": "She doesn't want this food.",
+      "human_score": null
+    },
+    {
+      "id": "RIA-CONVERT-006",
+      "tanglish": "Indha alavu saapadu podhum.",
+      "converted_tamil": "இந்த அலேவு சாப்பாடு போதும்.",
+      "reference_tamil": "இந்த அளவு சாப்பாடு போதும்.",
+      "expected_english": "This amount of food is enough.",
+      "predicted_english": "This food is enough.",
+      "human_score": null
+    },
+    {
+      "id": "RIA-CONVERT-007",
+      "tanglish": "Nethu avan call pannala.",
+      "converted_tamil": "நேத்து அவன் கால் பண்ணாரு.",
+      "reference_tamil": "நேத்து அவன் கால் பண்ணல.",
+      "expected_english": "He didn't call yesterday.",
+      "predicted_english": "He called yesterday.",
+      "human_score": null
+    },
+    {
+      "id": "RIA-CONVERT-008",
+      "tanglish": "Inniku enakku velai mudiyala.",
+      "converted_tamil": "இன்று எனக்கு வேலை முடியாது.",
+      "reference_tamil": "இன்னைக்கு எனக்கு வேலை முடியல.",
+      "expected_english": "I couldn't finish my work today.",
+      "predicted_english": "I cannot work today.",
+      "human_score": null
+    },
+    {
+      "id": "RIA-CONVERT-009",
+      "tanglish": "Naalaikku vara mudiyuma?",
+      "converted_tamil": "நாளைக்கு வர முடியுமா?",
+      "reference_tamil": "நாளைக்கு வர முடியுமா?",
+      "expected_english": "Can you come tomorrow?",
+      "predicted_english": "Can you come tomorrow?",
+      "human_score": null
+    },
+    {
+      "id": "RIA-CONVERT-010",
+      "tanglish": "Aval konjam kovama irukka.",
+      "converted_tamil": "அவள் கொஞ்சம் கோபமா இருக்கா.",
+      "reference_tamil": "அவள் கொஞ்சம் கோபமா இருக்கா.",
+      "expected_english": "She's a little angry.",
+      "predicted_english": "She seems a little angry.",
+      "human_score": null
+    },
+    {
+      "id": "RIA-CONVERT-011",
+      "tanglish": "Enakku ippo pesa thonala.",
+      "converted_tamil": "எனக்கு இப்போ பணம் வேண்டாம்.",
+      "reference_tamil": "எனக்கு இப்போ பேசத் தோணல.",
+      "expected_english": "I don't feel like talking right now.",
+      "predicted_english": "I don't need money right now.",
+      "human_score": null
+    },
+    {
+      "id": "RIA-CONVERT-012",
+      "tanglish": "Avan vara maattennu sonnaan.",
+      "converted_tamil": "அவன் வர மாட்டேன்னு சொன்னான்.",
+      "reference_tamil": "அவன் வர மாட்டேன்னு சொன்னான்.",
+      "expected_english": "He said he wouldn't come.",
+      "predicted_english": "He said he wouldn't come.",
+      "human_score": null
+    }
+  ]
+}

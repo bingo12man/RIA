@@ -1,0 +1,44 @@
+[
+  {
+    "input": "Enakku coffee vendaam, tea podhum.",
+    "expected": "I don't want coffee; tea is enough.",
+    "type": "glossary-covered",
+    "baseline": "I want coffee, not tea.",
+    "grounded": "I don't want coffee, but I need tea."
+  },
+  {
+    "input": "Enakku tea vendaam, coffee podhum.",
+    "expected": "I don't want tea; coffee is enough.",
+    "type": "glossary-covered",
+    "baseline": "I want tea, not coffee.",
+    "grounded": "I don't want tea, but I need coffee."
+  },
+  {
+    "input": "Naan inniku office-ku pogala.",
+    "expected": "I didn't go to the office today.",
+    "type": "glossary-covered",
+    "baseline": "I can't go to the office today.",
+    "grounded": "I didn't go to the office today."
+  },
+  {
+    "input": "Enakku konjam bayama irukku.",
+    "expected": "I'm feeling a little scared or nervous.",
+    "type": "glossary-covered",
+    "baseline": "I don't have much money for you.",
+    "grounded": "I'm a little scared."
+  },
+  {
+    "input": "Avan netru school-ku varala.",
+    "expected": "He didn't come to school yesterday.",
+    "type": "partially-covered",
+    "baseline": "He doesn't go to school.",
+    "grounded": "I didn't go to school today because I'm feeling scared."
+  },
+  {
+    "input": "Naalaikku meeting-ku vara mudiyadhu.",
+    "expected": "I won't be able to attend tomorrow's meeting.",
+    "type": "unseen-vocabulary",
+    "baseline": "I can't make the meeting.",
+    "grounded": "I didn’t attend the meeting."
+  }
+]

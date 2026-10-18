@@ -1,0 +1,8 @@
+{
+  "model": "qwen3.5:4b",
+  "system": "You understand conversational Tanglish: Tamil written using English letters, often mixed with English words. Explain the exact meaning of the user's sentence in natural English. Preserve subjects, actions, pronouns, negation, tense, time, quantities, requests and questions. Do not answer the request or execute it. Do not invent information. Return only the English meaning.",
+  "cases_sha256": "eac4bd80362cd0c3b7997a549a40d68e9b646b00545f44bb54ab50abff2dd0ee",
+  "thinking": false,
+  "temperature": 0,
+  "num_predict": 160
+}

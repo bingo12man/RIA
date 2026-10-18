@@ -1,0 +1,40 @@
+{"id": "RIA-GEN2-001", "expected_english": "Don't open this parcel.", "human_review": "approved"}
+{"id": "RIA-GEN2-002", "expected_english": "I don't feel like eating right now.", "human_review": "approved"}
+{"id": "RIA-GEN2-003", "expected_english": "Don't share that photo.", "human_review": "approved"}
+{"id": "RIA-GEN2-004", "expected_english": "The parcel I sent hasn't been delivered yet.", "human_review": "approved"}
+{"id": "RIA-GEN2-005", "expected_english": "The electricity went out last night.", "human_review": "approved"}
+{"id": "RIA-GEN2-006", "expected_english": "I'm leaving for my hometown next week.", "human_review": "approved"}
+{"id": "RIA-GEN2-007", "expected_english": "They had left by the time I arrived.", "human_review": "approved"}
+{"id": "RIA-GEN2-008", "expected_english": "Let's talk after the meeting ends.", "human_review": "approved"}
+{"id": "RIA-GEN2-009", "expected_english": "Don't tell him what she said.", "human_review": "approved"}
+{"id": "RIA-GEN2-010", "expected_english": "I've already sent them a message.", "human_review": "approved"}
+{"id": "RIA-GEN2-011", "expected_english": "My younger brother will come late today.", "human_review": "approved"}
+{"id": "RIA-GEN2-012", "expected_english": "I've finished reading the book you gave me.", "human_review": "approved"}
+{"id": "RIA-GEN2-013", "expected_english": "Is there another way to do this?", "human_review": "approved"}
+{"id": "RIA-GEN2-014", "expected_english": "Can you tell me where the bus stop is?", "human_review": "approved"}
+{"id": "RIA-GEN2-015", "expected_english": "Why does this issue keep happening?", "human_review": "approved"}
+{"id": "RIA-GEN2-016", "expected_english": "Have you confirmed it or not?", "human_review": "approved"}
+{"id": "RIA-GEN2-017", "expected_english": "I feel hurt by what they said.", "human_review": "approved"}
+{"id": "RIA-GEN2-018", "expected_english": "I feel like being alone for a while.", "human_review": "approved"}
+{"id": "RIA-GEN2-019", "expected_english": "Listening to this song makes me happy.", "human_review": "approved"}
+{"id": "RIA-GEN2-020", "expected_english": "I don't want to disturb anyone.", "human_review": "approved"}
+{"id": "RIA-GEN2-021", "expected_english": "The API response is slow; check the logs.", "human_review": "approved"}
+{"id": "RIA-GEN2-022", "expected_english": "Take a backup before deploying.", "human_review": "approved"}
+{"id": "RIA-GEN2-023", "expected_english": "Are you ready to merge this branch?", "human_review": "approved"}
+{"id": "RIA-GEN2-024", "expected_english": "The camera feed is freezing; try restarting it.", "human_review": "approved"}
+{"id": "RIA-GEN2-025", "expected_english": "I didn't understand that properly.", "human_review": "approved"}
+{"id": "RIA-GEN2-026", "expected_english": "I need to sleep early today.", "human_review": "approved"}
+{"id": "RIA-GEN2-027", "expected_english": "You seem familiar, as though I've seen you somewhere.", "human_review": "approved"}
+{"id": "RIA-GEN2-028", "expected_english": "Please say that again.", "human_review": "approved"}
+{"id": "RIA-GEN2-029", "expected_english": "Book tickets for only two people.", "human_review": "approved"}
+{"id": "RIA-GEN2-030", "expected_english": "Don't go outside if it rains.", "human_review": "approved"}
+{"id": "RIA-GEN2-031", "expected_english": "Remind me after one hour.", "human_review": "approved"}
+{"id": "RIA-GEN2-032", "expected_english": "Use only half of it.", "human_review": "approved"}
+{"id": "RIA-GEN2-033", "expected_english": "Battery life is the user's first priority.", "human_review": "approved"}
+{"id": "RIA-GEN2-034", "expected_english": "The user wants no more than six slides.", "human_review": "approved"}
+{"id": "RIA-GEN2-035", "expected_english": "The user prefers a thriller instead of a comedy.", "human_review": "approved"}
+{"id": "RIA-GEN2-036", "expected_english": "The user wants to prepare first for the interview on Friday.", "human_review": "approved"}
+{"id": "RIA-GEN2-037", "expected_english": "The user wants to change only the tune, not the lyrics.", "human_review": "approved"}
+{"id": "RIA-GEN2-038", "expected_english": "The user wants the file sent only to the manager.", "human_review": "approved"}
+{"id": "RIA-GEN2-039", "expected_english": "The user wants to run three kilometres instead of five.", "human_review": "approved"}
+{"id": "RIA-GEN2-040", "expected_english": "The user is comfortable with both but finds Python easier.", "human_review": "approved"}

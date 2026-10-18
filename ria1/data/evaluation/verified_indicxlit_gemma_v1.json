@@ -1,0 +1,104 @@
+{
+  "created_at": "2026-10-17T11:24:51.241941+00:00",
+  "converter": "indicxlit_with_verified_lexicon",
+  "model": "gemma3:4b",
+  "evaluation_type": "development_regression",
+  "tests": [
+    {
+      "id": "RIA-VER-001",
+      "original": "Amma inniku veetukku varala.",
+      "tamil": "அம்மா இன்னிக்கு வீட்டுக்கு வரல.",
+      "expected": "Mom didn't come home today.",
+      "predicted": "My mother didn't come home today.",
+      "human_review": "pending"
+    },
+    {
+      "id": "RIA-VER-002",
+      "original": "Amma inniku veetukku pogala.",
+      "tamil": "அம்மா இன்னிக்கு வீட்டுக்கு போகல.",
+      "expected": "Mom didn't go home today.",
+      "predicted": "Mom didn't go home today.",
+      "human_review": "pending"
+    },
+    {
+      "id": "RIA-VER-003",
+      "original": "Naan naalaikku college-ku varuven.",
+      "tamil": "நான் நாளைக்கு college-கு வருவேன்.",
+      "expected": "I'll come to college tomorrow.",
+      "predicted": "I will go to college tomorrow.",
+      "human_review": "pending"
+    },
+    {
+      "id": "RIA-VER-004",
+      "original": "Naan naalaikku college-ku poven.",
+      "tamil": "நான் நாளைக்கு college-கு போவேன்.",
+      "expected": "I'll go to college tomorrow.",
+      "predicted": "I will go to college tomorrow.",
+      "human_review": "pending"
+    },
+    {
+      "id": "RIA-VER-005",
+      "original": "Avalukku indha food vendaam.",
+      "tamil": "அவளுக்கு இந்த food வேண்டாம்.",
+      "expected": "She doesn't want this food.",
+      "predicted": "She doesn't want this food.",
+      "human_review": "pending"
+    },
+    {
+      "id": "RIA-VER-006",
+      "original": "Indha alavu saapadu podhum.",
+      "tamil": "இந்த அளவு சாப்பாடு போதும்.",
+      "expected": "This amount of food is enough.",
+      "predicted": "This amount of food is enough.",
+      "human_review": "pending"
+    },
+    {
+      "id": "RIA-VER-007",
+      "original": "Nethu avan call pannala.",
+      "tamil": "நேத்து அவன் call பண்ணல.",
+      "expected": "He didn't call yesterday.",
+      "predicted": "He didn't call yesterday.",
+      "human_review": "pending"
+    },
+    {
+      "id": "RIA-VER-008",
+      "original": "Inniku enakku velai mudiyala.",
+      "tamil": "இன்னிக்கு எனக்கு வேலை முடியல.",
+      "expected": "I couldn't finish my work today.",
+      "predicted": "I didn't finish my work today.",
+      "human_review": "pending"
+    },
+    {
+      "id": "RIA-VER-009",
+      "original": "Naalaikku vara mudiyuma?",
+      "tamil": "நாளைக்கு வர முடியுமா?",
+      "expected": "Can you come tomorrow?",
+      "predicted": "Can you come tomorrow?",
+      "human_review": "pending"
+    },
+    {
+      "id": "RIA-VER-010",
+      "original": "Aval konjam kovama irukka.",
+      "tamil": "அவள் கொஞ்சம் கோவமா இருக்கா.",
+      "expected": "She's a little angry.",
+      "predicted": "She is a little angry.",
+      "human_review": "pending"
+    },
+    {
+      "id": "RIA-VER-011",
+      "original": "Enakku ippo pesa thonala.",
+      "tamil": "எனக்கு இப்போ பேச தோணல.",
+      "expected": "I don't feel like talking right now.",
+      "predicted": "I don't feel like talking right now.",
+      "human_review": "pending"
+    },
+    {
+      "id": "RIA-VER-012",
+      "original": "Avan vara maattennu sonnaan.",
+      "tamil": "அவன் வர மாட்டேன்னு சொன்னான்.",
+      "expected": "He said he wouldn't come.",
+      "predicted": "He said he wouldn't come.",
+      "human_review": "pending"
+    }
+  ]
+}

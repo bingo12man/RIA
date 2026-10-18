@@ -1,0 +1,62 @@
+[
+  {
+    "id": "RIA-CONVERT-001",
+    "input": "Amma inniku veetukku varala.",
+    "converted": "அம்மா இன்னைக்கு வீட்டக்கு வரல."
+  },
+  {
+    "id": "RIA-CONVERT-002",
+    "input": "Amma inniku veetukku pogala.",
+    "converted": "அம்மா இன்னைக்கு வீட்டக்கு போகல."
+  },
+  {
+    "id": "RIA-CONVERT-003",
+    "input": "Naan naalaikku college-ku varuven.",
+    "converted": "நான் நாளைக்கு கல்லூரிக்கு வருவேன்."
+  },
+  {
+    "id": "RIA-CONVERT-004",
+    "input": "Naan naalaikku college-ku poven.",
+    "converted": "நான் நாளைக்கு கல்லூரிக்கு போவேன்."
+  },
+  {
+    "id": "RIA-CONVERT-005",
+    "input": "Avalukku indha food vendaam.",
+    "converted": "அவளுக்கு இந்த உணவு வேண்டாம்."
+  },
+  {
+    "id": "RIA-CONVERT-006",
+    "input": "Indha alavu saapadu podhum.",
+    "converted": "இந்த அலேவு சாப்பாடு போதும்."
+  },
+  {
+    "id": "RIA-CONVERT-007",
+    "input": "Nethu avan call pannala.",
+    "converted": "நேத்து அவன் கால் பண்ணாரு."
+  },
+  {
+    "id": "RIA-CONVERT-008",
+    "input": "Inniku enakku velai mudiyala.",
+    "converted": "இன்று எனக்கு வேலை முடியாது."
+  },
+  {
+    "id": "RIA-CONVERT-009",
+    "input": "Naalaikku vara mudiyuma?",
+    "converted": "நாளைக்கு வர முடியுமா?"
+  },
+  {
+    "id": "RIA-CONVERT-010",
+    "input": "Aval konjam kovama irukka.",
+    "converted": "அவள் கொஞ்சம் கோபமா இருக்கா."
+  },
+  {
+    "id": "RIA-CONVERT-011",
+    "input": "Enakku ippo pesa thonala.",
+    "converted": "எனக்கு இப்போ பணம் வேண்டாம்."
+  },
+  {
+    "id": "RIA-CONVERT-012",
+    "input": "Avan vara maattennu sonnaan.",
+    "converted": "அவன் வர மாட்டேன்னு சொன்னான்."
+  }
+]

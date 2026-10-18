@@ -1,0 +1,114 @@
+{
+  "model": "gemma3:4b",
+  "experiment": "paired_script_comparison",
+  "tests": [
+    {
+      "id": "RIA-SCRIPT-001",
+      "tanglish": "Amma inniku veetukku varala.",
+      "tamil": "அம்மா இன்னைக்கு வீட்டுக்கு வரல.",
+      "expected": "Mom didn't come home today.",
+      "romanized_output": "You shouldn't be coming home.",
+      "tamil_output": "Mother didn't come home today.",
+      "human_review": "pending"
+    },
+    {
+      "id": "RIA-SCRIPT-002",
+      "tanglish": "Amma inniku veetukku pogala.",
+      "tamil": "அம்மா இன்னைக்கு வீட்டுக்கு போகல.",
+      "expected": "Mom didn't go home today.",
+      "romanized_output": "She is coming home.",
+      "tamil_output": "Mom isn't coming home today.",
+      "human_review": "pending"
+    },
+    {
+      "id": "RIA-SCRIPT-003",
+      "tanglish": "Naan naalaikku college-ku varuven.",
+      "tamil": "நான் நாளைக்கு காலேஜுக்கு வருவேன்.",
+      "expected": "I'll come to college tomorrow.",
+      "romanized_output": "I am coming to the college.",
+      "tamil_output": "I will come to college tomorrow.",
+      "human_review": "pending"
+    },
+    {
+      "id": "RIA-SCRIPT-004",
+      "tanglish": "Naan naalaikku college-ku poven.",
+      "tamil": "நான் நாளைக்கு காலேஜுக்கு போவேன்.",
+      "expected": "I'll go to college tomorrow.",
+      "romanized_output": "I am going to the college.",
+      "tamil_output": "I will go to college tomorrow.",
+      "human_review": "pending"
+    },
+    {
+      "id": "RIA-SCRIPT-005",
+      "tanglish": "Avalukku indha food vendaam.",
+      "tamil": "அவளுக்கு இந்த சாப்பாடு வேண்டாம்.",
+      "expected": "She doesn't want this food.",
+      "romanized_output": "I am buying this food.",
+      "tamil_output": "She doesn't want this food.",
+      "human_review": "pending"
+    },
+    {
+      "id": "RIA-SCRIPT-006",
+      "tanglish": "Indha alavu saapadu podhum.",
+      "tamil": "இந்த அளவு சாப்பாடு போதும்.",
+      "expected": "This amount of food is enough.",
+      "romanized_output": "I am coming here.",
+      "tamil_output": "This amount of food is enough.",
+      "human_review": "pending"
+    },
+    {
+      "id": "RIA-SCRIPT-007",
+      "tanglish": "Nethu avan call pannala.",
+      "tamil": "நேத்து அவன் கால் பண்ணல.",
+      "expected": "He didn't call yesterday.",
+      "romanized_output": "He should have called.",
+      "tamil_output": "He didn't call yesterday.",
+      "human_review": "pending"
+    },
+    {
+      "id": "RIA-SCRIPT-008",
+      "tanglish": "Inniku enakku velai mudiyala.",
+      "tamil": "இன்னைக்கு எனக்கு வேலை முடியல.",
+      "expected": "I couldn't finish my work today.",
+      "romanized_output": "I was not pleased.",
+      "tamil_output": "I couldn't finish my work today.",
+      "human_review": "pending"
+    },
+    {
+      "id": "RIA-SCRIPT-009",
+      "tanglish": "Naalaikku vara mudiyuma?",
+      "tamil": "நாளைக்கு வர முடியுமா?",
+      "expected": "Can you come tomorrow?",
+      "romanized_output": "Will you be coming?",
+      "tamil_output": "Can you come tomorrow?",
+      "human_review": "pending"
+    },
+    {
+      "id": "RIA-SCRIPT-010",
+      "tanglish": "Aval konjam kovama irukka.",
+      "tamil": "அவள் கொஞ்சம் கோபமா இருக்கா.",
+      "expected": "She's a little angry.",
+      "romanized_output": "I am coming from somewhere.",
+      "tamil_output": "She is a little angry.",
+      "human_review": "pending"
+    },
+    {
+      "id": "RIA-SCRIPT-011",
+      "tanglish": "Enakku ippo pesa thonala.",
+      "tamil": "எனக்கு இப்போ பேசத் தோணல.",
+      "expected": "I don't feel like talking right now.",
+      "romanized_output": "I don't want to come.",
+      "tamil_output": "I don't feel like talking right now.",
+      "human_review": "pending"
+    },
+    {
+      "id": "RIA-SCRIPT-012",
+      "tanglish": "Avan vara maattennu sonnaan.",
+      "tamil": "அவன் வர மாட்டேன்னு சொன்னான்.",
+      "expected": "He said he wouldn't come.",
+      "romanized_output": "He is coming tomorrow to be happy.",
+      "tamil_output": "He said he wouldn't be coming.",
+      "human_review": "pending"
+    }
+  ]
+}

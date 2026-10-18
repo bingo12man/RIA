@@ -1,0 +1,20 @@
+{"id": "001", "tanglish": "Naan innume ready aagala, konjam time kudu.", "expected": "I'm still not ready; give me some time.", "predicted": "I am not yet ready; I need some more time."}
+{"id": "002", "tanglish": "Avan varuvaannu sonnaan, aana varave illa.", "expected": "He said he would come, but he never came.", "predicted": "He is not going to school, but he is staying at home."}
+{"id": "003", "tanglish": "Enakku tea venum, coffee vendaam.", "expected": "I want tea, not coffee.", "predicted": "I want tea; I do not want coffee."}
+{"id": "004", "tanglish": "Naalaikku vara mudiyadhu, Monday varren.", "expected": "I can't come tomorrow; I'll come on Monday.", "predicted": "I will go to school on Monday."}
+{"id": "005", "tanglish": "Nee anuppuna document innum open pannala.", "expected": "I haven't opened the document you sent yet.", "predicted": "You opened many documents."}
+{"id": "006", "tanglish": "Ava enna koopta, naan kekkala.", "expected": "She called out to me, but I didn't hear.", "predicted": "What did you do to me? I am angry."}
+{"id": "007", "tanglish": "Indha message-a delete pannaadha, save pannu.", "expected": "Don't delete this message; save it.", "predicted": "Delete this message and save it."}
+{"id": "008", "tanglish": "Avanga mudichittaangala illa innum panraangala?", "expected": "Have they finished, or are they still working on it?", "predicted": "Does he have any money left after spending all of his own?"}
+{"id": "009", "tanglish": "Idhu ennoda laptop illa, en friend-odadhu.", "expected": "This isn't my laptop; it belongs to my friend.", "predicted": "This is my friend's laptop, not mine."}
+{"id": "010", "tanglish": "Enakku konjam nervous-ah irukku, aana try panren.", "expected": "I'm a little nervous, but I'll try.", "predicted": "I am feeling very nervous, but I will try anyway."}
+{"id": "011", "tanglish": "Five minutes-la call panren nu sonnen.", "expected": "I said I'd call in five minutes.", "predicted": "I am calling you in five minutes."}
+{"id": "012", "tanglish": "Indha code work aagudhu, aana result thappu.", "expected": "This code runs, but its result is wrong.", "predicted": "This code does not work, but the result is there."}
+{"id": "013", "tanglish": "En permission illaama file share panna koodaadhu.", "expected": "You must not share the file without my permission.", "predicted": "I do not have permission to share the file."}
+{"id": "014", "tanglish": "Nethu sonna plan-a innaikku change pannitaanga.", "expected": "They changed today the plan discussed yesterday.", "predicted": "You told Nethu to change the plan."}
+{"id": "015", "tanglish": "Yaarume reply pannala, adhaan wait panren.", "expected": "Nobody replied, so I'm waiting.", "predicted": "Friend, please reply to me; I am waiting for you."}
+{"id": "016", "tanglish": "Rendu tasks irukku, urgent aanadha first pannu.", "expected": "There are two tasks; do the urgent one first.", "predicted": "There are several tasks; you should do the urgent ones first."}
+{"id": "017", "tanglish": "Unkitta kovam illa, situation mela dhaan kovam.", "expected": "I'm not angry with you; I'm angry about the situation.", "predicted": "I don't have much money, but the situation is very serious."}
+{"id": "018", "tanglish": "Enakku indha explanation podhala, example kudu.", "expected": "This explanation isn't enough for me; give an example.", "predicted": "You want me to give this explanation, I need an example."}
+{"id": "019", "tanglish": "Ava vara sollala, vara vendaamnu sonna.", "expected": "She didn't ask me to come; she told me not to come.", "predicted": "I will tell you this, I have told you already."}
+{"id": "020", "tanglish": "Meeting start aaguradhukku munnaadi remind pannu.", "expected": "Remind me before the meeting starts.", "predicted": "I need to remind you before the meeting starts."}

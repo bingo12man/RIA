@@ -1,0 +1,139 @@
+{
+  "created_at": "2026-10-17T11:29:07.567606+00:00",
+  "model": "gemma3:4b",
+  "evaluation": "paired_development_comparison",
+  "tests": [
+    {
+      "id": "RIA-UNSEEN-001",
+      "input": "Enaku innaiku office poganum.",
+      "converted_tamil": "எனகு இன்னைக்கு office பொகனும்.",
+      "expected": "I need to go to the office today.",
+      "direct": "I don't want to go to the office.",
+      "converted": "You're saying you don't have to go to the office today.",
+      "direct_human_score": null,
+      "converted_human_score": null,
+      "benchmark_overlap": false
+    },
+    {
+      "id": "RIA-UNSEEN-002",
+      "input": "Avanga nethu meeting ku varala.",
+      "converted_tamil": "அவங்க நேத்து meeting கு வரல.",
+      "expected": "They didn't come to the meeting yesterday.",
+      "direct": "You are unable to attend the meeting.",
+      "converted": "She didn't attend the meeting yesterday.",
+      "direct_human_score": null,
+      "converted_human_score": null,
+      "benchmark_overlap": false
+    },
+    {
+      "id": "RIA-UNSEEN-003",
+      "input": "Naan innum lunch saapdala.",
+      "converted_tamil": "நான் இன்னும் லஞ்ச் சாப்டல.",
+      "expected": "I haven't had lunch yet.",
+      "direct": "I don't want to eat lunch yet.",
+      "converted": "I haven't finished eating my lunch yet.",
+      "direct_human_score": null,
+      "converted_human_score": null,
+      "benchmark_overlap": false
+    },
+    {
+      "id": "RIA-UNSEEN-004",
+      "input": "Aval nalaiku college ku pova.",
+      "converted_tamil": "அவள் நலைக்கு college கு போவா.",
+      "expected": "She'll go to college tomorrow.",
+      "direct": "You are saying that you don't want to go to college.",
+      "converted": "She is going to college tomorrow.",
+      "direct_human_score": null,
+      "converted_human_score": null,
+      "benchmark_overlap": false
+    },
+    {
+      "id": "RIA-UNSEEN-005",
+      "input": "Indha task ah ippo mudikka mudiyadhu.",
+      "converted_tamil": "இந்த டாஸ்க் அஹ் இப்போ முடிக்க முடியது.",
+      "expected": "I can't finish this task right now.",
+      "direct": "You're saying you can't finish this task right now.",
+      "converted": "I was unable to finish this task now.",
+      "direct_human_score": null,
+      "converted_human_score": null,
+      "benchmark_overlap": false
+    },
+    {
+      "id": "RIA-UNSEEN-006",
+      "input": "Enakku coffee venum aana sugar vendaam.",
+      "converted_tamil": "எனக்கு காஃபி வெனும் ஆன சுகர் வேண்டாம்.",
+      "expected": "I want coffee, but no sugar.",
+      "direct": "You're saying you don't want any coffee with sugar.",
+      "converted": "I don’t want coffee with sugar.",
+      "direct_human_score": null,
+      "converted_human_score": null,
+      "benchmark_overlap": false
+    },
+    {
+      "id": "RIA-UNSEEN-007",
+      "input": "Nee yen call pannala?",
+      "converted_tamil": "நீ யென் call பண்ணல?",
+      "expected": "Why didn't you call?",
+      "direct": "Are you calling me?",
+      "converted": "Are you wondering if I didn't receive your call?",
+      "direct_human_score": null,
+      "converted_human_score": null,
+      "benchmark_overlap": false
+    },
+    {
+      "id": "RIA-UNSEEN-008",
+      "input": "Avan enna paathu sirichaan.",
+      "converted_tamil": "அவன் என்ன பாது சிறிச்சான்.",
+      "expected": "He laughed at me.",
+      "direct": "You're asking if he's still angry, aren't you?",
+      "converted": "He was really protecting something small.",
+      "direct_human_score": null,
+      "converted_human_score": null,
+      "benchmark_overlap": true
+    },
+    {
+      "id": "RIA-UNSEEN-009",
+      "input": "Innaiku romba tired ah irukken.",
+      "converted_tamil": "இன்னைக்கு ரோம்பா டைர்ட் அஹ் இருக்கென்.",
+      "expected": "I'm very tired today.",
+      "direct": "You are feeling very tired.",
+      "converted": "You're feeling tired today.",
+      "direct_human_score": null,
+      "converted_human_score": null,
+      "benchmark_overlap": false
+    },
+    {
+      "id": "RIA-UNSEEN-010",
+      "input": "Naalaikku interview irukku bayama irukku.",
+      "converted_tamil": "நாளைக்கு இன்டர்வியூ இருக்கு பயாமா இருக்கு.",
+      "expected": "I have an interview tomorrow and I'm nervous.",
+      "direct": "I'm feeling frustrated because I haven't had an interview yet.",
+      "converted": "I'm really worried because I have an interview tomorrow.",
+      "direct_human_score": null,
+      "converted_human_score": null,
+      "benchmark_overlap": false
+    },
+    {
+      "id": "RIA-UNSEEN-011",
+      "input": "Andha file ah delete panna vendaam.",
+      "converted_tamil": "அந்த பைல் அஹ் டிலீட் பன்னா வேண்டாம்.",
+      "expected": "Don't delete that file.",
+      "direct": "He wants to delete that file.",
+      "converted": "Please don't delete that file.",
+      "direct_human_score": null,
+      "converted_human_score": null,
+      "benchmark_overlap": false
+    },
+    {
+      "id": "RIA-UNSEEN-012",
+      "input": "Enakku idhu puriyala konjam explain pannu.",
+      "converted_tamil": "எனக்கு இது புரியல கொஞ்சம் எக்ஸ்பிளெயின் பண்ணு.",
+      "expected": "I don't understand this; please explain a little.",
+      "direct": "You want me to explain this in detail.",
+      "converted": "They're asking for a little more explanation because they don't understand it yet.",
+      "direct_human_score": null,
+      "converted_human_score": null,
+      "benchmark_overlap": false
+    }
+  ]
+}

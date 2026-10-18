@@ -1,0 +1,184 @@
+{
+  "created_at": "2026-10-17T12:38:19.457404+00:00",
+  "evaluation": "generalization_v2",
+  "total_prompts": 40,
+  "overall": {
+    "direct": {
+      "reviewed": 40,
+      "correct": 2,
+      "partial": 5,
+      "incorrect": 33,
+      "critical_errors": 33,
+      "mean_score": 0.225,
+      "fully_correct_percent": 5.0
+    },
+    "indicxlit_top1": {
+      "reviewed": 40,
+      "correct": 11,
+      "partial": 19,
+      "incorrect": 10,
+      "critical_errors": 11,
+      "mean_score": 1.025,
+      "fully_correct_percent": 27.5
+    },
+    "verified_converter": {
+      "reviewed": 40,
+      "correct": 11,
+      "partial": 20,
+      "incorrect": 9,
+      "critical_errors": 10,
+      "mean_score": 1.05,
+      "fully_correct_percent": 27.5
+    }
+  },
+  "by_category": {
+    "direct": {
+      "code_switch": {
+        "reviewed": 4,
+        "fully_correct": 0,
+        "mean_score": 0.75
+      },
+      "context": {
+        "reviewed": 8,
+        "fully_correct": 2,
+        "mean_score": 0.625
+      },
+      "emotion": {
+        "reviewed": 4,
+        "fully_correct": 0,
+        "mean_score": 0.0
+      },
+      "intent": {
+        "reviewed": 4,
+        "fully_correct": 0,
+        "mean_score": 0.0
+      },
+      "negation": {
+        "reviewed": 4,
+        "fully_correct": 0,
+        "mean_score": 0.0
+      },
+      "pronouns": {
+        "reviewed": 4,
+        "fully_correct": 0,
+        "mean_score": 0.25
+      },
+      "questions": {
+        "reviewed": 4,
+        "fully_correct": 0,
+        "mean_score": 0.0
+      },
+      "tense": {
+        "reviewed": 4,
+        "fully_correct": 0,
+        "mean_score": 0.0
+      },
+      "variation": {
+        "reviewed": 4,
+        "fully_correct": 0,
+        "mean_score": 0.0
+      }
+    },
+    "indicxlit_top1": {
+      "code_switch": {
+        "reviewed": 4,
+        "fully_correct": 2,
+        "mean_score": 1.5
+      },
+      "context": {
+        "reviewed": 8,
+        "fully_correct": 3,
+        "mean_score": 1.125
+      },
+      "emotion": {
+        "reviewed": 4,
+        "fully_correct": 1,
+        "mean_score": 1.0
+      },
+      "intent": {
+        "reviewed": 4,
+        "fully_correct": 0,
+        "mean_score": 0.75
+      },
+      "negation": {
+        "reviewed": 4,
+        "fully_correct": 1,
+        "mean_score": 0.75
+      },
+      "pronouns": {
+        "reviewed": 4,
+        "fully_correct": 0,
+        "mean_score": 1.0
+      },
+      "questions": {
+        "reviewed": 4,
+        "fully_correct": 1,
+        "mean_score": 1.0
+      },
+      "tense": {
+        "reviewed": 4,
+        "fully_correct": 2,
+        "mean_score": 1.25
+      },
+      "variation": {
+        "reviewed": 4,
+        "fully_correct": 1,
+        "mean_score": 0.75
+      }
+    },
+    "verified_converter": {
+      "code_switch": {
+        "reviewed": 4,
+        "fully_correct": 2,
+        "mean_score": 1.5
+      },
+      "context": {
+        "reviewed": 8,
+        "fully_correct": 3,
+        "mean_score": 1.125
+      },
+      "emotion": {
+        "reviewed": 4,
+        "fully_correct": 1,
+        "mean_score": 1.25
+      },
+      "intent": {
+        "reviewed": 4,
+        "fully_correct": 0,
+        "mean_score": 0.75
+      },
+      "negation": {
+        "reviewed": 4,
+        "fully_correct": 1,
+        "mean_score": 0.75
+      },
+      "pronouns": {
+        "reviewed": 4,
+        "fully_correct": 0,
+        "mean_score": 1.0
+      },
+      "questions": {
+        "reviewed": 4,
+        "fully_correct": 1,
+        "mean_score": 1.0
+      },
+      "tense": {
+        "reviewed": 4,
+        "fully_correct": 2,
+        "mean_score": 1.25
+      },
+      "variation": {
+        "reviewed": 4,
+        "fully_correct": 1,
+        "mean_score": 0.75
+      }
+    }
+  },
+  "human_scores_sha256": "a60a76f16412749b32a05c4f57046857a4bc300db517757a2f487cf4b6d685d3",
+  "predictions_sha256": "8a3794254c4156064868aae3c77abcc62529c36e534fe5902acd3d5260d22819",
+  "limitations": [
+    "Human-approved development evaluation, not a blinded independent benchmark.",
+    "Gemini initial scoring is advisory.",
+    "Past conversational turns were not transliterated for converted methods."
+  ]
+}

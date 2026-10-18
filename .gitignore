@@ -10,3 +10,36 @@ __pycache__/
 *.db
 *.sqlite
 *.sqlite3
+training/data/raw/
+training/data/cleaned/
+training/data/processed/
+training/data/source/
+# Python environments
+.venv/
+.review-venv/
+.translit-venv/
+.venv-old/
+.venv-python39-backup/
+venv/
+
+# Secrets and private data
+.env
+.env.*
+!.env.example
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+
+# Python cache
+__pycache__/
+*.pyc
+.DS_Store
+
+# Model weights
+*.safetensors
+*.gguf
+*.pt
+*.pth
+*.ckpt

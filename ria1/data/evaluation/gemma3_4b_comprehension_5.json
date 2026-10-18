@@ -1,0 +1,62 @@
+[
+  {
+    "id": "RIA-TC-001",
+    "category": "pronoun",
+    "language": "tanglish",
+    "user_message": "Naan oru pudhu paattu compose pannen. Epdi improve pannalaam?",
+    "expected_meaning": "The user composed a new song and wants advice on improving it.",
+    "split": "held_out_test",
+    "model": "gemma3:4b",
+    "prediction": "They are asking for advice on how to improve a single, original song they composed.",
+    "error": null,
+    "human_score": null
+  },
+  {
+    "id": "RIA-TC-002",
+    "category": "pronoun",
+    "language": "tanglish",
+    "user_message": "Naan innaiku romba tired-ah irukken.",
+    "expected_meaning": "The user is tired today.",
+    "split": "held_out_test",
+    "model": "gemma3:4b",
+    "prediction": "That person is feeling very tired.",
+    "error": null,
+    "human_score": null
+  },
+  {
+    "id": "RIA-TC-003",
+    "category": "pronoun",
+    "language": "tanglish",
+    "user_message": "Naan first prize win pannitten!",
+    "expected_meaning": "The user won first prize.",
+    "split": "held_out_test",
+    "model": "gemma3:4b",
+    "prediction": "They are excitedly announcing that they won first prize.",
+    "error": null,
+    "human_score": null
+  },
+  {
+    "id": "RIA-TC-004",
+    "category": "pronoun",
+    "language": "tanglish",
+    "user_message": "Naan sapten, aana innum pasikkudhu.",
+    "expected_meaning": "The user ate but is still hungry.",
+    "split": "held_out_test",
+    "model": "gemma3:4b",
+    "prediction": "They are saying they want bread and water.",
+    "error": null,
+    "human_score": null
+  },
+  {
+    "id": "RIA-TC-005",
+    "category": "pronoun",
+    "language": "tanglish",
+    "user_message": "Naan unna oru doubt kekkava?",
+    "expected_meaning": "The user wants to ask Ria a question.",
+    "split": "held_out_test",
+    "model": "gemma3:4b",
+    "prediction": "They are asking if there is something they can clarify.",
+    "error": null,
+    "human_score": null
+  }
+]

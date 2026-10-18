@@ -1,0 +1,86 @@
+[
+  {
+    "input": "Enakku coffee vendaam, tea podhum.",
+    "glossary": [
+      "enakku = to me / for me",
+      "vendaam = do not want / not needed",
+      "podhum = enough / sufficient"
+    ],
+    "retrieved_ids": [
+      "RIA-LF-NC-001",
+      "RIA-LF-NC-008",
+      "RIA-LF-EV-008"
+    ],
+    "response": "I don't want coffee; tea is enough."
+  },
+  {
+    "input": "Enakku tea vendaam, coffee podhum.",
+    "glossary": [
+      "enakku = to me / for me",
+      "vendaam = do not want / not needed",
+      "podhum = enough / sufficient"
+    ],
+    "retrieved_ids": [
+      "RIA-LF-NC-008",
+      "RIA-LF-EV-008",
+      "RIA-LF-NC-012"
+    ],
+    "response": "I don't want tea, I want coffee."
+  },
+  {
+    "input": "Naan inniku office-ku pogala.",
+    "glossary": [
+      "naan = I (Tamil pronoun, not bread)",
+      "inniku = today",
+      "pogala = did not go"
+    ],
+    "retrieved_ids": [
+      "RIA-LF-PV-001",
+      "RIA-LF-EI-019",
+      "RIA-LF-PV-017"
+    ],
+    "response": "I did not go to the office today."
+  },
+  {
+    "input": "Enakku konjam bayama irukku.",
+    "glossary": [
+      "enakku = to me / for me",
+      "konjam = a little",
+      "bayama = scared / afraid",
+      "irukku = is / exists / feeling, context dependent"
+    ],
+    "retrieved_ids": [
+      "RIA-LF-EV-015",
+      "RIA-LF-EI-020",
+      "RIA-LF-PV-002"
+    ],
+    "response": "I'm a little scared for me."
+  },
+  {
+    "input": "Avan netru school-ku varala.",
+    "glossary": [
+      "netru = yesterday",
+      "varala = did not come",
+      "avan = he"
+    ],
+    "retrieved_ids": [
+      "RIA-LF-PV-003",
+      "RIA-LF-NC-011",
+      "RIA-LF-EV-019"
+    ],
+    "response": "He didn't go to school yesterday."
+  },
+  {
+    "input": "Naalaikku meeting-ku vara mudiyadhu.",
+    "glossary": [
+      "naalaikku = tomorrow",
+      "mudiyadhu = cannot / not possible"
+    ],
+    "retrieved_ids": [
+      "RIA-LF-NC-005",
+      "RIA-LF-PV-001",
+      "RIA-LF-PV-017"
+    ],
+    "response": "Tomorrow’s meeting is not possible."
+  }
+]

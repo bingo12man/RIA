@@ -1,0 +1,18 @@
+{
+  "release": "generalization_v2_frozen",
+  "created_at": "2026-10-17T11:37:50.400373+00:00",
+  "count": 40,
+  "single_turn": 32,
+  "context": 8,
+  "overlap_warnings": 0,
+  "human_approved": 40,
+  "prompts_sha256": "c7f18273a0112c6f0cf78a88afaf4683a5270bfeada8400863d89259c8e1a706",
+  "answer_key_sha256": "1c42825b00c1dd5a42e2f7ecdec3cfd61ede70d84c7d3553b1b3524b9e764c53",
+  "status": "frozen_development_evaluation",
+  "limitations": [
+    "Author-created examples require independent language review.",
+    "Lexical screening does not rule out semantic overlap.",
+    "This is a development holdout, not an independent production benchmark.",
+    "No evaluation content should enter training or retrieval."
+  ]
+}

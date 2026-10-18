@@ -1,0 +1,11 @@
+{
+  "model": "mlx-community/Qwen3-1.7B-4bit",
+  "adapter": "ria1/adapters/normalization_pilot_001",
+  "adapter_weights_sha256": "b7fca42f1b96571a04dce855a2fe4ba75801e7b9dac5008195c84df28e46c452",
+  "adapter_config_sha256": "e65221146d2c65dc69dae631d366c1b9b5557227cce88e283973b824a4b93b19",
+  "validation_sha256": "510cfcdba958f0117585b6b310a77bef07e21b5714923a4ccbdd990c7bbd8fca",
+  "baseline_sha256": "3a88430ff1622a08fa50e858f471e47afc4292203b4a3043def4b73e4a2056b2",
+  "max_tokens": 180,
+  "system_prompt": "Convert conversational Tanglish into natural Tamil script. Preserve the exact meaning, pronouns, negation, tense, requests, questions, quantities and English technical names. Do not answer, explain, or translate into English. Return only the Tamil-script sentence.",
+  "thinking": false
+}

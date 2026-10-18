@@ -1,0 +1,32 @@
+{
+  "module": "4.58",
+  "source": "ria1/data/evaluation/approved_normalization_pairs_v2.jsonl",
+  "source_sha256": "da46efba64813f2980a018c06e986e2270a075cf0c0530fa525ecd2071503fd1",
+  "total_approved": 124,
+  "training_candidates": 124,
+  "train_count": 99,
+  "validation_count": 25,
+  "flagged_count": 0,
+  "pair_types": {
+    "faithful_script": 112,
+    "corrected": 8,
+    "normalization": 4
+  },
+  "seed": 42,
+  "overlap_threshold": 0.78,
+  "checks": [
+    "Record count",
+    "Approval status",
+    "Unique IDs",
+    "Duplicate input detection",
+    "Tamil script presence",
+    "Known evaluation lexical overlap"
+  ],
+  "limitations": [
+    "Lexical similarity does not detect all semantic overlap.",
+    "The 80/20 split is not an independent unseen benchmark.",
+    "No model fine-tuning has been performed.",
+    "Flagged examples are excluded until reviewed.",
+    "Approved pair quality depends on human review accuracy."
+  ]
+}

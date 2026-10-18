@@ -1,0 +1,749 @@
+{
+  "source_hash": "2513d1e5b58c3b1c45b051b37ec1871fbbd1a498707f8a6ebfefcc09fa1586cc",
+  "reviews": {
+    "1": {
+      "status": "approved",
+      "type": "faithful_script",
+      "tamil": "நான் இன்னைக்கு ஆபீஸுக்கு லேட்டா வந்தேன்.",
+      "reviewed_at": "2026-10-17T14:04:35.087335+00:00"
+    },
+    "2": {
+      "status": "approved",
+      "type": "faithful_script",
+      "tamil": "நீ எனக்கு கொஞ்சம் ஹெல்ப் பண்ணுவியா?",
+      "reviewed_at": "2026-10-17T14:04:35.822823+00:00"
+    },
+    "3": {
+      "status": "approved",
+      "type": "faithful_script",
+      "tamil": "அவன் நேத்து எனக்கு கால் பண்ணான்.",
+      "reviewed_at": "2026-10-17T14:04:36.403924+00:00"
+    },
+    "4": {
+      "status": "approved",
+      "type": "faithful_script",
+      "tamil": "அவ இன்னைக்கு லீவு எடுத்திருக்கா.",
+      "reviewed_at": "2026-10-17T14:04:36.936948+00:00"
+    },
+    "5": {
+      "status": "approved",
+      "type": "faithful_script",
+      "tamil": "நாங்க வீக்கெண்ட் ட்ரிப் பிளான் பண்றோம்.",
+      "reviewed_at": "2026-10-17T14:04:37.524330+00:00"
+    },
+    "6": {
+      "status": "approved",
+      "type": "faithful_script",
+      "tamil": "நீங்க எங்க போறீங்க?",
+      "reviewed_at": "2026-10-17T14:04:38.061380+00:00"
+    },
+    "7": {
+      "status": "approved",
+      "type": "faithful_script",
+      "tamil": "அவங்க ஆல்ரெடி வந்துட்டாங்க.",
+      "reviewed_at": "2026-10-17T14:04:38.717431+00:00"
+    },
+    "8": {
+      "status": "approved",
+      "type": "faithful_script",
+      "tamil": "நான் சாப்பாடு ரெடி பண்ணிட்டேன்.",
+      "reviewed_at": "2026-10-17T14:04:39.248394+00:00"
+    },
+    "9": {
+      "status": "approved",
+      "type": "faithful_script",
+      "tamil": "நீ சொன்னது எனக்கு புரியல.",
+      "reviewed_at": "2026-10-17T14:04:39.940634+00:00"
+    },
+    "10": {
+      "status": "approved",
+      "type": "faithful_script",
+      "tamil": "என் ஃப்ரெண்ட் எனக்கு மெசேஜ் அனுப்பினான்.",
+      "reviewed_at": "2026-10-17T14:04:40.424067+00:00"
+    },
+    "11": {
+      "status": "approved",
+      "type": "faithful_script",
+      "tamil": "நான் இப்போதான் எழுந்தேன்.",
+      "reviewed_at": "2026-10-17T14:04:40.965748+00:00"
+    },
+    "12": {
+      "status": "approved",
+      "type": "faithful_script",
+      "tamil": "நீ எப்போ திரும்பி வருவ?",
+      "reviewed_at": "2026-10-17T14:04:41.451824+00:00"
+    },
+    "13": {
+      "status": "approved",
+      "type": "faithful_script",
+      "tamil": "அவ என்னை வெயிட் பண்ண சொன்னா.",
+      "reviewed_at": "2026-10-17T14:04:41.980412+00:00"
+    },
+    "14": {
+      "status": "approved",
+      "type": "faithful_script",
+      "tamil": "நாங்க இன்னும் ஸ்டார்ட் பண்ணல.",
+      "reviewed_at": "2026-10-17T14:04:42.525487+00:00"
+    },
+    "15": {
+      "status": "approved",
+      "type": "faithful_script",
+      "tamil": "நான் டெய்லி கொஞ்சம் கிட்டார் பிராக்டிஸ் பண்றேன்.",
+      "reviewed_at": "2026-10-17T14:04:43.053687+00:00"
+    },
+    "16": {
+      "status": "approved",
+      "type": "faithful_script",
+      "tamil": "நீ இந்த கேள்விக்கு பதில் சொல்லு",
+      "reviewed_at": "2026-10-17T14:04:43.570641+00:00"
+    },
+    "17": {
+      "status": "approved",
+      "type": "faithful_script",
+      "tamil": "அவங்க என்னை இன்வைட் பண்ணாங்க.",
+      "reviewed_at": "2026-10-17T14:04:44.218383+00:00"
+    },
+    "18": {
+      "status": "approved",
+      "type": "faithful_script",
+      "tamil": "நான் உனக்கு ஒரு ஐடியா சொல்றேன்.",
+      "reviewed_at": "2026-10-17T14:04:44.732806+00:00"
+    },
+    "19": {
+      "status": "approved",
+      "type": "faithful_script",
+      "tamil": "எனக்கு இன்னொரு சான்ஸ் கிடைச்சிருக்கு.",
+      "reviewed_at": "2026-10-17T14:04:45.603640+00:00"
+    },
+    "20": {
+      "status": "approved",
+      "type": "faithful_script",
+      "tamil": "நீ என்ன கேக்குறன்னு புரியுது.",
+      "reviewed_at": "2026-10-17T14:04:46.207093+00:00"
+    },
+    "21": {
+      "status": "approved",
+      "type": "faithful_script",
+      "tamil": "நான் இதை முன்னாடி ட்ரை பண்ணிருக்கேன்",
+      "reviewed_at": "2026-10-17T14:04:46.639886+00:00"
+    },
+    "22": {
+      "status": "approved",
+      "type": "faithful_script",
+      "tamil": "நாம ரெண்டு பேரும் சேர்ந்து பிளான் பண்ணலாம்.",
+      "reviewed_at": "2026-10-17T14:04:47.380857+00:00"
+    },
+    "23": {
+      "status": "approved",
+      "type": "faithful_script",
+      "tamil": "என் தம்பி இன்னைக்கு எக்ஸாம் எழுதுறான்.",
+      "reviewed_at": "2026-10-17T14:04:47.946897+00:00"
+    },
+    "24": {
+      "status": "approved",
+      "type": "faithful_script",
+      "tamil": "என் அக்கா எனக்கு அட்வைஸ் கொடுத்தாங்க.",
+      "reviewed_at": "2026-10-17T14:04:48.634561+00:00"
+    },
+    "25": {
+      "status": "approved",
+      "type": "faithful_script",
+      "tamil": "இந்த வேலையை முடிக்க ரொம்ப நேரம் ஆகுது.",
+      "reviewed_at": "2026-10-17T14:04:49.321520+00:00"
+    },
+    "26": {
+      "status": "approved",
+      "type": "faithful_script",
+      "tamil": "சாப்பாடு சாப்பிட டைம் ஆயிடுச்சு.",
+      "reviewed_at": "2026-10-17T14:04:49.915660+00:00"
+    },
+    "27": {
+      "status": "approved",
+      "type": "faithful_script",
+      "tamil": "எனக்கு கொஞ்சம் தூக்கம் வருது.",
+      "reviewed_at": "2026-10-17T14:04:50.367740+00:00"
+    },
+    "28": {
+      "status": "approved",
+      "type": "faithful_script",
+      "tamil": "இன்னைக்கு கிளைமேட் ரொம்ப நல்லா இருக்கு.",
+      "reviewed_at": "2026-10-17T14:04:51.021532+00:00"
+    },
+    "29": {
+      "status": "approved",
+      "type": "faithful_script",
+      "tamil": "நேத்து ஃபுல்லா மழை பெய்ஞ்சுச்சு.",
+      "reviewed_at": "2026-10-17T14:04:51.796803+00:00"
+    },
+    "30": {
+      "status": "approved",
+      "type": "faithful_script",
+      "tamil": "என் பேக் எங்க வெச்சேன்னு தெரியல.",
+      "reviewed_at": "2026-10-17T14:04:52.459216+00:00"
+    },
+    "31": {
+      "status": "approved",
+      "type": "faithful_script",
+      "tamil": "இந்த ஷர்ட் எனக்கு பிடிச்சிருக்கு.",
+      "reviewed_at": "2026-10-17T14:04:53.098705+00:00"
+    },
+    "32": {
+      "status": "approved",
+      "type": "faithful_script",
+      "tamil": "எனக்கு ஒரு காபி குடிக்கணும் போல இருக்கு.",
+      "reviewed_at": "2026-10-17T14:04:53.737439+00:00"
+    },
+    "33": {
+      "status": "approved",
+      "type": "faithful_script",
+      "tamil": "கொஞ்சம் மெதுவா பேசு.",
+      "reviewed_at": "2026-10-17T14:04:54.405950+00:00"
+    },
+    "34": {
+      "status": "approved",
+      "type": "faithful_script",
+      "tamil": "இந்த ரோட்ல டிராஃபிக் அதிகமா இருக்கு.",
+      "reviewed_at": "2026-10-17T14:04:54.998186+00:00"
+    },
+    "35": {
+      "status": "approved",
+      "type": "faithful_script",
+      "tamil": "இன்னைக்கு எனக்கு ரொம்ப வேலை இருக்கு.",
+      "reviewed_at": "2026-10-17T14:04:55.583933+00:00"
+    },
+    "36": {
+      "status": "approved",
+      "type": "faithful_script",
+      "tamil": "இந்த ஐடியா நல்லா இருக்குனு தோணுது.",
+      "reviewed_at": "2026-10-17T14:04:56.175828+00:00"
+    },
+    "37": {
+      "status": "approved_corrected",
+      "type": "corrected",
+      "tamil": "எனக்கு இந்த மேட்டர் புரியவே இல்லை.",
+      "reviewed_at": "2026-10-17T14:04:56.799020+00:00"
+    },
+    "38": {
+      "status": "approved",
+      "type": "faithful_script",
+      "tamil": "கொஞ்சம் யோசிச்சு சொல்றேன்.",
+      "reviewed_at": "2026-10-17T14:04:57.437859+00:00"
+    },
+    "39": {
+      "status": "approved",
+      "type": "faithful_script",
+      "tamil": "எனக்கு இது கொஞ்சம் கஷ்டமா இருக்கு.",
+      "reviewed_at": "2026-10-17T14:04:58.054330+00:00"
+    },
+    "40": {
+      "status": "approved",
+      "type": "faithful_script",
+      "tamil": "இன்னும் கொஞ்சம் நேரம் வேணும்.",
+      "reviewed_at": "2026-10-17T14:04:58.618968+00:00"
+    },
+    "41": {
+      "status": "approved",
+      "type": "faithful_script",
+      "tamil": "இந்த பாட்டு கேக்க நல்லா இருக்கு.",
+      "reviewed_at": "2026-10-17T14:04:59.241769+00:00"
+    },
+    "42": {
+      "status": "approved",
+      "type": "faithful_script",
+      "tamil": "என்ன பண்றதுனு தெரியாம இருக்கேன்.",
+      "reviewed_at": "2026-10-17T14:04:59.831811+00:00"
+    },
+    "43": {
+      "status": "approved",
+      "type": "faithful_script",
+      "tamil": "அத மறந்துட்டேன், ஞாபகம் வரல.",
+      "reviewed_at": "2026-10-17T14:05:00.440706+00:00"
+    },
+    "44": {
+      "status": "approved",
+      "type": "faithful_script",
+      "tamil": "நீ சொல்றது கரெக்டா இருக்கு.",
+      "reviewed_at": "2026-10-17T14:05:00.961384+00:00"
+    },
+    "45": {
+      "status": "approved",
+      "type": "faithful_script",
+      "tamil": "எனக்கு இந்த சிச்சுவேஷன் பிடிக்கல.",
+      "reviewed_at": "2026-10-17T14:05:01.494907+00:00"
+    },
+    "46": {
+      "status": "approved",
+      "type": "faithful_script",
+      "tamil": "இன்னைக்கு மூட் சரி இல்ல.",
+      "reviewed_at": "2026-10-17T14:05:02.111665+00:00"
+    },
+    "47": {
+      "status": "approved",
+      "type": "faithful_script",
+      "tamil": "நான் கொஞ்சம் ரிலாக்ஸ் பண்ணப் போறேன்.",
+      "reviewed_at": "2026-10-17T14:05:02.706387+00:00"
+    },
+    "48": {
+      "status": "approved",
+      "type": "faithful_script",
+      "tamil": "இந்த பிளேஸ் ரொம்ப அமைதியா இருக்கு.",
+      "reviewed_at": "2026-10-17T14:05:03.586897+00:00"
+    },
+    "49": {
+      "status": "approved",
+      "type": "faithful_script",
+      "tamil": "இன்னும் கொஞ்சம் பிராக்டிஸ் பண்ணா இம்ப்ரூவ் ஆகும்.",
+      "reviewed_at": "2026-10-17T14:05:04.042779+00:00"
+    },
+    "50": {
+      "status": "approved",
+      "type": "faithful_script",
+      "tamil": "எனக்கு டீ வேண்டாம், காபி போதும்.",
+      "reviewed_at": "2026-10-17T14:05:04.588723+00:00"
+    },
+    "51": {
+      "status": "approved",
+      "type": "faithful_script",
+      "tamil": "நான் அந்த ஃபைலை டெலீட் பண்ணல.",
+      "reviewed_at": "2026-10-17T14:05:05.030453+00:00"
+    },
+    "52": {
+      "status": "approved",
+      "type": "faithful_script",
+      "tamil": "இன்னும் பேமெண்ட் வரல.",
+      "reviewed_at": "2026-10-17T14:05:05.556717+00:00"
+    },
+    "53": {
+      "status": "approved",
+      "type": "faithful_script",
+      "tamil": "இது என்னோட லேப்டாப் இல்ல.",
+      "reviewed_at": "2026-10-17T14:05:06.181747+00:00"
+    },
+    "54": {
+      "status": "approved",
+      "type": "faithful_script",
+      "tamil": "மீட்டிங் கேன்சல் ஆகல, போஸ்ட்போன் ஆயிடுச்சு.",
+      "reviewed_at": "2026-10-17T14:05:06.666125+00:00"
+    },
+    "55": {
+      "status": "approved",
+      "type": "faithful_script",
+      "tamil": "நான் கோவமா இல்ல, கொஞ்சம் டிஸப்பாயிண்ட்டா இருக்கேன்.",
+      "reviewed_at": "2026-10-17T14:05:07.231450+00:00"
+    },
+    "56": {
+      "status": "approved",
+      "type": "faithful_script",
+      "tamil": "இந்த ஆன்சர் கரெக்ட் இல்ல.",
+      "reviewed_at": "2026-10-17T14:05:07.745525+00:00"
+    },
+    "57": {
+      "status": "approved",
+      "type": "faithful_script",
+      "tamil": "எனக்கு ஃபுல் எக்ஸ்ப்ளனேஷன் வேண்டாம், எக்ஸாம்பிள் போதும்.",
+      "reviewed_at": "2026-10-17T14:05:08.404841+00:00"
+    },
+    "58": {
+      "status": "approved",
+      "type": "normalization",
+      "tamil": "இந்த ஆப்பை நான் இன்ஸ்டால் பண்ணவே இல்ல.",
+      "reviewed_at": "2026-10-17T14:05:09.159599+00:00"
+    },
+    "59": {
+      "status": "approved",
+      "type": "faithful_script",
+      "tamil": "நீ சொன்ன டேட் கரெக்ட் இல்ல, ஃப்ரைடே தான்.",
+      "reviewed_at": "2026-10-17T14:05:09.734355+00:00"
+    },
+    "60": {
+      "status": "approved",
+      "type": "faithful_script",
+      "tamil": "அவன் மெசேஜ் பண்ணல, டைரக்டா கால் பண்ணான்.",
+      "reviewed_at": "2026-10-17T14:05:10.168048+00:00"
+    },
+    "61": {
+      "status": "approved",
+      "type": "faithful_script",
+      "tamil": "எனக்கு சுகர் இல்லாம காபி வேணும்.",
+      "reviewed_at": "2026-10-17T14:05:10.716815+00:00"
+    },
+    "62": {
+      "status": "approved",
+      "type": "faithful_script",
+      "tamil": "இந்த பிராப்ளம் ஹார்டுவேர்ல இல்ல, சாஃப்ட்வேர்ல இருக்கு.",
+      "reviewed_at": "2026-10-17T14:05:11.442708+00:00"
+    },
+    "63": {
+      "status": "approved",
+      "type": "faithful_script",
+      "tamil": "நான் ஃபெயில் ஆகல, ரிசல்ட் இன்னும் வரல.",
+      "reviewed_at": "2026-10-17T14:05:12.090081+00:00"
+    },
+    "64": {
+      "status": "approved",
+      "type": "faithful_script",
+      "tamil": "நீ எக்ஸ்ப்ளெயின் பண்ணது புரியல, வேற எக்ஸாம்பிள் சொல்லு.",
+      "reviewed_at": "2026-10-17T14:05:12.694785+00:00"
+    },
+    "65": {
+      "status": "approved",
+      "type": "faithful_script",
+      "tamil": "அது என் கேள்விக்கு பதில் இல்ல.",
+      "reviewed_at": "2026-10-17T14:05:13.382544+00:00"
+    },
+    "66": {
+      "status": "approved_corrected",
+      "type": "corrected",
+      "tamil": "அந்த பாடலை நான் எழுதினேன், பாடவில்லை.",
+      "reviewed_at": "2026-10-17T14:05:13.828521+00:00"
+    },
+    "67": {
+      "status": "approved",
+      "type": "faithful_script",
+      "tamil": "எனக்கு ரிமைண்டர் தேவையில்ல.",
+      "reviewed_at": "2026-10-17T14:05:14.453844+00:00"
+    },
+    "68": {
+      "status": "approved",
+      "type": "faithful_script",
+      "tamil": "நான் டின்னர் ஆர்டர் பண்ணல, வீட்டுல சமைச்சேன்.",
+      "reviewed_at": "2026-10-17T14:05:15.090015+00:00"
+    },
+    "69": {
+      "status": "approved",
+      "type": "faithful_script",
+      "tamil": "நீ ரெண்டு ஆப்ஷன்ஸ் சொன்ன, ஆனா எனக்கு மூணாவது ஆப்ஷன் வேணும்.",
+      "reviewed_at": "2026-10-17T14:05:15.621979+00:00"
+    },
+    "70": {
+      "status": "approved",
+      "type": "faithful_script",
+      "tamil": "கோட் ரன் ஆகுது, ஆனா அவுட்புட் கரெக்டா இல்ல.",
+      "reviewed_at": "2026-10-17T14:05:16.130724+00:00"
+    },
+    "71": {
+      "status": "approved",
+      "type": "faithful_script",
+      "tamil": "எனக்கு அந்த டாபிக் இப்போ டிஸ்கஸ் பண்ண விருப்பம் இல்ல.",
+      "reviewed_at": "2026-10-17T14:05:16.806818+00:00"
+    },
+    "72": {
+      "status": "approved",
+      "type": "faithful_script",
+      "tamil": "நான் உன்கிட்ட டிரான்ஸ்லேஷன் கேக்கல, மீனிங் கேட்டேன்.",
+      "reviewed_at": "2026-10-17T14:05:17.407935+00:00"
+    },
+    "73": {
+      "status": "approved",
+      "type": "faithful_script",
+      "tamil": "இந்த டாஸ்க் முடிஞ்சிடுச்சுனு சொல்லல, ஆல்மோஸ்ட் முடிஞ்சிடுச்சு.",
+      "reviewed_at": "2026-10-17T14:05:17.841065+00:00"
+    },
+    "74": {
+      "status": "approved",
+      "type": "faithful_script",
+      "tamil": "நீ சொல்ற அசம்ப்ஷன் தப்பு, நான் பிகினர் இல்ல.",
+      "reviewed_at": "2026-10-17T14:05:18.399361+00:00"
+    },
+    "75": {
+      "status": "approved",
+      "type": "faithful_script",
+      "tamil": "இன்னைக்கு ஒரு நல்ல நியூஸ் கிடைச்சுச்சு, உன்கிட்ட ஷேர் பண்ணணும்!",
+      "reviewed_at": "2026-10-17T14:05:19.107354+00:00"
+    },
+    "76": {
+      "status": "approved",
+      "type": "faithful_script",
+      "tamil": "என் ப்ராஜெக்ட் செலக்ட் ஆயிடுச்சு! ரொம்ப சந்தோஷமா இருக்கு.",
+      "reviewed_at": "2026-10-17T14:05:19.546714+00:00"
+    },
+    "77": {
+      "status": "approved",
+      "type": "faithful_script",
+      "tamil": "என் ஃப்ரெண்ட் எனக்கு சர்ப்ரைஸ் கிஃப்ட் கொடுத்தான்!",
+      "reviewed_at": "2026-10-17T14:05:20.206644+00:00"
+    },
+    "78": {
+      "status": "approved",
+      "type": "faithful_script",
+      "tamil": "நான் ரொம்ப நாளா வெயிட் பண்ண ஆப்பர்ச்சுனிட்டி கிடைச்சிடுச்சு.",
+      "reviewed_at": "2026-10-17T14:05:20.835740+00:00"
+    },
+    "79": {
+      "status": "approved",
+      "type": "faithful_script",
+      "tamil": "இந்த அச்சீவ்மெண்ட்டை கொஞ்சம் செலிப்ரேட் பண்ணலாம்!",
+      "reviewed_at": "2026-10-17T14:05:21.350155+00:00"
+    },
+    "80": {
+      "status": "approved",
+      "type": "faithful_script",
+      "tamil": "ஃபுல் டே ட்ரை பண்ணியும் இந்த பக் ஃபிக்ஸ் ஆகல. எரிச்சலா இருக்கு.",
+      "reviewed_at": "2026-10-17T14:05:21.959153+00:00"
+    },
+    "81": {
+      "status": "approved",
+      "type": "faithful_script",
+      "tamil": "அதே மிஸ்டேக் திரும்ப நடந்துடுச்சு. ரொம்ப ஃப்ரஸ்ட்ரேட் ஆகுது.",
+      "reviewed_at": "2026-10-17T14:05:22.518518+00:00"
+    },
+    "82": {
+      "status": "approved",
+      "type": "faithful_script",
+      "tamil": "நீ என்னை இன்டரப்ட் பண்ணாத, ஃபர்ஸ்ட் நான் சொல்றத கேளு.",
+      "reviewed_at": "2026-10-17T14:05:23.129651+00:00"
+    },
+    "83": {
+      "status": "approved",
+      "type": "faithful_script",
+      "tamil": "பிளான் பண்ணதெல்லாம் லாஸ்ட் மினிட்ல சேஞ்ச் ஆயிடுச்சு. கடுப்பா இருக்கு.",
+      "reviewed_at": "2026-10-17T14:05:23.791063+00:00"
+    },
+    "84": {
+      "status": "approved",
+      "type": "faithful_script",
+      "tamil": "என் கேள்விக்கு ஸ்ட்ரெயிட்டா ஆன்சர் சொல்லு, சுத்தி பேசாத.",
+      "reviewed_at": "2026-10-17T14:05:24.476592+00:00"
+    },
+    "85": {
+      "status": "approved",
+      "type": "faithful_script",
+      "tamil": "இன்னைக்கு எனக்கு எதுவும் பண்ணத் தோணல.",
+      "reviewed_at": "2026-10-17T14:05:25.521668+00:00"
+    },
+    "86": {
+      "status": "approved",
+      "type": "faithful_script",
+      "tamil": "நிறைய எஃபர்ட் போட்டேன், ஆனா யாரும் அப்ரிஷியேட் பண்ணல.",
+      "reviewed_at": "2026-10-17T14:05:26.200987+00:00"
+    },
+    "87": {
+      "status": "approved",
+      "type": "faithful_script",
+      "tamil": "கொஞ்சம் மனசு கஷ்டமா இருக்கு, உன்கிட்ட பேசணும்.",
+      "reviewed_at": "2026-10-17T14:05:26.949093+00:00"
+    },
+    "88": {
+      "status": "approved",
+      "type": "normalization",
+      "tamil": "நான் எதிர்பார்த்த ரிசல்ட் கிடைக்கல. டிஸப்பாயிண்ட்டா இருக்கேன்.",
+      "reviewed_at": "2026-10-17T14:05:27.866734+00:00"
+    },
+    "89": {
+      "status": "approved",
+      "type": "faithful_script",
+      "tamil": "இன்னைக்கு கொஞ்சம் சைலண்டா இருக்கணும் போல இருக்கு.",
+      "reviewed_at": "2026-10-17T14:05:28.522050+00:00"
+    },
+    "90": {
+      "status": "approved",
+      "type": "faithful_script",
+      "tamil": "புது டீம் கூட வொர்க் பண்ண கொஞ்சம் நெர்வஸா இருக்கு.",
+      "reviewed_at": "2026-10-17T14:05:29.280106+00:00"
+    },
+    "91": {
+      "status": "approved",
+      "type": "faithful_script",
+      "tamil": "பிரசன்டேஷன் ஸ்டார்ட் பண்ண முன்னாடி ஹார்ட் ஃபாஸ்டா பீட் ஆகுது.",
+      "reviewed_at": "2026-10-17T14:05:30.149400+00:00"
+    },
+    "92": {
+      "status": "approved",
+      "type": "faithful_script",
+      "tamil": "என் டிசிஷன் கரெக்டா இருக்குமானு டவுட்டா இருக்கு.",
+      "reviewed_at": "2026-10-17T14:05:30.786316+00:00"
+    },
+    "93": {
+      "status": "approved",
+      "type": "faithful_script",
+      "tamil": "ஃபர்ஸ்ட் டே ஆபீஸுக்கு போறேன், கொஞ்சம் டென்ஷனா இருக்கு.",
+      "reviewed_at": "2026-10-17T14:05:31.766993+00:00"
+    },
+    "94": {
+      "status": "approved",
+      "type": "faithful_script",
+      "tamil": "ஏதாவது மிஸ்டேக் பண்ணிடுவேனோனு பயமா இருக்கு.",
+      "reviewed_at": "2026-10-17T14:05:32.463925+00:00"
+    },
+    "95": {
+      "status": "approved",
+      "type": "faithful_script",
+      "tamil": "எல்லாரும் பிஸியா இருக்காங்க, யாராவது கூட பேச ஆசையா இருக்கு.",
+      "reviewed_at": "2026-10-17T14:05:33.791924+00:00"
+    },
+    "96": {
+      "status": "approved",
+      "type": "faithful_script",
+      "tamil": "நான் சொல்றத யாரும் சீரியஸா எடுத்துக்க மாட்டேங்கறாங்க.",
+      "reviewed_at": "2026-10-17T14:05:34.488714+00:00"
+    },
+    "97": {
+      "status": "approved",
+      "type": "faithful_script",
+      "tamil": "இன்னைக்கு அட்வைஸ் எல்லாம் வேண்டாம், கொஞ்சம் கேஷுவலா பேசலாம்.",
+      "reviewed_at": "2026-10-17T14:05:34.999087+00:00"
+    },
+    "98": {
+      "status": "approved_corrected",
+      "type": "corrected",
+      "tamil": "எனக்கு இப்போ சால்யூஷன் வேணும், கொஞ்சம் சப்போர்ட் போதும்.",
+      "reviewed_at": "2026-10-17T14:05:35.554429+00:00"
+    },
+    "99": {
+      "status": "approved",
+      "type": "faithful_script",
+      "tamil": "நான் பேசுறதை முதல்ல ஃபுல்லா கேட்டுட்டு அப்புறம் ரெஸ்பாண்ட் பண்ணு.",
+      "reviewed_at": "2026-10-17T14:05:36.156268+00:00"
+    },
+    "100": {
+      "status": "approved",
+      "type": "faithful_script",
+      "tamil": "அதுக்கு ஒரு சிம்பிள் பைதான் எக்ஸாம்பிள் காட்டு.",
+      "reviewed_at": "2026-10-17T14:05:36.751302+00:00"
+    },
+    "101": {
+      "status": "approved",
+      "type": "faithful_script",
+      "tamil": "கொஞ்சம் பிளேஃபுல்லா இருக்கணும்.",
+      "reviewed_at": "2026-10-17T14:05:45.199122+00:00"
+    },
+    "102": {
+      "status": "approved",
+      "type": "normalization",
+      "tamil": "எ.ஐ. என்சினியயர் ரோல்-க்கு தண்டிக்கள் கேள்விகளை முதல்ல ப்ரீபர் பண்ணலாம்.",
+      "reviewed_at": "2026-10-17T14:05:45.755718+00:00"
+    },
+    "103": {
+      "status": "approved",
+      "type": "normalization",
+      "tamil": "இதோ traceback. Last line-aa explain pannunga.",
+      "reviewed_at": "2026-10-17T14:05:46.494360+00:00"
+    },
+    "104": {
+      "status": "approved",
+      "type": "faithful_script",
+      "tamil": "ஆமா, ஆனா எக்யூப்மென்ட் இல்லாம.",
+      "reviewed_at": "2026-10-17T14:05:47.294518+00:00"
+    },
+    "105": {
+      "status": "approved",
+      "type": "faithful_script",
+      "tamil": "தினமும் எனக்கு பதினைந்து நிமிஷம்தான் நேரம் இருக்கு.",
+      "reviewed_at": "2026-10-17T14:05:48.097126+00:00"
+    },
+    "106": {
+      "status": "approved",
+      "type": "faithful_script",
+      "tamil": "சயின்ஸ் ஃபிக்ஷனா இருக்கணும், ஆனா ரொம்ப சிக்கலா வேண்டாம்.",
+      "reviewed_at": "2026-10-17T14:05:48.747058+00:00"
+    },
+    "107": {
+      "status": "approved_corrected",
+      "type": "corrected",
+      "tamil": "FastAPI-yum MongoDB-yum use panren.",
+      "reviewed_at": "2026-10-17T14:05:49.368402+00:00"
+    },
+    "108": {
+      "status": "approved",
+      "type": "faithful_script",
+      "tamil": "ஆமா, ஆனா அர்த்தம் மாறக்கூடாது.",
+      "reviewed_at": "2026-10-17T14:05:49.937302+00:00"
+    },
+    "109": {
+      "status": "approved_corrected",
+      "type": "corrected",
+      "tamil": "HR-க்கு, பணிவாகவும், சுருக்கமாகவும் இருங்கள்.",
+      "reviewed_at": "2026-10-17T14:05:50.448230+00:00"
+    },
+    "110": {
+      "status": "approved_corrected",
+      "type": "corrected",
+      "tamil": "ரேண்டம் ஃபாரஸ்ட்டும் XGBoost-ும். இன்ஃபரன்ஸ் வேகம் முக்கியம்.",
+      "reviewed_at": "2026-10-17T14:05:51.008092+00:00"
+    },
+    "111": {
+      "status": "approved",
+      "type": "faithful_script",
+      "tamil": "மெலடி மெதுவா இருக்கணும், ஆனா கோரஸ் மட்டும் எனர்ஜெட்டிக்கா இருக்கணும்.",
+      "reviewed_at": "2026-10-17T14:05:51.511410+00:00"
+    },
+    "112": {
+      "status": "approved",
+      "type": "faithful_script",
+      "tamil": "5000 ரூபாய்க்குள்ள முடிக்கணும்.",
+      "reviewed_at": "2026-10-17T14:05:52.052512+00:00"
+    },
+    "113": {
+      "status": "approved",
+      "type": "faithful_script",
+      "tamil": "ரிட்ரீவல் பகுதியை மட்டும் கொஞ்சம் விரிவா சொல்லு.",
+      "reviewed_at": "2026-10-17T14:05:52.568926+00:00"
+    },
+    "114": {
+      "status": "approved",
+      "type": "faithful_script",
+      "tamil": "வெஜ் தான். வீட்டுல paneer இருக்கு.",
+      "reviewed_at": "2026-10-17T14:05:53.152036+00:00"
+    },
+    "115": {
+      "status": "approved",
+      "type": "faithful_script",
+      "tamil": "அதே எரர்தான் வருது, ஆனா வேற லைன்ல.",
+      "reviewed_at": "2026-10-17T14:05:53.739764+00:00"
+    },
+    "116": {
+      "status": "approved_corrected",
+      "type": "corrected",
+      "tamil": "சைபர் செக்யூரிட்டி (Cybersecurity) beginners‑க்கு எளிதாக புரிய வேண்டும்.",
+      "reviewed_at": "2026-10-17T14:05:54.280341+00:00"
+    },
+    "117": {
+      "status": "approved_corrected",
+      "type": "corrected",
+      "tamil": "நாம் நேரடியாக இரண்டாவது ஸ்டெப்‑க்கு போகலாமா?",
+      "reviewed_at": "2026-10-17T14:05:54.872510+00:00"
+    },
+    "118": {
+      "status": "approved",
+      "type": "faithful_script",
+      "tamil": "இல்ல, லேப்டாப் அப்டேட் பண்ணதுக்கு அப்புறம் தான் இப்படி ஆச்சு.",
+      "reviewed_at": "2026-10-17T14:05:55.490759+00:00"
+    },
+    "119": {
+      "status": "approved",
+      "type": "faithful_script",
+      "tamil": "கிராமரை மட்டும் சரி பண்ணு. ஸ்டைலை மாத்தாதே.",
+      "reviewed_at": "2026-10-17T14:05:55.955959+00:00"
+    },
+    "120": {
+      "status": "approved",
+      "type": "faithful_script",
+      "tamil": "இருங்க, அதுல ஒரு டவுட் இருக்கு.",
+      "reviewed_at": "2026-10-17T14:05:56.490268+00:00"
+    },
+    "121": {
+      "status": "approved",
+      "type": "faithful_script",
+      "tamil": "முதல்ல அவசரமானதை மட்டும் லிஸ்ட் பண்ணு.",
+      "reviewed_at": "2026-10-17T14:05:57.066334+00:00"
+    },
+    "122": {
+      "status": "approved",
+      "type": "faithful_script",
+      "tamil": "பேக்கிரவுண்ட் மட்டும் ரிமூவ் பண்ணு, ஃபேஸ் டச் பண்ணாத.",
+      "reviewed_at": "2026-10-17T14:05:57.685806+00:00"
+    },
+    "123": {
+      "status": "approved",
+      "type": "faithful_script",
+      "tamil": "ஆக்சுவலா டங்கிலீஷ்ல பேசு, நேச்சுரலா.",
+      "reviewed_at": "2026-10-17T14:05:58.172232+00:00"
+    },
+    "124": {
+      "status": "approved",
+      "type": "faithful_script",
+      "tamil": "டீப் லெர்னிங். முதல்ல ஃபண்டமென்டல்ஸ், அப்புறம் புராஜெக்ட்ஸ்.",
+      "reviewed_at": "2026-10-17T14:05:58.886043+00:00"
+    }
+  }
+}

@@ -1,0 +1,62 @@
+[
+  {
+    "input": "Enakku coffee vendaam, tea podhum.",
+    "expected": "I don't want coffee; tea is enough.",
+    "response": "I don’t want coffee; tea is enough.",
+    "retrieved_ids": [
+      "RIA-LF-NC-001",
+      "RIA-LF-NC-008",
+      "RIA-LF-EV-008"
+    ]
+  },
+  {
+    "input": "Enakku tea vendaam, coffee podhum.",
+    "expected": "I don't want tea; coffee is enough.",
+    "response": "I don't want tea, I want coffee.",
+    "retrieved_ids": [
+      "RIA-LF-NC-008",
+      "RIA-LF-EV-008",
+      "RIA-LF-NC-012"
+    ]
+  },
+  {
+    "input": "Naan inniku office-ku pogala.",
+    "expected": "I didn't go to the office today.",
+    "response": "I did not go to the office today.",
+    "retrieved_ids": [
+      "RIA-LF-PV-001",
+      "RIA-LF-EI-019",
+      "RIA-LF-PV-017"
+    ]
+  },
+  {
+    "input": "Enakku konjam bayama irukku.",
+    "expected": "I'm feeling a little scared.",
+    "response": "I’m a little scared.",
+    "retrieved_ids": [
+      "RIA-LF-EV-015",
+      "RIA-LF-EI-020",
+      "RIA-LF-PV-002"
+    ]
+  },
+  {
+    "input": "Avan netru school-ku varala.",
+    "expected": "He didn't come to school yesterday.",
+    "response": "He didn’t go to school yesterday.",
+    "retrieved_ids": [
+      "RIA-LF-PV-003",
+      "RIA-LF-NC-011",
+      "RIA-LF-EV-019"
+    ]
+  },
+  {
+    "input": "Naalaikku meeting-ku vara mudiyadhu.",
+    "expected": "I won't be able to attend tomorrow's meeting.",
+    "response": "I cannot attend tomorrow’s meeting.",
+    "retrieved_ids": [
+      "RIA-LF-NC-005",
+      "RIA-LF-PV-001",
+      "RIA-LF-PV-017"
+    ]
+  }
+]

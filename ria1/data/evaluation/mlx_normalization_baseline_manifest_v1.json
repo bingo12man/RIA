@@ -1,0 +1,13 @@
+{
+  "module": "4.62",
+  "model": "mlx-community/Qwen3-1.7B-4bit",
+  "adapter": null,
+  "max_tokens": 180,
+  "system_prompt": "Convert conversational Tanglish into natural Tamil script. Preserve the exact meaning, pronouns, negation, tense, requests, questions, quantities and English technical names. Do not answer, explain, or translate into English. Return only the Tamil-script sentence.",
+  "validation_sha256": "510cfcdba958f0117585b6b310a77bef07e21b5714923a4ccbdd990c7bbd8fca",
+  "sft_manifest_sha256": "2512e254edca826ef0df4b1103f2cedd8ff596e507ba7e600c6253e350651ffc",
+  "template_enable_thinking": false,
+  "status": "completed",
+  "completed_at": "2026-10-17T15:12:06.508509+00:00",
+  "output_sha256": "3a88430ff1622a08fa50e858f471e47afc4292203b4a3043def4b73e4a2056b2"
+}

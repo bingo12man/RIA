@@ -1,0 +1,887 @@
+{
+  "module": "4.56",
+  "source": "ria1/data/releases/language_foundation_v1/meaning_reference.jsonl",
+  "source_sha256": "ac750794247601850c3e9a539ee027e40be47b5a7331af42c381cd555a88db59",
+  "total_source_records": 124,
+  "candidate_pairs": 124,
+  "missing_pair_indices": [],
+  "approved_for_training": 0,
+  "status": "requires_pair_level_review",
+  "limitations": [
+    "Existing Tamil equivalents may paraphrase.",
+    "Some examples may normalize vocabulary.",
+    "Pair quality has not been independently verified.",
+    "Do not train before approving pair types.",
+    "Frozen evaluation examples must remain excluded."
+  ],
+  "pairs": [
+    {
+      "source_index": 1,
+      "tanglish": "Naan innaiku office-ku late-ah vandhen.",
+      "tamil": "நான் இன்னைக்கு ஆபீஸுக்கு லேட்டா வந்தேன்.",
+      "review_status": "pending",
+      "pair_type": "unclassified"
+    },
+    {
+      "source_index": 2,
+      "tanglish": "Nee enakku konjam help pannuva?",
+      "tamil": "நீ எனக்கு கொஞ்சம் ஹெல்ப் பண்ணுவியா?",
+      "review_status": "pending",
+      "pair_type": "unclassified"
+    },
+    {
+      "source_index": 3,
+      "tanglish": "Avan nethu enakku call pannaan.",
+      "tamil": "அவன் நேத்து எனக்கு கால் பண்ணான்.",
+      "review_status": "pending",
+      "pair_type": "unclassified"
+    },
+    {
+      "source_index": 4,
+      "tanglish": "Ava innaiku leave eduthirukka.",
+      "tamil": "அவ இன்னைக்கு லீவு எடுத்திருக்கா.",
+      "review_status": "pending",
+      "pair_type": "unclassified"
+    },
+    {
+      "source_index": 5,
+      "tanglish": "Naanga weekend trip plan panrom.",
+      "tamil": "நாங்க வீக்கெண்ட் ட்ரிப் பிளான் பண்றோம்.",
+      "review_status": "pending",
+      "pair_type": "unclassified"
+    },
+    {
+      "source_index": 6,
+      "tanglish": "Neenga enga poringa?",
+      "tamil": "நீங்க எங்க போறீங்க?",
+      "review_status": "pending",
+      "pair_type": "unclassified"
+    },
+    {
+      "source_index": 7,
+      "tanglish": "Avanga already vandhutaanga.",
+      "tamil": "அவங்க ஆல்ரெடி வந்துட்டாங்க.",
+      "review_status": "pending",
+      "pair_type": "unclassified"
+    },
+    {
+      "source_index": 8,
+      "tanglish": "Naan saapadu ready pannitten.",
+      "tamil": "நான் சாப்பாடு ரெடி பண்ணிட்டேன்.",
+      "review_status": "pending",
+      "pair_type": "unclassified"
+    },
+    {
+      "source_index": 9,
+      "tanglish": "Nee sonnadhu enakku puriyala.",
+      "tamil": "நீ சொன்னது எனக்கு புரியல.",
+      "review_status": "pending",
+      "pair_type": "unclassified"
+    },
+    {
+      "source_index": 10,
+      "tanglish": "En friend enakku message anuppinaan.",
+      "tamil": "என் ஃப்ரெண்ட் எனக்கு மெசேஜ் அனுப்பினான்.",
+      "review_status": "pending",
+      "pair_type": "unclassified"
+    },
+    {
+      "source_index": 11,
+      "tanglish": "Naan ippo dhaan ezhundhen.",
+      "tamil": "நான் இப்போதான் எழுந்தேன்.",
+      "review_status": "pending",
+      "pair_type": "unclassified"
+    },
+    {
+      "source_index": 12,
+      "tanglish": "Nee eppo thirumbi varuva?",
+      "tamil": "நீ எப்போ திரும்பி வருவ?",
+      "review_status": "pending",
+      "pair_type": "unclassified"
+    },
+    {
+      "source_index": 13,
+      "tanglish": "Ava enna wait panna sonna.",
+      "tamil": "அவ என்னை வெயிட் பண்ண சொன்னா.",
+      "review_status": "pending",
+      "pair_type": "unclassified"
+    },
+    {
+      "source_index": 14,
+      "tanglish": "Naanga innum start pannala.",
+      "tamil": "நாங்க இன்னும் ஸ்டார்ட் பண்ணல.",
+      "review_status": "pending",
+      "pair_type": "unclassified"
+    },
+    {
+      "source_index": 15,
+      "tanglish": "Naan daily konjam guitar practice panren.",
+      "tamil": "நான் டெய்லி கொஞ்சம் கிட்டார் பிராக்டிஸ் பண்றேன்.",
+      "review_status": "pending",
+      "pair_type": "unclassified"
+    },
+    {
+      "source_index": 16,
+      "tanglish": "Nee indha question-ku answer sollu.",
+      "tamil": "நீ இந்த கேள்விக்கு பதில் சொல்லு",
+      "review_status": "pending",
+      "pair_type": "unclassified"
+    },
+    {
+      "source_index": 17,
+      "tanglish": "Avanga enna invite pannanga.",
+      "tamil": "அவங்க என்னை இன்வைட் பண்ணாங்க.",
+      "review_status": "pending",
+      "pair_type": "unclassified"
+    },
+    {
+      "source_index": 18,
+      "tanglish": "Naan unakku oru idea solren.",
+      "tamil": "நான் உனக்கு ஒரு ஐடியா சொல்றேன்.",
+      "review_status": "pending",
+      "pair_type": "unclassified"
+    },
+    {
+      "source_index": 19,
+      "tanglish": "Enakku innoru chance kedaichirukku.",
+      "tamil": "எனக்கு இன்னொரு சான்ஸ் கிடைச்சிருக்கு.",
+      "review_status": "pending",
+      "pair_type": "unclassified"
+    },
+    {
+      "source_index": 20,
+      "tanglish": "Nee enna kekkura nu puriyudhu.",
+      "tamil": "நீ என்ன கேக்குறன்னு புரியுது.",
+      "review_status": "pending",
+      "pair_type": "unclassified"
+    },
+    {
+      "source_index": 21,
+      "tanglish": "Naan idha munnaadi try pannirukken.",
+      "tamil": "நான் இதை முன்னாடி ட்ரை பண்ணிருக்கேன்",
+      "review_status": "pending",
+      "pair_type": "unclassified"
+    },
+    {
+      "source_index": 22,
+      "tanglish": "Naama rendu perum serndhu plan pannalaam.",
+      "tamil": "நாம ரெண்டு பேரும் சேர்ந்து பிளான் பண்ணலாம்.",
+      "review_status": "pending",
+      "pair_type": "unclassified"
+    },
+    {
+      "source_index": 23,
+      "tanglish": "En thambi innaiku exam ezhudhuraan.",
+      "tamil": "என் தம்பி இன்னைக்கு எக்ஸாம் எழுதுறான்.",
+      "review_status": "pending",
+      "pair_type": "unclassified"
+    },
+    {
+      "source_index": 24,
+      "tanglish": "En akka enakku advice kuduthaanga.",
+      "tamil": "என் அக்கா எனக்கு அட்வைஸ் கொடுத்தாங்க.",
+      "review_status": "pending",
+      "pair_type": "unclassified"
+    },
+    {
+      "source_index": 25,
+      "tanglish": "Indha velai mudikka romba neram aagudhu.",
+      "tamil": "இந்த வேலையை முடிக்க ரொம்ப நேரம் ஆகுது.",
+      "review_status": "pending",
+      "pair_type": "unclassified"
+    },
+    {
+      "source_index": 26,
+      "tanglish": "Saapadu saapida time aayiduchu.",
+      "tamil": "சாப்பாடு சாப்பிட டைம் ஆயிடுச்சு.",
+      "review_status": "pending",
+      "pair_type": "unclassified"
+    },
+    {
+      "source_index": 27,
+      "tanglish": "Enakku konjam thookam varudhu.",
+      "tamil": "எனக்கு கொஞ்சம் தூக்கம் வருது.",
+      "review_status": "pending",
+      "pair_type": "unclassified"
+    },
+    {
+      "source_index": 28,
+      "tanglish": "Innaiku climate romba nalla irukku.",
+      "tamil": "இன்னைக்கு கிளைமேட் ரொம்ப நல்லா இருக்கு.",
+      "review_status": "pending",
+      "pair_type": "unclassified"
+    },
+    {
+      "source_index": 29,
+      "tanglish": "Nethu full-ah mazha peinjuchu.",
+      "tamil": "நேத்து ஃபுல்லா மழை பெய்ஞ்சுச்சு.",
+      "review_status": "pending",
+      "pair_type": "unclassified"
+    },
+    {
+      "source_index": 30,
+      "tanglish": "En bag enga vechen nu theriyala.",
+      "tamil": "என் பேக் எங்க வெச்சேன்னு தெரியல.",
+      "review_status": "pending",
+      "pair_type": "unclassified"
+    },
+    {
+      "source_index": 31,
+      "tanglish": "Indha shirt enakku pudichirukku.",
+      "tamil": "இந்த ஷர்ட் எனக்கு பிடிச்சிருக்கு.",
+      "review_status": "pending",
+      "pair_type": "unclassified"
+    },
+    {
+      "source_index": 32,
+      "tanglish": "Enakku oru coffee kudikkanum pola irukku.",
+      "tamil": "எனக்கு ஒரு காபி குடிக்கணும் போல இருக்கு.",
+      "review_status": "pending",
+      "pair_type": "unclassified"
+    },
+    {
+      "source_index": 33,
+      "tanglish": "Konjam medhuva pesu.",
+      "tamil": "கொஞ்சம் மெதுவா பேசு.",
+      "review_status": "pending",
+      "pair_type": "unclassified"
+    },
+    {
+      "source_index": 34,
+      "tanglish": "Indha road-la traffic adhigama irukku.",
+      "tamil": "இந்த ரோட்ல டிராஃபிக் அதிகமா இருக்கு.",
+      "review_status": "pending",
+      "pair_type": "unclassified"
+    },
+    {
+      "source_index": 35,
+      "tanglish": "Innaiku enakku romba velai irukku.",
+      "tamil": "இன்னைக்கு எனக்கு ரொம்ப வேலை இருக்கு.",
+      "review_status": "pending",
+      "pair_type": "unclassified"
+    },
+    {
+      "source_index": 36,
+      "tanglish": "Indha idea nalla irukku nu thonudhu.",
+      "tamil": "இந்த ஐடியா நல்லா இருக்குனு தோணுது.",
+      "review_status": "pending",
+      "pair_type": "unclassified"
+    },
+    {
+      "source_index": 37,
+      "tanglish": "Enakku indha matter puriyave illa.",
+      "tamil": "எனக்கு இந்த மேட்டர் புரியவே இல்ல.",
+      "review_status": "pending",
+      "pair_type": "unclassified"
+    },
+    {
+      "source_index": 38,
+      "tanglish": "Konjam yosichu solren.",
+      "tamil": "கொஞ்சம் யோசிச்சு சொல்றேன்.",
+      "review_status": "pending",
+      "pair_type": "unclassified"
+    },
+    {
+      "source_index": 39,
+      "tanglish": "Enakku idhu konjam kashtama irukku.",
+      "tamil": "எனக்கு இது கொஞ்சம் கஷ்டமா இருக்கு.",
+      "review_status": "pending",
+      "pair_type": "unclassified"
+    },
+    {
+      "source_index": 40,
+      "tanglish": "Innum konjam neram venum.",
+      "tamil": "இன்னும் கொஞ்சம் நேரம் வேணும்.",
+      "review_status": "pending",
+      "pair_type": "unclassified"
+    },
+    {
+      "source_index": 41,
+      "tanglish": "Indha paattu kekka nalla irukku.",
+      "tamil": "இந்த பாட்டு கேக்க நல்லா இருக்கு.",
+      "review_status": "pending",
+      "pair_type": "unclassified"
+    },
+    {
+      "source_index": 42,
+      "tanglish": "Enna panradhu nu theriyama irukken.",
+      "tamil": "என்ன பண்றதுனு தெரியாம இருக்கேன்.",
+      "review_status": "pending",
+      "pair_type": "unclassified"
+    },
+    {
+      "source_index": 43,
+      "tanglish": "Adha marandhuten, nyabagam varala.",
+      "tamil": "அத மறந்துட்டேன், ஞாபகம் வரல.",
+      "review_status": "pending",
+      "pair_type": "unclassified"
+    },
+    {
+      "source_index": 44,
+      "tanglish": "Nee solradhu correct-ah irukku.",
+      "tamil": "நீ சொல்றது கரெக்டா இருக்கு.",
+      "review_status": "pending",
+      "pair_type": "unclassified"
+    },
+    {
+      "source_index": 45,
+      "tanglish": "Enakku indha situation pudikkala.",
+      "tamil": "எனக்கு இந்த சிச்சுவேஷன் பிடிக்கல.",
+      "review_status": "pending",
+      "pair_type": "unclassified"
+    },
+    {
+      "source_index": 46,
+      "tanglish": "Innaiku mood seri illa.",
+      "tamil": "இன்னைக்கு மூட் சரி இல்ல.",
+      "review_status": "pending",
+      "pair_type": "unclassified"
+    },
+    {
+      "source_index": 47,
+      "tanglish": "Naan konjam relax panna poren.",
+      "tamil": "நான் கொஞ்சம் ரிலாக்ஸ் பண்ணப் போறேன்.",
+      "review_status": "pending",
+      "pair_type": "unclassified"
+    },
+    {
+      "source_index": 48,
+      "tanglish": "Indha place romba amaidhiya irukku.",
+      "tamil": "இந்த பிளேஸ் ரொம்ப அமைதியா இருக்கு.",
+      "review_status": "pending",
+      "pair_type": "unclassified"
+    },
+    {
+      "source_index": 49,
+      "tanglish": "Innum konjam practice panna improve aagum.",
+      "tamil": "இன்னும் கொஞ்சம் பிராக்டிஸ் பண்ணா இம்ப்ரூவ் ஆகும்.",
+      "review_status": "pending",
+      "pair_type": "unclassified"
+    },
+    {
+      "source_index": 50,
+      "tanglish": "Enakku tea vendaam, coffee podhum.",
+      "tamil": "எனக்கு டீ வேண்டாம், காபி போதும்.",
+      "review_status": "pending",
+      "pair_type": "unclassified"
+    },
+    {
+      "source_index": 51,
+      "tanglish": "Naan andha file-ah delete pannala.",
+      "tamil": "நான் அந்த ஃபைலை டெலீட் பண்ணல.",
+      "review_status": "pending",
+      "pair_type": "unclassified"
+    },
+    {
+      "source_index": 52,
+      "tanglish": "Innum payment varala.",
+      "tamil": "இன்னும் பேமெண்ட் வரல.",
+      "review_status": "pending",
+      "pair_type": "unclassified"
+    },
+    {
+      "source_index": 53,
+      "tanglish": "Idhu enoda laptop illa.",
+      "tamil": "இது என்னோட லேப்டாப் இல்ல.",
+      "review_status": "pending",
+      "pair_type": "unclassified"
+    },
+    {
+      "source_index": 54,
+      "tanglish": "Meeting cancel aagala, postpone aayiduchu.",
+      "tamil": "மீட்டிங் கேன்சல் ஆகல, போஸ்ட்போன் ஆயிடுச்சு.",
+      "review_status": "pending",
+      "pair_type": "unclassified"
+    },
+    {
+      "source_index": 55,
+      "tanglish": "Naan kovama illa, konjam disappointed-ah irukken.",
+      "tamil": "நான் கோவமா இல்ல, கொஞ்சம் டிஸப்பாயிண்ட்டா இருக்கேன்.",
+      "review_status": "pending",
+      "pair_type": "unclassified"
+    },
+    {
+      "source_index": 56,
+      "tanglish": "Indha answer correct illa.",
+      "tamil": "இந்த ஆன்சர் கரெக்ட் இல்ல.",
+      "review_status": "pending",
+      "pair_type": "unclassified"
+    },
+    {
+      "source_index": 57,
+      "tanglish": "Enakku full explanation vendaam, example podhum.",
+      "tamil": "எனக்கு ஃபுல் எக்ஸ்ப்ளனேஷன் வேண்டாம், எக்ஸாம்பிள் போதும்.",
+      "review_status": "pending",
+      "pair_type": "unclassified"
+    },
+    {
+      "source_index": 58,
+      "tanglish": "Indha app-ah naan install pannave illa.",
+      "tamil": "இந்த ஆப்பை நான் இன்ஸ்டால் பண்ணவே இல்ல.",
+      "review_status": "pending",
+      "pair_type": "unclassified"
+    },
+    {
+      "source_index": 59,
+      "tanglish": "Nee sonna date correct illa, Friday dhaan.",
+      "tamil": "நீ சொன்ன டேட் கரெக்ட் இல்ல, ஃப்ரைடே தான்.",
+      "review_status": "pending",
+      "pair_type": "unclassified"
+    },
+    {
+      "source_index": 60,
+      "tanglish": "Avan message pannala, direct-ah call pannaan.",
+      "tamil": "அவன் மெசேஜ் பண்ணல, டைரக்டா கால் பண்ணான்.",
+      "review_status": "pending",
+      "pair_type": "unclassified"
+    },
+    {
+      "source_index": 61,
+      "tanglish": "Enakku sugar illama coffee venum.",
+      "tamil": "எனக்கு சுகர் இல்லாம காபி வேணும்.",
+      "review_status": "pending",
+      "pair_type": "unclassified"
+    },
+    {
+      "source_index": 62,
+      "tanglish": "Indha problem hardware-la illa, software-la irukku.",
+      "tamil": "இந்த பிராப்ளம் ஹார்டுவேர்ல இல்ல, சாஃப்ட்வேர்ல இருக்கு.",
+      "review_status": "pending",
+      "pair_type": "unclassified"
+    },
+    {
+      "source_index": 63,
+      "tanglish": "Naan fail aagala, result innum varala.",
+      "tamil": "நான் ஃபெயில் ஆகல, ரிசல்ட் இன்னும் வரல.",
+      "review_status": "pending",
+      "pair_type": "unclassified"
+    },
+    {
+      "source_index": 64,
+      "tanglish": "Nee explain pannadhu puriyala, vera example sollu.",
+      "tamil": "நீ எக்ஸ்ப்ளெயின் பண்ணது புரியல, வேற எக்ஸாம்பிள் சொல்லு.",
+      "review_status": "pending",
+      "pair_type": "unclassified"
+    },
+    {
+      "source_index": 65,
+      "tanglish": "Adhu en question-ku answer illa.",
+      "tamil": "அது என் கேள்விக்கு பதில் இல்ல.",
+      "review_status": "pending",
+      "pair_type": "unclassified"
+    },
+    {
+      "source_index": 66,
+      "tanglish": "Andha song-ah naan ezhudhinaen, paadala.",
+      "tamil": "அந்த சாங்கை நான் எழுதினேன், பாடல.",
+      "review_status": "pending",
+      "pair_type": "unclassified"
+    },
+    {
+      "source_index": 67,
+      "tanglish": "Enakku reminder thevai illa.",
+      "tamil": "எனக்கு ரிமைண்டர் தேவையில்ல.",
+      "review_status": "pending",
+      "pair_type": "unclassified"
+    },
+    {
+      "source_index": 68,
+      "tanglish": "Naan dinner order pannala, veetla samaichen.",
+      "tamil": "நான் டின்னர் ஆர்டர் பண்ணல, வீட்டுல சமைச்சேன்.",
+      "review_status": "pending",
+      "pair_type": "unclassified"
+    },
+    {
+      "source_index": 69,
+      "tanglish": "Nee rendu options sonna, aana enakku third option venum.",
+      "tamil": "நீ ரெண்டு ஆப்ஷன்ஸ் சொன்ன, ஆனா எனக்கு மூணாவது ஆப்ஷன் வேணும்.",
+      "review_status": "pending",
+      "pair_type": "unclassified"
+    },
+    {
+      "source_index": 70,
+      "tanglish": "Code run aagudhu, aana output correct illa.",
+      "tamil": "கோட் ரன் ஆகுது, ஆனா அவுட்புட் கரெக்டா இல்ல.",
+      "review_status": "pending",
+      "pair_type": "unclassified"
+    },
+    {
+      "source_index": 71,
+      "tanglish": "Enakku andha topic ippo discuss panna viruppam illa.",
+      "tamil": "எனக்கு அந்த டாபிக் இப்போ டிஸ்கஸ் பண்ண விருப்பம் இல்ல.",
+      "review_status": "pending",
+      "pair_type": "unclassified"
+    },
+    {
+      "source_index": 72,
+      "tanglish": "Naan unkitte translation kekkala, meaning ketten.",
+      "tamil": "நான் உன்கிட்ட டிரான்ஸ்லேஷன் கேக்கல, மீனிங் கேட்டேன்.",
+      "review_status": "pending",
+      "pair_type": "unclassified"
+    },
+    {
+      "source_index": 73,
+      "tanglish": "Indha task mudinjiduchu nu sollala, almost mudinjiduchu.",
+      "tamil": "இந்த டாஸ்க் முடிஞ்சிடுச்சுனு சொல்லல, ஆல்மோஸ்ட் முடிஞ்சிடுச்சு.",
+      "review_status": "pending",
+      "pair_type": "unclassified"
+    },
+    {
+      "source_index": 74,
+      "tanglish": "Nee solra assumption thappu, naan beginner illa.",
+      "tamil": "நீ சொல்ற அசம்ப்ஷன் தப்பு, நான் பிகினர் இல்ல.",
+      "review_status": "pending",
+      "pair_type": "unclassified"
+    },
+    {
+      "source_index": 75,
+      "tanglish": "Innaiku oru nalla news kedaichuchu, unkitte share pannanum!",
+      "tamil": "இன்னைக்கு ஒரு நல்ல நியூஸ் கிடைச்சுச்சு, உன்கிட்ட ஷேர் பண்ணணும்!",
+      "review_status": "pending",
+      "pair_type": "unclassified"
+    },
+    {
+      "source_index": 76,
+      "tanglish": "En project select aayiduchu! Romba sandhoshama irukku.",
+      "tamil": "என் ப்ராஜெக்ட் செலக்ட் ஆயிடுச்சு! ரொம்ப சந்தோஷமா இருக்கு.",
+      "review_status": "pending",
+      "pair_type": "unclassified"
+    },
+    {
+      "source_index": 77,
+      "tanglish": "En friend enakku surprise gift kuduthaan!",
+      "tamil": "என் ஃப்ரெண்ட் எனக்கு சர்ப்ரைஸ் கிஃப்ட் கொடுத்தான்!",
+      "review_status": "pending",
+      "pair_type": "unclassified"
+    },
+    {
+      "source_index": 78,
+      "tanglish": "Naan romba naala wait panna opportunity kedaichiduchu.",
+      "tamil": "நான் ரொம்ப நாளா வெயிட் பண்ண ஆப்பர்ச்சுனிட்டி கிடைச்சிடுச்சு.",
+      "review_status": "pending",
+      "pair_type": "unclassified"
+    },
+    {
+      "source_index": 79,
+      "tanglish": "Indha achievement-ah konjam celebrate pannalaam!",
+      "tamil": "இந்த அச்சீவ்மெண்ட்டை கொஞ்சம் செலிப்ரேட் பண்ணலாம்!",
+      "review_status": "pending",
+      "pair_type": "unclassified"
+    },
+    {
+      "source_index": 80,
+      "tanglish": "Full day try panniyum indha bug fix aagala. Erichala irukku.",
+      "tamil": "ஃபுல் டே ட்ரை பண்ணியும் இந்த பக் ஃபிக்ஸ் ஆகல. எரிச்சலா இருக்கு.",
+      "review_status": "pending",
+      "pair_type": "unclassified"
+    },
+    {
+      "source_index": 81,
+      "tanglish": "Same mistake thirumba nadandhuduchu. Romba frustrate aagudhu.",
+      "tamil": "அதே மிஸ்டேக் திரும்ப நடந்துடுச்சு. ரொம்ப ஃப்ரஸ்ட்ரேட் ஆகுது.",
+      "review_status": "pending",
+      "pair_type": "unclassified"
+    },
+    {
+      "source_index": 82,
+      "tanglish": "Nee enna interrupt pannadha, first naan solradha kelu.",
+      "tamil": "நீ என்னை இன்டரப்ட் பண்ணாத, ஃபர்ஸ்ட் நான் சொல்றத கேளு.",
+      "review_status": "pending",
+      "pair_type": "unclassified"
+    },
+    {
+      "source_index": 83,
+      "tanglish": "Plan pannadhellam last minute-la change aayiduchu. Kadupa irukku.",
+      "tamil": "பிளான் பண்ணதெல்லாம் லாஸ்ட் மினிட்ல சேஞ்ச் ஆயிடுச்சு. கடுப்பா இருக்கு.",
+      "review_status": "pending",
+      "pair_type": "unclassified"
+    },
+    {
+      "source_index": 84,
+      "tanglish": "En question-ku straight answer sollu, suththi pesaadha.",
+      "tamil": "என் கேள்விக்கு ஸ்ட்ரெயிட்டா ஆன்சர் சொல்லு, சுத்தி பேசாத.",
+      "review_status": "pending",
+      "pair_type": "unclassified"
+    },
+    {
+      "source_index": 85,
+      "tanglish": "Innaiku enakku edhuvum panna thonala.",
+      "tamil": "இன்னைக்கு எனக்கு எதுவும் பண்ணத் தோணல.",
+      "review_status": "pending",
+      "pair_type": "unclassified"
+    },
+    {
+      "source_index": 86,
+      "tanglish": "Neraya effort potten, aana yaarum appreciate pannala.",
+      "tamil": "நிறைய எஃபர்ட் போட்டேன், ஆனா யாரும் அப்ரிஷியேட் பண்ணல.",
+      "review_status": "pending",
+      "pair_type": "unclassified"
+    },
+    {
+      "source_index": 87,
+      "tanglish": "Konjam manasu kashtama irukku, unkitta pesanum.",
+      "tamil": "கொஞ்சம் மனசு கஷ்டமா இருக்கு, உன்கிட்ட பேசணும்.",
+      "review_status": "pending",
+      "pair_type": "unclassified"
+    },
+    {
+      "source_index": 88,
+      "tanglish": "Naan expect panna result kedaikkala. Disappointed-ah irukken.",
+      "tamil": "நான் எதிர்பார்த்த ரிசல்ட் கிடைக்கல. டிஸப்பாயிண்ட்டா இருக்கேன்.",
+      "review_status": "pending",
+      "pair_type": "unclassified"
+    },
+    {
+      "source_index": 89,
+      "tanglish": "Innaiku konjam silent-ah irukkanum pola irukku.",
+      "tamil": "இன்னைக்கு கொஞ்சம் சைலண்டா இருக்கணும் போல இருக்கு.",
+      "review_status": "pending",
+      "pair_type": "unclassified"
+    },
+    {
+      "source_index": 90,
+      "tanglish": "Pudhu team-kooda work panna konjam nervous-ah irukku.",
+      "tamil": "புது டீம் கூட வொர்க் பண்ண கொஞ்சம் நெர்வஸா இருக்கு.",
+      "review_status": "pending",
+      "pair_type": "unclassified"
+    },
+    {
+      "source_index": 91,
+      "tanglish": "Presentation start panna munnaadi heart fast-ah beat aagudhu.",
+      "tamil": "பிரசன்டேஷன் ஸ்டார்ட் பண்ண முன்னாடி ஹார்ட் ஃபாஸ்டா பீட் ஆகுது.",
+      "review_status": "pending",
+      "pair_type": "unclassified"
+    },
+    {
+      "source_index": 92,
+      "tanglish": "En decision correct-ah irukkuma nu doubt-ah irukku.",
+      "tamil": "என் டிசிஷன் கரெக்டா இருக்குமானு டவுட்டா இருக்கு.",
+      "review_status": "pending",
+      "pair_type": "unclassified"
+    },
+    {
+      "source_index": 93,
+      "tanglish": "First day office-ku poren, konjam tension-ah irukku.",
+      "tamil": "ஃபர்ஸ்ட் டே ஆபீஸுக்கு போறேன், கொஞ்சம் டென்ஷனா இருக்கு.",
+      "review_status": "pending",
+      "pair_type": "unclassified"
+    },
+    {
+      "source_index": 94,
+      "tanglish": "Edhavadhu mistake panniduveno nu bayama irukku.",
+      "tamil": "ஏதாவது மிஸ்டேக் பண்ணிடுவேனோனு பயமா இருக்கு.",
+      "review_status": "pending",
+      "pair_type": "unclassified"
+    },
+    {
+      "source_index": 95,
+      "tanglish": "Ellarum busy-ah irukkaanga, yaaravadhu kooda pesa aasaiya irukku.",
+      "tamil": "எல்லாரும் பிஸியா இருக்காங்க, யாராவது கூட பேச ஆசையா இருக்கு.",
+      "review_status": "pending",
+      "pair_type": "unclassified"
+    },
+    {
+      "source_index": 96,
+      "tanglish": "Naan solradha yaarum serious-ah eduthukka maatraanga.",
+      "tamil": "நான் சொல்றத யாரும் சீரியஸா எடுத்துக்க மாட்டேங்கறாங்க.",
+      "review_status": "pending",
+      "pair_type": "unclassified"
+    },
+    {
+      "source_index": 97,
+      "tanglish": "Innaiku advice laam vendaam, konjam casual-ah pesalaam.",
+      "tamil": "இன்னைக்கு அட்வைஸ் எல்லாம் வேண்டாம், கொஞ்சம் கேஷுவலா பேசலாம்.",
+      "review_status": "pending",
+      "pair_type": "unclassified"
+    },
+    {
+      "source_index": 98,
+      "tanglish": "Enakku ippo solution venam, konjam support podhum.",
+      "tamil": "எனக்கு இப்போ சொல்யூஷன் வேணாம், கொஞ்சம் சப்போர்ட் போதும்.",
+      "review_status": "pending",
+      "pair_type": "unclassified"
+    },
+    {
+      "source_index": 99,
+      "tanglish": "Naan pesuradha mudhal-la full-ah ketuttu apram respond pannu.",
+      "tamil": "நான் பேசுறதை முதல்ல ஃபுல்லா கேட்டுட்டு அப்புறம் ரெஸ்பாண்ட் பண்ணு.",
+      "review_status": "pending",
+      "pair_type": "unclassified"
+    },
+    {
+      "source_index": 100,
+      "tanglish": "Adhuku oru simple Python example kaatu.",
+      "tamil": "அதுக்கு ஒரு சிம்பிள் பைதான் எக்ஸாம்பிள் காட்டு.",
+      "review_status": "pending",
+      "pair_type": "unclassified"
+    },
+    {
+      "source_index": 101,
+      "tanglish": "Konjam playful-ah irukkanum.",
+      "tamil": "கொஞ்சம் பிளேஃபுல்லா இருக்கணும்.",
+      "review_status": "pending",
+      "pair_type": "unclassified"
+    },
+    {
+      "source_index": 102,
+      "tanglish": "AI Engineer role. Technical questions first prepare pannalaam.",
+      "tamil": "எ.ஐ. என்சினியயர் ரோல்-க்கு தண்டிக்கள் கேள்விகளை முதல்ல ப்ரீபர் பண்ணலாம்.",
+      "review_status": "pending",
+      "pair_type": "unclassified"
+    },
+    {
+      "source_index": 103,
+      "tanglish": "Idho traceback. Last line explain pannu.",
+      "tamil": "இதோ traceback. Last line-aa explain pannunga.",
+      "review_status": "pending",
+      "pair_type": "unclassified"
+    },
+    {
+      "source_index": 104,
+      "tanglish": "Aama, aana equipment illama.",
+      "tamil": "ஆமா, ஆனா எக்யூப்மென்ட் இல்லாம.",
+      "review_status": "pending",
+      "pair_type": "unclassified"
+    },
+    {
+      "source_index": 105,
+      "tanglish": "Daily 15 minutes dhaan irukku.",
+      "tamil": "தினமும் எனக்கு பதினைந்து நிமிஷம்தான் நேரம் இருக்கு.",
+      "review_status": "pending",
+      "pair_type": "unclassified"
+    },
+    {
+      "source_index": 106,
+      "tanglish": "Sci-fi, but romba complicated-ah vendaam.",
+      "tamil": "சயின்ஸ் ஃபிக்ஷனா இருக்கணும், ஆனா ரொம்ப சிக்கலா வேண்டாம்.",
+      "review_status": "pending",
+      "pair_type": "unclassified"
+    },
+    {
+      "source_index": 107,
+      "tanglish": "FastAPI use panren, database MongoDB.",
+      "tamil": "சிஞ்வாட், naan FastAPI-yum MongoDB-yum use panren.",
+      "review_status": "pending",
+      "pair_type": "unclassified"
+    },
+    {
+      "source_index": 108,
+      "tanglish": "Aama, but meaning change aaga koodaadhu.",
+      "tamil": "ஆமா, ஆனா அர்த்தம் மாறக்கூடாது.",
+      "review_status": "pending",
+      "pair_type": "unclassified"
+    },
+    {
+      "source_index": 109,
+      "tanglish": "HR-ku. Polite-ah irukkanum, short-ah.",
+      "tamil": "எச்.ஆர்.-க்கு ஒரு சிண்ன பொளுச்சான இமீல் ட்ராப்ட் பண்ணிக் சுல்லுங்.",
+      "review_status": "pending",
+      "pair_type": "unclassified"
+    },
+    {
+      "source_index": 110,
+      "tanglish": "Random Forest and XGBoost. Inference speed mukkiyam.",
+      "tamil": "ரேண்டம் ஃபாரஸ்ட்டையும் எக்ஸ்ஜிபூஸ்ட்டையும் ஒப்பிடணும். இன்ஃபரன்ஸ் வேகம்தான் முக்கியம்.",
+      "review_status": "pending",
+      "pair_type": "unclassified"
+    },
+    {
+      "source_index": 111,
+      "tanglish": "Slow melody. Aana chorus energetic-ah venum.",
+      "tamil": "மெலடி மெதுவா இருக்கணும், ஆனா கோரஸ் மட்டும் எனர்ஜெட்டிக்கா இருக்கணும்.",
+      "review_status": "pending",
+      "pair_type": "unclassified"
+    },
+    {
+      "source_index": 112,
+      "tanglish": "5k-kulla mudikkanum.",
+      "tamil": "5000 ரூபாய்க்குள்ள முடிக்கணும்.",
+      "review_status": "pending",
+      "pair_type": "unclassified"
+    },
+    {
+      "source_index": 113,
+      "tanglish": "Retrieval part mattum detail-ah sollu.",
+      "tamil": "ரிட்ரீவல் பகுதியை மட்டும் கொஞ்சம் விரிவா சொல்லு.",
+      "review_status": "pending",
+      "pair_type": "unclassified"
+    },
+    {
+      "source_index": 114,
+      "tanglish": "Veg dhaan. Paneer irukku veetla.",
+      "tamil": "வெஜ் தான். வீட்டுல paneer இருக்கு.",
+      "review_status": "pending",
+      "pair_type": "unclassified"
+    },
+    {
+      "source_index": 115,
+      "tanglish": "Same error dhaan, but different line-la.",
+      "tamil": "அதே எரர்தான் வருது, ஆனா வேற லைன்ல.",
+      "review_status": "pending",
+      "pair_type": "unclassified"
+    },
+    {
+      "source_index": 116,
+      "tanglish": "Cybersecurity. Beginners-ku easy-ah puriyanum.",
+      "tamil": "சைபர் செக்யூரி்த்யி (Cybersecurity) paththi oru presentation. Beginners-ku romba easy-ah puriyura madhiri irukkanum.",
+      "review_status": "pending",
+      "pair_type": "unclassified"
+    },
+    {
+      "source_index": 117,
+      "tanglish": "Second step-ku direct-ah pogalaama?",
+      "tamil": "நாம நேரடியா ரண்டாவது ஸ்டெப்-க்குப் யோகலாமா?",
+      "review_status": "pending",
+      "pair_type": "unclassified"
+    },
+    {
+      "source_index": 118,
+      "tanglish": "Illa, update-ku apram dhaan ipdi.",
+      "tamil": "இல்ல, லேப்டாப் அப்டேட் பண்ணதுக்கு அப்புறம் தான் இப்படி ஆச்சு.",
+      "review_status": "pending",
+      "pair_type": "unclassified"
+    },
+    {
+      "source_index": 119,
+      "tanglish": "Grammar mattum correct pannu. Style change pannaadha.",
+      "tamil": "கிராமரை மட்டும் சரி பண்ணு. ஸ்டைலை மாத்தாதே.",
+      "review_status": "pending",
+      "pair_type": "unclassified"
+    },
+    {
+      "source_index": 120,
+      "tanglish": "Wait, adhula oru doubt irukku.",
+      "tamil": "இருங்க, அதுல ஒரு டவுட் இருக்கு.",
+      "review_status": "pending",
+      "pair_type": "unclassified"
+    },
+    {
+      "source_index": 121,
+      "tanglish": "First urgent ones mattum list pannu.",
+      "tamil": "முதல்ல அவசரமானதை மட்டும் லிஸ்ட் பண்ணு.",
+      "review_status": "pending",
+      "pair_type": "unclassified"
+    },
+    {
+      "source_index": 122,
+      "tanglish": "Background mattum remove pannu, face touch pannaadha.",
+      "tamil": "பேக்கிரவுண்ட் மட்டும் ரிமூவ் பண்ணு, ஃபேஸ் டச் பண்ணாத.",
+      "review_status": "pending",
+      "pair_type": "unclassified"
+    },
+    {
+      "source_index": 123,
+      "tanglish": "Actually Tanglish-la pesu, natural-ah.",
+      "tamil": "ஆக்சுவலா டங்கிலீஷ்ல பேசு, நேச்சுரலா.",
+      "review_status": "pending",
+      "pair_type": "unclassified"
+    },
+    {
+      "source_index": 124,
+      "tanglish": "Deep learning. First fundamentals, apram projects.",
+      "tamil": "டீப் லெர்னிங். முதல்ல ஃபண்டமென்டல்ஸ், அப்புறம் புராஜெக்ட்ஸ்.",
+      "review_status": "pending",
+      "pair_type": "unclassified"
+    }
+  ]
+}

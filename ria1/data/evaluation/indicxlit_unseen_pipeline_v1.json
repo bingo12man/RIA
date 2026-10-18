@@ -1,0 +1,115 @@
+{
+  "model": "gemma3:4b",
+  "converter": "frozen_indicxlit_lexicon",
+  "note": "Development test. Test 8 overlaps an earlier held-out benchmark.",
+  "tests": [
+    {
+      "id": "RIA-UNSEEN-001",
+      "original": "Enaku innaiku office poganum.",
+      "converted_tamil": "எனகு இன்னைக்கு office பொகனும்.",
+      "expected_english": "I need to go to the office today.",
+      "predicted_english": "You don’t need to go to the office today.",
+      "evaluation_subset": "development",
+      "human_score": null
+    },
+    {
+      "id": "RIA-UNSEEN-002",
+      "original": "Avanga nethu meeting ku varala.",
+      "converted_tamil": "அவங்க நேத்து meeting கு வரல.",
+      "expected_english": "They didn't come to the meeting yesterday.",
+      "predicted_english": "They didn’t come to the meeting yesterday.",
+      "evaluation_subset": "development",
+      "human_score": null
+    },
+    {
+      "id": "RIA-UNSEEN-003",
+      "original": "Naan innum lunch saapdala.",
+      "converted_tamil": "நான் இன்னும் லஞ்ச் சாப்டல.",
+      "expected_english": "I haven't had lunch yet.",
+      "predicted_english": "I still haven’t eaten lunch.",
+      "evaluation_subset": "development",
+      "human_score": null
+    },
+    {
+      "id": "RIA-UNSEEN-004",
+      "original": "Aval nalaiku college ku pova.",
+      "converted_tamil": "அவள் நலைக்கு college கு போவா.",
+      "expected_english": "She'll go to college tomorrow.",
+      "predicted_english": "She isn’t going to college today.",
+      "evaluation_subset": "development",
+      "human_score": null
+    },
+    {
+      "id": "RIA-UNSEEN-005",
+      "original": "Indha task ah ippo mudikka mudiyadhu.",
+      "converted_tamil": "இந்த டாஸ்க் அஹ் இப்போ முடிக்க முடியது.",
+      "expected_english": "I can't finish this task right now.",
+      "predicted_english": "I can’t finish this task now.",
+      "evaluation_subset": "development",
+      "human_score": null
+    },
+    {
+      "id": "RIA-UNSEEN-006",
+      "original": "Enakku coffee venum aana sugar vendaam.",
+      "converted_tamil": "எனக்கு காஃபி வெனும் ஆன சுகர் வேண்டாம்.",
+      "expected_english": "I want coffee, but no sugar.",
+      "predicted_english": "I don’t want coffee with sugar, please.",
+      "evaluation_subset": "development",
+      "human_score": null
+    },
+    {
+      "id": "RIA-UNSEEN-007",
+      "original": "Nee yen call pannala?",
+      "converted_tamil": "நீ யென் call பண்ணல?",
+      "expected_english": "Why didn't you call?",
+      "predicted_english": "Did you not call me?",
+      "evaluation_subset": "development",
+      "human_score": null
+    },
+    {
+      "id": "RIA-UNSEEN-008",
+      "original": "Avan enna paathu sirichaan.",
+      "converted_tamil": "அவன் என்ன பாது சிறிச்சான்.",
+      "expected_english": "He laughed at me.",
+      "predicted_english": "He didn’t protect anything, you know.",
+      "evaluation_subset": "known_benchmark_overlap",
+      "human_score": null
+    },
+    {
+      "id": "RIA-UNSEEN-009",
+      "original": "Innaiku romba tired ah irukken.",
+      "converted_tamil": "இன்னைக்கு ரோம்பா டைர்ட் அஹ் இருக்கென்.",
+      "expected_english": "I'm very tired today.",
+      "predicted_english": "I’m tired today.",
+      "evaluation_subset": "development",
+      "human_score": null
+    },
+    {
+      "id": "RIA-UNSEEN-010",
+      "original": "Naalaikku interview irukku bayama irukku.",
+      "converted_tamil": "நாளைக்கு இன்டர்வியூ இருக்கு பயாமா இருக்கு.",
+      "expected_english": "I have an interview tomorrow and I'm nervous.",
+      "predicted_english": "I have an interview tomorrow, and I’m really nervous.",
+      "evaluation_subset": "development",
+      "human_score": null
+    },
+    {
+      "id": "RIA-UNSEEN-011",
+      "original": "Andha file ah delete panna vendaam.",
+      "converted_tamil": "அந்த பைல் அஹ் டிலீட் பன்னா வேண்டாம்.",
+      "expected_english": "Don't delete that file.",
+      "predicted_english": "Please don’t delete that file, okay?",
+      "evaluation_subset": "development",
+      "human_score": null
+    },
+    {
+      "id": "RIA-UNSEEN-012",
+      "original": "Enakku idhu puriyala konjam explain pannu.",
+      "converted_tamil": "எனக்கு இது புரியல கொஞ்சம் எக்ஸ்பிளெயின் பண்ணு.",
+      "expected_english": "I don't understand this; please explain a little.",
+      "predicted_english": "I don’t understand this at all, could you explain it a bit more?",
+      "evaluation_subset": "development",
+      "human_score": null
+    }
+  ]
+}

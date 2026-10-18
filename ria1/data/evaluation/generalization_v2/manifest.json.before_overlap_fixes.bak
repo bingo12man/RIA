@@ -1,0 +1,49 @@
+{
+  "total": 40,
+  "single_turn": 32,
+  "context": 8,
+  "categories": {
+    "negation": 4,
+    "tense": 4,
+    "pronouns": 4,
+    "questions": 4,
+    "emotion": 4,
+    "code_switch": 4,
+    "variation": 4,
+    "intent": 4,
+    "context": 8
+  },
+  "overlap_warnings": [
+    {
+      "id": "RIA-GEN2-004",
+      "source": "training_release",
+      "similarity": 0.889,
+      "candidate": "Innum payment varave illa.",
+      "existing": "Innum payment varala."
+    },
+    {
+      "id": "RIA-GEN2-014",
+      "source": "training_release",
+      "similarity": 0.833,
+      "candidate": "Eppo thirumbi varuveenga?",
+      "existing": "Nee eppo thirumbi varuva?"
+    },
+    {
+      "id": "RIA-GEN2-017",
+      "source": "held_out_benchmark",
+      "similarity": 0.786,
+      "candidate": "Enakku romba emaatram-a irukku.",
+      "existing": "Enakku romba kadupa irukku."
+    }
+  ],
+  "prompt_sha256": "579072abb34bbe0688a300ba31c61f17dcf5c9f9c54fee21db9ed04fff4153b1",
+  "answer_key_sha256": "03677e2be11f31a9f29e97b8f043e879ed2cb5350ae1b5911f658581b578d717",
+  "status": "candidate_not_yet_frozen",
+  "limitations": [
+    "Human review is still required.",
+    "Similarity screening is lexical, not semantic.",
+    "Dataset was authored after observing model failures.",
+    "It is a development evaluation set, not an independent blind benchmark.",
+    "Do not use these prompts or answers for training or retrieval."
+  ]
+}

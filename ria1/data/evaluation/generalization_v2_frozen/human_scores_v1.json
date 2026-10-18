@@ -1,0 +1,805 @@
+{
+  "predictions_sha256": "8a3794254c4156064868aae3c77abcc62529c36e534fe5902acd3d5260d22819",
+  "reviews": {
+    "RIA-GEN2-001": {
+      "direct": {
+        "score": 0,
+        "critical": true,
+        "notes": "— prohibition reversed",
+        "reviewed_at": "2026-10-17T12:13:14.677136+00:00"
+      },
+      "indicxlit_top1": {
+        "score": 0,
+        "critical": true,
+        "notes": "Confuses opening with delivery; fails to preserve the prohibited action.",
+        "reviewed_at": "2026-10-17T12:13:14.677150+00:00"
+      },
+      "verified_converter": {
+        "score": 0,
+        "critical": true,
+        "notes": "Incorrect action: delivery instead of opening. Negation preserved, but original prohibition misinterpreted.",
+        "reviewed_at": "2026-10-17T12:13:14.677161+00:00"
+      }
+    },
+    "RIA-GEN2-002": {
+      "direct": {
+        "score": 0,
+        "critical": true,
+        "notes": "Changes not wanting to eat into not wanting help. Core action and subject are incorrect.",
+        "reviewed_at": "2026-10-17T12:13:55.150870+00:00"
+      },
+      "indicxlit_top1": {
+        "score": 0,
+        "critical": true,
+        "notes": "Changes not wanting to eat into not wanting to talk. Negation preserved, but core intent is incorrect.",
+        "reviewed_at": "2026-10-17T12:13:55.150885+00:00"
+      },
+      "verified_converter": {
+        "score": 0,
+        "critical": true,
+        "notes": "Fails to preserve eating intent and substitutes talking. Critical semantic mistranslation.",
+        "reviewed_at": "2026-10-17T12:13:55.150888+00:00"
+      }
+    },
+    "RIA-GEN2-003": {
+      "direct": {
+        "score": 0,
+        "critical": true,
+        "notes": "Reverses the prohibition into an affirmative past-tense statement. Changes \"don't share\" into \"shared\".",
+        "reviewed_at": "2026-10-17T12:14:25.565167+00:00"
+      },
+      "indicxlit_top1": {
+        "score": 2,
+        "critical": false,
+        "notes": "",
+        "reviewed_at": "2026-10-17T12:14:25.565208+00:00"
+      },
+      "verified_converter": {
+        "score": 2,
+        "critical": false,
+        "notes": "",
+        "reviewed_at": "2026-10-17T12:14:25.565215+00:00"
+      }
+    },
+    "RIA-GEN2-004": {
+      "direct": {
+        "score": 0,
+        "critical": true,
+        "notes": "Completely misunderstands the statement as an inquiry about delivering a parcel.",
+        "reviewed_at": "2026-10-17T12:14:52.492850+00:00"
+      },
+      "indicxlit_top1": {
+        "score": 1,
+        "critical": false,
+        "notes": "Captures the core meaning but adds unnecessary conversational meta-framing ('You are saying that...').",
+        "reviewed_at": "2026-10-17T12:14:52.492875+00:00"
+      },
+      "verified_converter": {
+        "score": 1,
+        "critical": false,
+        "notes": "Captures the core meaning but adds unnecessary conversational meta-framing ('You are saying that...').",
+        "reviewed_at": "2026-10-17T12:14:52.492877+00:00"
+      }
+    },
+    "RIA-GEN2-005": {
+      "direct": {
+        "score": 0,
+        "critical": true,
+        "notes": "Invents an unpaid electricity bill instead of describing a power outage. Completely changes the event.",
+        "reviewed_at": "2026-10-17T12:15:37.248317+00:00"
+      },
+      "indicxlit_top1": {
+        "score": 2,
+        "critical": false,
+        "notes": "Correctly preserves the power outage and its timing. Minor unnatural phrasing does not change the meaning.",
+        "reviewed_at": "2026-10-17T12:15:37.248332+00:00"
+      },
+      "verified_converter": {
+        "score": 2,
+        "critical": false,
+        "notes": "Correctly conveys that electricity stopped working last night. Minor wording differences only.",
+        "reviewed_at": "2026-10-17T12:15:37.248334+00:00"
+      }
+    },
+    "RIA-GEN2-006": {
+      "direct": {
+        "score": 0,
+        "critical": true,
+        "notes": "Completely changes the meaning from traveling to one's hometown next week into ordering food. Wrong action, intent, and time.",
+        "reviewed_at": "2026-10-17T12:16:24.718139+00:00"
+      },
+      "indicxlit_top1": {
+        "score": 1,
+        "critical": false,
+        "notes": "Preserves the idea of leaving next week but incorrectly interprets \"oorukku\" as \"for a day\" instead of \"to my hometown\". Also changes first-person to third-person.",
+        "reviewed_at": "2026-10-17T12:16:24.718156+00:00"
+      },
+      "verified_converter": {
+        "score": 1,
+        "critical": false,
+        "notes": "Correctly identifies leaving next week but loses the hometown destination and incorrectly changes the speaker from \"I\" to \"they\".",
+        "reviewed_at": "2026-10-17T12:16:24.718159+00:00"
+      }
+    },
+    "RIA-GEN2-007": {
+      "direct": {
+        "score": 0,
+        "critical": true,
+        "notes": "Completely changes the meaning into someone wanting the speaker to accompany them. Loses the original sequence of events and tense.",
+        "reviewed_at": "2026-10-17T12:17:11.216772+00:00"
+      },
+      "indicxlit_top1": {
+        "score": 2,
+        "critical": false,
+        "notes": "",
+        "reviewed_at": "2026-10-17T12:17:11.216803+00:00"
+      },
+      "verified_converter": {
+        "score": 2,
+        "critical": false,
+        "notes": "",
+        "reviewed_at": "2026-10-17T12:17:11.216807+00:00"
+      }
+    },
+    "RIA-GEN2-008": {
+      "direct": {
+        "score": 0,
+        "critical": true,
+        "notes": "Changes a suggestion to talk after the meeting into an inability to attend the meeting. Incorrect intent and action.",
+        "reviewed_at": "2026-10-17T12:17:48.729109+00:00"
+      },
+      "indicxlit_top1": {
+        "score": 0,
+        "critical": true,
+        "notes": "Incorrectly invents preparing for Abraham. Preserves the meeting reference but completely loses the intended conversation after the meeting.",
+        "reviewed_at": "2026-10-17T12:17:48.729148+00:00"
+      },
+      "verified_converter": {
+        "score": 0,
+        "critical": true,
+        "notes": "Hallucinates preparing for Abraham instead of talking after the meeting. Core action and intent are incorrect.",
+        "reviewed_at": "2026-10-17T12:17:48.729152+00:00"
+      }
+    },
+    "RIA-GEN2-009": {
+      "direct": {
+        "score": 1,
+        "critical": false,
+        "notes": "",
+        "reviewed_at": "2026-10-17T12:17:49.916449+00:00"
+      },
+      "indicxlit_top1": {
+        "score": 1,
+        "critical": false,
+        "notes": "",
+        "reviewed_at": "2026-10-17T12:17:49.916462+00:00"
+      },
+      "verified_converter": {
+        "score": 1,
+        "critical": false,
+        "notes": "",
+        "reviewed_at": "2026-10-17T12:17:49.916466+00:00"
+      }
+    },
+    "RIA-GEN2-010": {
+      "direct": {
+        "score": 0,
+        "critical": true,
+        "notes": "Completely changes the instruction into a question about completing work. Loses the prohibition, action, and pronoun relationships.",
+        "reviewed_at": "2026-10-17T12:18:19.297669+00:00"
+      },
+      "indicxlit_top1": {
+        "score": 1,
+        "critical": true,
+        "notes": "Preserves the prohibition and recipient but incorrectly changes \"what she said\" to \"what you said\". Critical speaker attribution error.",
+        "reviewed_at": "2026-10-17T12:18:19.297685+00:00"
+      },
+      "verified_converter": {
+        "score": 1,
+        "critical": true,
+        "notes": "Incorrectly substitutes \"you\" for \"she\", changing who originally spoke. Preserves the prohibition but introduces a critical pronoun error.",
+        "reviewed_at": "2026-10-17T12:18:19.297688+00:00"
+      }
+    },
+    "RIA-GEN2-011": {
+      "direct": {
+        "score": 0,
+        "critical": true,
+        "notes": "Completely unrelated meaning and incorrect intent.",
+        "reviewed_at": "2026-10-17T12:36:34.564077+00:00"
+      },
+      "indicxlit_top1": {
+        "score": 1,
+        "critical": false,
+        "notes": "Captures the main meaning well, though 'younger brother' is generalized to 'brother'.",
+        "reviewed_at": "2026-10-17T12:36:34.564077+00:00"
+      },
+      "verified_converter": {
+        "score": 1,
+        "critical": false,
+        "notes": "Captures the main meaning well, though 'younger brother' is generalized to 'brother'.",
+        "reviewed_at": "2026-10-17T12:36:34.564077+00:00"
+      }
+    },
+    "RIA-GEN2-012": {
+      "direct": {
+        "score": 0,
+        "critical": true,
+        "notes": "The prediction completely reverses the core meaning by stating the person hasn't read the book yet, whereas the input states they have read it.",
+        "reviewed_at": "2026-10-17T12:37:02.667698+00:00"
+      },
+      "indicxlit_top1": {
+        "score": 1,
+        "critical": false,
+        "notes": "The prediction captures the main meaning (reading the book given by the other person), but shifts the perspective from 'I read the book you gave' to 'You told me that you read the book I gave you'.",
+        "reviewed_at": "2026-10-17T12:37:02.667698+00:00"
+      },
+      "verified_converter": {
+        "score": 1,
+        "critical": false,
+        "notes": "The prediction captures the main meaning (reading the book given by the other person), but shifts the perspective from 'I read the book you gave' to 'You told me that you read the book I gave you'.",
+        "reviewed_at": "2026-10-17T12:37:02.667698+00:00"
+      }
+    },
+    "RIA-GEN2-013": {
+      "direct": {
+        "score": 0,
+        "critical": true,
+        "notes": "The translation completely changes the meaning to asking about directions instead of asking if there is another way.",
+        "reviewed_at": "2026-10-17T12:37:06.111669+00:00"
+      },
+      "indicxlit_top1": {
+        "score": 1,
+        "critical": false,
+        "notes": "Captures the essence of asking if there's a way to do this, but misses the 'vera' (another) modifier from the Tamil text.",
+        "reviewed_at": "2026-10-17T12:37:06.111669+00:00"
+      },
+      "verified_converter": {
+        "score": 1,
+        "critical": false,
+        "notes": "Similar to indicxlit_top1, it captures the general intent of asking about a way to do this, but drops the 'another' (vera) aspect.",
+        "reviewed_at": "2026-10-17T12:37:06.111669+00:00"
+      }
+    },
+    "RIA-GEN2-014": {
+      "direct": {
+        "score": 0,
+        "critical": true,
+        "notes": "The direct prediction incorrectly interprets the sentence as asking about a nearby bus stop, missing the specific question about location ('enga irukku').",
+        "reviewed_at": "2026-10-17T12:37:08.630970+00:00"
+      },
+      "indicxlit_top1": {
+        "score": 2,
+        "critical": false,
+        "notes": "Accurately translates the core meaning, question intent, and location inquiry of the input sentence.",
+        "reviewed_at": "2026-10-17T12:37:08.630970+00:00"
+      },
+      "verified_converter": {
+        "score": 2,
+        "critical": false,
+        "notes": "Accurately translates the core meaning, question intent, and location inquiry of the input sentence.",
+        "reviewed_at": "2026-10-17T12:37:08.630970+00:00"
+      }
+    },
+    "RIA-GEN2-015": {
+      "direct": {
+        "score": 0,
+        "critical": true,
+        "notes": "The prediction completely changes the question intent from asking 'why' an issue keeps happening to asking 'if' it was handled by someone else.",
+        "reviewed_at": "2026-10-17T12:37:09.570684+00:00"
+      },
+      "indicxlit_top1": {
+        "score": 1,
+        "critical": false,
+        "notes": "The prediction captures the recurrence of the issue ('coming up again'), but misses the interrogative 'why' (yen) from the source text.",
+        "reviewed_at": "2026-10-17T12:37:09.570684+00:00"
+      },
+      "verified_converter": {
+        "score": 1,
+        "critical": false,
+        "notes": "The prediction captures the recurrence of the issue ('coming up again'), but misses the interrogative 'why' (yen) from the source text.",
+        "reviewed_at": "2026-10-17T12:37:09.570684+00:00"
+      }
+    },
+    "RIA-GEN2-016": {
+      "direct": {
+        "score": 0,
+        "critical": true,
+        "notes": "The source sentence 'Nee confirm pannitiya illaya?' means 'Have you confirmed it or not?' (addressing the listener). The prediction incorrectly changes the perspective to 'You're asking if I confirmed something', which reverses the speaker/listener roles.",
+        "reviewed_at": "2026-10-17T12:37:11.108016+00:00"
+      },
+      "indicxlit_top1": {
+        "score": 0,
+        "critical": true,
+        "notes": "The source sentence means 'Have you confirmed it or not?' addressed to the other person. The prediction changes it to 'You're asking if I've confirmed something', reversing the person and intent.",
+        "reviewed_at": "2026-10-17T12:37:11.108016+00:00"
+      },
+      "verified_converter": {
+        "score": 0,
+        "critical": true,
+        "notes": "The source sentence is addressed to the listener ('Have you confirmed it or not?'). The prediction incorrectly interprets it as the listener asking the speaker ('You're asking if I've confirmed something').",
+        "reviewed_at": "2026-10-17T12:37:11.108016+00:00"
+      }
+    },
+    "RIA-GEN2-017": {
+      "direct": {
+        "score": 0,
+        "critical": true,
+        "notes": "The prediction completely misinterprets the meaning, talking about lack of courage instead of feeling hurt by what they said.",
+        "reviewed_at": "2026-10-17T12:37:12.026898+00:00"
+      },
+      "indicxlit_top1": {
+        "score": 2,
+        "critical": false,
+        "notes": "Accurately captures the core meaning that the speaker feels upset/hurt after hearing what they said.",
+        "reviewed_at": "2026-10-17T12:37:12.026898+00:00"
+      },
+      "verified_converter": {
+        "score": 2,
+        "critical": false,
+        "notes": "Accurately captures the core meaning that the speaker feels upset/hurt after hearing what they said.",
+        "reviewed_at": "2026-10-17T12:37:12.026898+00:00"
+      }
+    },
+    "RIA-GEN2-018": {
+      "direct": {
+        "score": 0,
+        "critical": true,
+        "notes": "Completely mistranslated the meaning of wanting to be alone as talking about money.",
+        "reviewed_at": "2026-10-17T12:37:14.456096+00:00"
+      },
+      "indicxlit_top1": {
+        "score": 1,
+        "critical": false,
+        "notes": "Captures the desire to be alone for a bit, but incorrectly adds that they are leaving.",
+        "reviewed_at": "2026-10-17T12:37:14.456096+00:00"
+      },
+      "verified_converter": {
+        "score": 1,
+        "critical": false,
+        "notes": "Captures the desire to be alone for a bit, but incorrectly adds that they are leaving.",
+        "reviewed_at": "2026-10-17T12:37:14.456096+00:00"
+      }
+    },
+    "RIA-GEN2-019": {
+      "direct": {
+        "score": 0,
+        "critical": true,
+        "notes": "The prediction completely reverses the meaning from feeling happy to disliking the song.",
+        "reviewed_at": "2026-10-17T12:37:15.376457+00:00"
+      },
+      "indicxlit_top1": {
+        "score": 1,
+        "critical": false,
+        "notes": "The core meaning of feeling happy while listening to the song is captured, but the person changes from first-person ('I') to second-person ('You').",
+        "reviewed_at": "2026-10-17T12:37:15.376457+00:00"
+      },
+      "verified_converter": {
+        "score": 1,
+        "critical": false,
+        "notes": "The core meaning of feeling happy while listening to the song is captured, but the person changes from first-person ('I') to second-person ('You').",
+        "reviewed_at": "2026-10-17T12:37:15.376457+00:00"
+      }
+    },
+    "RIA-GEN2-020": {
+      "direct": {
+        "score": 0,
+        "critical": true,
+        "notes": "The prediction reverses the speaker and the intent completely (interpreting it as the user telling the bot to stop bothering them, instead of the speaker not wanting to disturb anyone).",
+        "reviewed_at": "2026-10-17T12:37:16.005371+00:00"
+      },
+      "indicxlit_top1": {
+        "score": 0,
+        "critical": true,
+        "notes": "The prediction changes the subject/actor from first person ('I') to third person ('They'), altering the core meaning.",
+        "reviewed_at": "2026-10-17T12:37:16.005371+00:00"
+      },
+      "verified_converter": {
+        "score": 1,
+        "critical": false,
+        "notes": "The prediction captures the core meaning and negation ('don't want to be disturbed'), but misses the specific object/pronoun 'anyone' (yaarayum).",
+        "reviewed_at": "2026-10-17T12:37:16.005371+00:00"
+      }
+    },
+    "RIA-GEN2-021": {
+      "direct": {
+        "score": 1,
+        "critical": false,
+        "notes": "",
+        "reviewed_at": "2026-10-17T12:38:00.683550+00:00"
+      },
+      "indicxlit_top1": {
+        "score": 1,
+        "critical": false,
+        "notes": "",
+        "reviewed_at": "2026-10-17T12:38:00.683550+00:00"
+      },
+      "verified_converter": {
+        "score": 1,
+        "critical": false,
+        "notes": "",
+        "reviewed_at": "2026-10-17T12:38:00.683550+00:00"
+      }
+    },
+    "RIA-GEN2-022": {
+      "direct": {
+        "score": 0,
+        "critical": true,
+        "notes": "The prediction completely changes the intent from an imperative command ('Take a backup') to a question about whether a past backup was created.",
+        "reviewed_at": "2026-10-17T12:38:02.385159+00:00"
+      },
+      "indicxlit_top1": {
+        "score": 2,
+        "critical": false,
+        "notes": "Accurately captures the core meaning, action (take a backup), timing (before deployment), and imperative intent.",
+        "reviewed_at": "2026-10-17T12:38:02.385159+00:00"
+      },
+      "verified_converter": {
+        "score": 2,
+        "critical": false,
+        "notes": "Accurately captures the core meaning, action (take a backup), timing (before deployment), and imperative intent.",
+        "reviewed_at": "2026-10-17T12:38:02.385159+00:00"
+      }
+    },
+    "RIA-GEN2-023": {
+      "direct": {
+        "score": 1,
+        "critical": false,
+        "notes": "Meaning is mostly captured, but shifts from direct question to third-person reported speech.",
+        "reviewed_at": "2026-10-17T12:38:03.408963+00:00"
+      },
+      "indicxlit_top1": {
+        "score": 1,
+        "critical": false,
+        "notes": "Meaning is captured well, though phrased as indirect speech instead of a direct translation.",
+        "reviewed_at": "2026-10-17T12:38:03.408963+00:00"
+      },
+      "verified_converter": {
+        "score": 1,
+        "critical": false,
+        "notes": "Meaning is captured well, though phrased as indirect speech instead of a direct translation.",
+        "reviewed_at": "2026-10-17T12:38:03.408963+00:00"
+      }
+    },
+    "RIA-GEN2-024": {
+      "direct": {
+        "score": 1,
+        "critical": false,
+        "notes": "The translation changes the perspective to 'They are saying', which alters the direct imperative nature of the original sentence, though the core meaning is mostly preserved.",
+        "reviewed_at": "2026-10-17T12:38:04.172389+00:00"
+      },
+      "indicxlit_top1": {
+        "score": 2,
+        "critical": false,
+        "notes": "Accurately captures the core meaning, imperative intent, and action ('restart panni paaru') of the original Tanglish sentence.",
+        "reviewed_at": "2026-10-17T12:38:04.172389+00:00"
+      },
+      "verified_converter": {
+        "score": 2,
+        "critical": false,
+        "notes": "Accurately captures the core meaning, imperative intent, and action ('restart panni paaru') of the original Tanglish sentence.",
+        "reviewed_at": "2026-10-17T12:38:04.172389+00:00"
+      }
+    },
+    "RIA-GEN2-025": {
+      "direct": {
+        "score": 0,
+        "critical": true,
+        "notes": "The translation completely misinterprets 'Enaku adhu seriya purila' (I didn't understand that properly) as refusing to share something.",
+        "reviewed_at": "2026-10-17T12:38:07.269010+00:00"
+      },
+      "indicxlit_top1": {
+        "score": 0,
+        "critical": true,
+        "notes": "The translation is completely incorrect and unrelated to understanding.",
+        "reviewed_at": "2026-10-17T12:38:07.269010+00:00"
+      },
+      "verified_converter": {
+        "score": 0,
+        "critical": true,
+        "notes": "The translation is completely incorrect and unrelated to understanding.",
+        "reviewed_at": "2026-10-17T12:38:07.269010+00:00"
+      }
+    },
+    "RIA-GEN2-026": {
+      "direct": {
+        "score": 0,
+        "critical": true,
+        "notes": "The prediction completely misinterprets the meaning, translating it as 'You're saying you don't understand anything' instead of 'I need to sleep early today'.",
+        "reviewed_at": "2026-10-17T12:38:08.024317+00:00"
+      },
+      "indicxlit_top1": {
+        "score": 1,
+        "critical": false,
+        "notes": "The prediction captures the general action of going to sleep quickly, but changes the first-person intent ('I need to sleep') to a third-person statement ('He wants to go'), missing the correct speaker perspective.",
+        "reviewed_at": "2026-10-17T12:38:08.024317+00:00"
+      },
+      "verified_converter": {
+        "score": 1,
+        "critical": false,
+        "notes": "The prediction captures the general action of going to sleep quickly, but changes the first-person intent ('I need to sleep') to a third-person statement ('He wants to go'), missing the correct speaker perspective.",
+        "reviewed_at": "2026-10-17T12:38:08.024317+00:00"
+      }
+    },
+    "RIA-GEN2-027": {
+      "direct": {
+        "score": 0,
+        "critical": true,
+        "notes": "The prediction completely misinterprets the meaning of the Tamil phrase 'Neenga engayo paatha madhiri iruku' (You look like I've seen you somewhere) as asking about reading a book.",
+        "reviewed_at": "2026-10-17T12:38:08.757929+00:00"
+      },
+      "indicxlit_top1": {
+        "score": 0,
+        "critical": true,
+        "notes": "The prediction hallucinates an incorrect meaning ('hide like a path') due to a literal or faulty transliteration translation of 'paatha' (seen) as 'path'.",
+        "reviewed_at": "2026-10-17T12:38:08.757929+00:00"
+      },
+      "verified_converter": {
+        "score": 0,
+        "critical": true,
+        "notes": "The prediction hallucinates an incorrect meaning ('hide like a path'), failing to capture the recognition/familiarity intent of the original sentence.",
+        "reviewed_at": "2026-10-17T12:38:08.757929+00:00"
+      }
+    },
+    "RIA-GEN2-028": {
+      "direct": {
+        "score": 0,
+        "critical": true,
+        "notes": "The prediction completely mistranslates the Tamil input. 'Adha marubadiyum sollunga' means 'Please say that again', but the prediction translates it as 'They want you to come along with them', which is entirely wrong in meaning.",
+        "reviewed_at": "2026-10-17T12:38:09.305540+00:00"
+      },
+      "indicxlit_top1": {
+        "score": 2,
+        "critical": false,
+        "notes": "Accurately translates the Tamil input 'Adha marubadiyum sollunga' (Say that again) matching the expected English meaning perfectly while preserving intent, action, and politeness.",
+        "reviewed_at": "2026-10-17T12:38:09.305540+00:00"
+      },
+      "verified_converter": {
+        "score": 2,
+        "critical": false,
+        "notes": "Accurately translates the Tamil input 'Adha marubadiyum sollunga' (Say that again) matching the expected English meaning perfectly while preserving intent, action, and politeness.",
+        "reviewed_at": "2026-10-17T12:38:09.305540+00:00"
+      }
+    },
+    "RIA-GEN2-029": {
+      "direct": {
+        "score": 0,
+        "critical": true,
+        "notes": "The prediction completely misinterprets the user request and talks about booking a train ticket instead of booking for only two people.",
+        "reviewed_at": "2026-10-17T12:38:09.806027+00:00"
+      },
+      "indicxlit_top1": {
+        "score": 1,
+        "critical": false,
+        "notes": "Captures the quantity (two tickets) and the action (book), but changes the intent/person from a direct command ('Book tickets for only two people') to a third-person statement ('They want two tickets booked').",
+        "reviewed_at": "2026-10-17T12:38:09.806027+00:00"
+      },
+      "verified_converter": {
+        "score": 1,
+        "critical": false,
+        "notes": "Captures the quantity (two tickets) and the action (book), but changes the intent/person from a direct command ('Book tickets for only two people') to a third-person statement ('They want two tickets booked').",
+        "reviewed_at": "2026-10-17T12:38:09.806027+00:00"
+      }
+    },
+    "RIA-GEN2-030": {
+      "direct": {
+        "score": 0,
+        "critical": true,
+        "notes": "The translation is completely incorrect and unrelated to the Tamil phrase.",
+        "reviewed_at": "2026-10-17T12:38:10.205407+00:00"
+      },
+      "indicxlit_top1": {
+        "score": 1,
+        "critical": false,
+        "notes": "Captures the general meaning of not going out due to rain, but misses the conditional phrasing and direct imperative instruction.",
+        "reviewed_at": "2026-10-17T12:38:10.205407+00:00"
+      },
+      "verified_converter": {
+        "score": 1,
+        "critical": false,
+        "notes": "Captures the meaning that one shouldn't leave because of rain, but phrasing is slightly shifted compared to the expected prohibition.",
+        "reviewed_at": "2026-10-17T12:38:10.205407+00:00"
+      }
+    },
+    "RIA-GEN2-031": {
+      "direct": {
+        "score": 0,
+        "critical": true,
+        "notes": "The translation is completely incorrect and unrelated to the Tamil input.",
+        "reviewed_at": "2026-10-17T12:38:11.075096+00:00"
+      },
+      "indicxlit_top1": {
+        "score": 0,
+        "critical": true,
+        "notes": "The translation mistakes a command/request to remind someone into a future statement about remembering.",
+        "reviewed_at": "2026-10-17T12:38:11.075096+00:00"
+      },
+      "verified_converter": {
+        "score": 0,
+        "critical": true,
+        "notes": "The translation mistakes a command/request to remind someone into a future statement about remembering.",
+        "reviewed_at": "2026-10-17T12:38:11.075096+00:00"
+      }
+    },
+    "RIA-GEN2-032": {
+      "direct": {
+        "score": 0,
+        "critical": true,
+        "notes": "The direct prediction completely misses the imperative translation and treats it as a query about a phrase.",
+        "reviewed_at": "2026-10-17T12:38:11.586016+00:00"
+      },
+      "indicxlit_top1": {
+        "score": 1,
+        "critical": false,
+        "notes": "Captures the core meaning ('use only half of that'), but shifts the speaker/hearer perspective ('They want you to') instead of a direct command ('Use only half of it').",
+        "reviewed_at": "2026-10-17T12:38:11.586016+00:00"
+      },
+      "verified_converter": {
+        "score": 1,
+        "critical": false,
+        "notes": "Captures the core meaning ('use only half of that'), but shifts the speaker/hearer perspective ('They want you to') instead of a direct command ('Use only half of it').",
+        "reviewed_at": "2026-10-17T12:38:11.586016+00:00"
+      }
+    },
+    "RIA-GEN2-033": {
+      "direct": {
+        "score": 2,
+        "critical": false,
+        "notes": "Accurately captures the core meaning that battery life is the first priority, appropriately contextualized as addressing the user.",
+        "reviewed_at": "2026-10-17T12:38:12.413472+00:00"
+      },
+      "indicxlit_top1": {
+        "score": 1,
+        "critical": false,
+        "notes": "Captures the main meaning (battery life is top priority) but introduces a question tag ('isn't it?') which alters the original declarative intent slightly.",
+        "reviewed_at": "2026-10-17T12:38:12.413472+00:00"
+      },
+      "verified_converter": {
+        "score": 1,
+        "critical": false,
+        "notes": "Captures the main meaning (battery life is top priority) but introduces a question tag ('isn't it?') which alters the original declarative intent slightly.",
+        "reviewed_at": "2026-10-17T12:38:12.413472+00:00"
+      }
+    },
+    "RIA-GEN2-034": {
+      "direct": {
+        "score": 0,
+        "critical": true,
+        "notes": "The prediction completely misinterprets the user's statement about maximum six slides, translating it as 'You have the most slides', which alters the core meaning and intent.",
+        "reviewed_at": "2026-10-17T12:38:13.037209+00:00"
+      },
+      "indicxlit_top1": {
+        "score": 2,
+        "critical": false,
+        "notes": "Accurately captures the user's intent that a maximum of six slides is sufficient for the presentation.",
+        "reviewed_at": "2026-10-17T12:38:13.037209+00:00"
+      },
+      "verified_converter": {
+        "score": 2,
+        "critical": false,
+        "notes": "Correctly conveys the meaning that the user wants a maximum of six slides for the presentation.",
+        "reviewed_at": "2026-10-17T12:38:13.037209+00:00"
+      }
+    },
+    "RIA-GEN2-035": {
+      "direct": {
+        "score": 0,
+        "critical": true,
+        "notes": "The translation is grammatically incorrect and mixes languages in a way that does not match the expected English meaning.",
+        "reviewed_at": "2026-10-17T12:38:13.673334+00:00"
+      },
+      "indicxlit_top1": {
+        "score": 1,
+        "critical": false,
+        "notes": "Captures the preference for a thriller, though slightly modifies the tone compared to the expected sentence.",
+        "reviewed_at": "2026-10-17T12:38:13.673334+00:00"
+      },
+      "verified_converter": {
+        "score": 1,
+        "critical": false,
+        "notes": "Captures the preference for a thriller, though slightly modifies the tone compared to the expected sentence.",
+        "reviewed_at": "2026-10-17T12:38:13.673334+00:00"
+      }
+    },
+    "RIA-GEN2-036": {
+      "direct": {
+        "score": 2,
+        "critical": false,
+        "notes": "Accurately captures the user's intent to prepare for the Friday interview first.",
+        "reviewed_at": "2026-10-17T12:38:14.339653+00:00"
+      },
+      "indicxlit_top1": {
+        "score": 0,
+        "critical": true,
+        "notes": "Misinterprets the user's statement about preparing for the Friday interview as asking whether Friday is the first interview.",
+        "reviewed_at": "2026-10-17T12:38:14.339653+00:00"
+      },
+      "verified_converter": {
+        "score": 0,
+        "critical": true,
+        "notes": "Misinterprets the user's statement about preparing for the Friday interview as asking whether Friday is the first interview.",
+        "reviewed_at": "2026-10-17T12:38:14.339653+00:00"
+      }
+    },
+    "RIA-GEN2-037": {
+      "direct": {
+        "score": 1,
+        "critical": false,
+        "notes": "Captures the core action of changing only the tune, though uses 'music' instead of 'tune'.",
+        "reviewed_at": "2026-10-17T12:38:15.000916+00:00"
+      },
+      "indicxlit_top1": {
+        "score": 1,
+        "critical": false,
+        "notes": "Captures the main meaning of changing only the tune, but turns it into a question rather than a statement.",
+        "reviewed_at": "2026-10-17T12:38:15.000916+00:00"
+      },
+      "verified_converter": {
+        "score": 1,
+        "critical": false,
+        "notes": "Captures the main meaning of changing only the tune, but turns it into a question rather than a statement.",
+        "reviewed_at": "2026-10-17T12:38:15.000916+00:00"
+      }
+    },
+    "RIA-GEN2-038": {
+      "direct": {
+        "score": 0,
+        "critical": true,
+        "notes": "The prediction completely misinterprets the user's instruction to send the file only to the manager, claiming the manager is not there.",
+        "reviewed_at": "2026-10-17T12:38:15.619790+00:00"
+      },
+      "indicxlit_top1": {
+        "score": 2,
+        "critical": false,
+        "notes": "Accurately captures the intent that the file should be sent only to the manager based on the context.",
+        "reviewed_at": "2026-10-17T12:38:15.619790+00:00"
+      },
+      "verified_converter": {
+        "score": 2,
+        "critical": false,
+        "notes": "Accurately captures the intent that the file should be sent only to the manager based on the context.",
+        "reviewed_at": "2026-10-17T12:38:15.619790+00:00"
+      }
+    },
+    "RIA-GEN2-039": {
+      "direct": {
+        "score": 0,
+        "critical": true,
+        "notes": "The prediction completely misinterprets the user's statement 'moonu pothum' (three is enough) as heading out now, missing the core meaning regarding distance.",
+        "reviewed_at": "2026-10-17T12:38:16.121000+00:00"
+      },
+      "indicxlit_top1": {
+        "score": 0,
+        "critical": true,
+        "notes": "The prediction repeats the previous question about trying five kilometres instead of respecting the user's preference for three kilometres.",
+        "reviewed_at": "2026-10-17T12:38:16.121000+00:00"
+      },
+      "verified_converter": {
+        "score": 0,
+        "critical": true,
+        "notes": "The prediction repeats the previous question about trying five kilometres instead of respecting the user's preference for three kilometres.",
+        "reviewed_at": "2026-10-17T12:38:16.121000+00:00"
+      }
+    },
+    "RIA-GEN2-040": {
+      "direct": {
+        "score": 0,
+        "critical": true,
+        "notes": "Misses the specific reference to 'first one easy' implying Python and misinterprets the preference intent.",
+        "reviewed_at": "2026-10-17T12:38:16.651631+00:00"
+      },
+      "indicxlit_top1": {
+        "score": 2,
+        "critical": false,
+        "notes": "Accurately captures that the user is comfortable with both and correctly deduces that 'first one' refers to Python based on the previous context.",
+        "reviewed_at": "2026-10-17T12:38:16.651631+00:00"
+      },
+      "verified_converter": {
+        "score": 2,
+        "critical": false,
+        "notes": "Accurately captures that the user is comfortable with both and correctly deduces that 'first one' refers to Python based on the previous context.",
+        "reviewed_at": "2026-10-17T12:38:16.651631+00:00"
+      }
+    }
+  }
+}

@@ -1,0 +1,482 @@
+{
+  "RIA-GEN2-001": {
+    "status": "approved",
+    "prompt": {
+      "id": "RIA-GEN2-001",
+      "category": "negation",
+      "user_message": "Indha parcel-a open panna koodaadhu.",
+      "previous_user": null,
+      "previous_ria": null
+    },
+    "expected_english": "Don't open this parcel.",
+    "reviewed_at": "2026-10-17T11:37:01.884206+00:00"
+  },
+  "RIA-GEN2-002": {
+    "status": "approved",
+    "prompt": {
+      "id": "RIA-GEN2-002",
+      "category": "negation",
+      "user_message": "Enakku ippo saapida ishtam illa.",
+      "previous_user": null,
+      "previous_ria": null
+    },
+    "expected_english": "I don't feel like eating right now.",
+    "reviewed_at": "2026-10-17T11:37:06.021907+00:00"
+  },
+  "RIA-GEN2-003": {
+    "status": "approved",
+    "prompt": {
+      "id": "RIA-GEN2-003",
+      "category": "negation",
+      "user_message": "Andha photo-va share pannidaadha.",
+      "previous_user": null,
+      "previous_ria": null
+    },
+    "expected_english": "Don't share that photo.",
+    "reviewed_at": "2026-10-17T11:37:07.961885+00:00"
+  },
+  "RIA-GEN2-004": {
+    "status": "approved",
+    "prompt": {
+      "id": "RIA-GEN2-004",
+      "category": "negation",
+      "user_message": "Naan anuppuna parcel innum deliver aagala.",
+      "previous_user": null,
+      "previous_ria": null
+    },
+    "expected_english": "The parcel I sent hasn't been delivered yet.",
+    "reviewed_at": "2026-10-17T11:37:10.820798+00:00"
+  },
+  "RIA-GEN2-005": {
+    "status": "approved",
+    "prompt": {
+      "id": "RIA-GEN2-005",
+      "category": "tense",
+      "user_message": "Nethu night current poiduchu.",
+      "previous_user": null,
+      "previous_ria": null
+    },
+    "expected_english": "The electricity went out last night.",
+    "reviewed_at": "2026-10-17T11:37:15.842490+00:00"
+  },
+  "RIA-GEN2-006": {
+    "status": "approved",
+    "prompt": {
+      "id": "RIA-GEN2-006",
+      "category": "tense",
+      "user_message": "Adutha vaaram oorukku kelamburen.",
+      "previous_user": null,
+      "previous_ria": null
+    },
+    "expected_english": "I'm leaving for my hometown next week.",
+    "reviewed_at": "2026-10-17T11:37:17.563920+00:00"
+  },
+  "RIA-GEN2-007": {
+    "status": "approved",
+    "prompt": {
+      "id": "RIA-GEN2-007",
+      "category": "tense",
+      "user_message": "Naan vandhadhukulla avanga kelambittaanga.",
+      "previous_user": null,
+      "previous_ria": null
+    },
+    "expected_english": "They had left by the time I arrived.",
+    "reviewed_at": "2026-10-17T11:37:20.225426+00:00"
+  },
+  "RIA-GEN2-008": {
+    "status": "approved",
+    "prompt": {
+      "id": "RIA-GEN2-008",
+      "category": "tense",
+      "user_message": "Meeting mudinju apram pesalaam.",
+      "previous_user": null,
+      "previous_ria": null
+    },
+    "expected_english": "Let's talk after the meeting ends.",
+    "reviewed_at": "2026-10-17T11:37:21.120100+00:00"
+  },
+  "RIA-GEN2-009": {
+    "status": "approved",
+    "prompt": {
+      "id": "RIA-GEN2-009",
+      "category": "pronouns",
+      "user_message": "Ava sonnadha avankitta sollaadha.",
+      "previous_user": null,
+      "previous_ria": null
+    },
+    "expected_english": "Don't tell him what she said.",
+    "reviewed_at": "2026-10-17T11:37:21.557934+00:00"
+  },
+  "RIA-GEN2-011": {
+    "status": "approved",
+    "prompt": {
+      "id": "RIA-GEN2-011",
+      "category": "pronouns",
+      "user_message": "En thambi innikki late-ah varuvaan.",
+      "previous_user": null,
+      "previous_ria": null
+    },
+    "expected_english": "My younger brother will come late today.",
+    "reviewed_at": "2026-10-17T11:37:23.141387+00:00"
+  },
+  "RIA-GEN2-012": {
+    "status": "approved",
+    "prompt": {
+      "id": "RIA-GEN2-012",
+      "category": "pronouns",
+      "user_message": "Nee kudutha book-a naan padichitten.",
+      "previous_user": null,
+      "previous_ria": null
+    },
+    "expected_english": "I've finished reading the book you gave me.",
+    "reviewed_at": "2026-10-17T11:37:23.714674+00:00"
+  },
+  "RIA-GEN2-013": {
+    "status": "approved",
+    "prompt": {
+      "id": "RIA-GEN2-013",
+      "category": "questions",
+      "user_message": "Idhukku vera vazhi irukka?",
+      "previous_user": null,
+      "previous_ria": null
+    },
+    "expected_english": "Is there another way to do this?",
+    "reviewed_at": "2026-10-17T11:37:24.362448+00:00"
+  },
+  "RIA-GEN2-014": {
+    "status": "approved",
+    "prompt": {
+      "id": "RIA-GEN2-014",
+      "category": "questions",
+      "user_message": "Bus stop enga irukku nu solla mudiyuma?",
+      "previous_user": null,
+      "previous_ria": null
+    },
+    "expected_english": "Can you tell me where the bus stop is?",
+    "reviewed_at": "2026-10-17T11:37:24.977013+00:00"
+  },
+  "RIA-GEN2-015": {
+    "status": "approved",
+    "prompt": {
+      "id": "RIA-GEN2-015",
+      "category": "questions",
+      "user_message": "Indha issue yen thirumba varudhu?",
+      "previous_user": null,
+      "previous_ria": null
+    },
+    "expected_english": "Why does this issue keep happening?",
+    "reviewed_at": "2026-10-17T11:37:26.415909+00:00"
+  },
+  "RIA-GEN2-016": {
+    "status": "approved",
+    "prompt": {
+      "id": "RIA-GEN2-016",
+      "category": "questions",
+      "user_message": "Nee confirm pannitiya illaya?",
+      "previous_user": null,
+      "previous_ria": null
+    },
+    "expected_english": "Have you confirmed it or not?",
+    "reviewed_at": "2026-10-17T11:37:27.013068+00:00"
+  },
+  "RIA-GEN2-017": {
+    "status": "approved",
+    "prompt": {
+      "id": "RIA-GEN2-017",
+      "category": "emotion",
+      "user_message": "Avanga pesunadha ketu enakku manasu kashtama irukku.",
+      "previous_user": null,
+      "previous_ria": null
+    },
+    "expected_english": "I feel hurt by what they said.",
+    "reviewed_at": "2026-10-17T11:37:27.588819+00:00"
+  },
+  "RIA-GEN2-018": {
+    "status": "approved",
+    "prompt": {
+      "id": "RIA-GEN2-018",
+      "category": "emotion",
+      "user_message": "Konjam thaniya irukkanum pola irukku.",
+      "previous_user": null,
+      "previous_ria": null
+    },
+    "expected_english": "I feel like being alone for a while.",
+    "reviewed_at": "2026-10-17T11:37:28.171081+00:00"
+  },
+  "RIA-GEN2-019": {
+    "status": "approved",
+    "prompt": {
+      "id": "RIA-GEN2-019",
+      "category": "emotion",
+      "user_message": "Indha paattu kekkumbodhu sandhoshama irukku.",
+      "previous_user": null,
+      "previous_ria": null
+    },
+    "expected_english": "Listening to this song makes me happy.",
+    "reviewed_at": "2026-10-17T11:37:28.845293+00:00"
+  },
+  "RIA-GEN2-020": {
+    "status": "approved",
+    "prompt": {
+      "id": "RIA-GEN2-020",
+      "category": "emotion",
+      "user_message": "Yaarayum disturb panna virumbala.",
+      "previous_user": null,
+      "previous_ria": null
+    },
+    "expected_english": "I don't want to disturb anyone.",
+    "reviewed_at": "2026-10-17T11:37:29.459412+00:00"
+  },
+  "RIA-GEN2-021": {
+    "status": "approved",
+    "prompt": {
+      "id": "RIA-GEN2-021",
+      "category": "code_switch",
+      "user_message": "API response slow-ah irukku, logs check pannu.",
+      "previous_user": null,
+      "previous_ria": null
+    },
+    "expected_english": "The API response is slow; check the logs.",
+    "reviewed_at": "2026-10-17T11:37:29.995176+00:00"
+  },
+  "RIA-GEN2-022": {
+    "status": "approved",
+    "prompt": {
+      "id": "RIA-GEN2-022",
+      "category": "code_switch",
+      "user_message": "Deployment panna munnaadi backup eduthuko.",
+      "previous_user": null,
+      "previous_ria": null
+    },
+    "expected_english": "Take a backup before deploying.",
+    "reviewed_at": "2026-10-17T11:37:30.517269+00:00"
+  },
+  "RIA-GEN2-023": {
+    "status": "approved",
+    "prompt": {
+      "id": "RIA-GEN2-023",
+      "category": "code_switch",
+      "user_message": "Indha branch-a merge panna ready-ah irukka?",
+      "previous_user": null,
+      "previous_ria": null
+    },
+    "expected_english": "Are you ready to merge this branch?",
+    "reviewed_at": "2026-10-17T11:37:30.999678+00:00"
+  },
+  "RIA-GEN2-024": {
+    "status": "approved",
+    "prompt": {
+      "id": "RIA-GEN2-024",
+      "category": "code_switch",
+      "user_message": "Camera feed freeze aagudhu, restart panni paaru.",
+      "previous_user": null,
+      "previous_ria": null
+    },
+    "expected_english": "The camera feed is freezing; try restarting it.",
+    "reviewed_at": "2026-10-17T11:37:31.587524+00:00"
+  },
+  "RIA-GEN2-025": {
+    "status": "approved",
+    "prompt": {
+      "id": "RIA-GEN2-025",
+      "category": "variation",
+      "user_message": "Enaku adhu seriya purila.",
+      "previous_user": null,
+      "previous_ria": null
+    },
+    "expected_english": "I didn't understand that properly.",
+    "reviewed_at": "2026-10-17T11:37:32.109577+00:00"
+  },
+  "RIA-GEN2-027": {
+    "status": "approved",
+    "prompt": {
+      "id": "RIA-GEN2-027",
+      "category": "variation",
+      "user_message": "Neenga engayo paatha madhiri iruku.",
+      "previous_user": null,
+      "previous_ria": null
+    },
+    "expected_english": "You seem familiar, as though I've seen you somewhere.",
+    "reviewed_at": "2026-10-17T11:37:33.233862+00:00"
+  },
+  "RIA-GEN2-028": {
+    "status": "approved",
+    "prompt": {
+      "id": "RIA-GEN2-028",
+      "category": "variation",
+      "user_message": "Adha marubadiyum sollunga.",
+      "previous_user": null,
+      "previous_ria": null
+    },
+    "expected_english": "Please say that again.",
+    "reviewed_at": "2026-10-17T11:37:33.835095+00:00"
+  },
+  "RIA-GEN2-029": {
+    "status": "approved",
+    "prompt": {
+      "id": "RIA-GEN2-029",
+      "category": "intent",
+      "user_message": "Rendu perukku mattum ticket book pannu.",
+      "previous_user": null,
+      "previous_ria": null
+    },
+    "expected_english": "Book tickets for only two people.",
+    "reviewed_at": "2026-10-17T11:37:34.439580+00:00"
+  },
+  "RIA-GEN2-030": {
+    "status": "approved",
+    "prompt": {
+      "id": "RIA-GEN2-030",
+      "category": "intent",
+      "user_message": "Mazhai penja veliya poga vendaam.",
+      "previous_user": null,
+      "previous_ria": null
+    },
+    "expected_english": "Don't go outside if it rains.",
+    "reviewed_at": "2026-10-17T11:37:35.033514+00:00"
+  },
+  "RIA-GEN2-031": {
+    "status": "approved",
+    "prompt": {
+      "id": "RIA-GEN2-031",
+      "category": "intent",
+      "user_message": "Oru mani neram kazhichu nyabagam paduthu.",
+      "previous_user": null,
+      "previous_ria": null
+    },
+    "expected_english": "Remind me after one hour.",
+    "reviewed_at": "2026-10-17T11:37:35.666566+00:00"
+  },
+  "RIA-GEN2-032": {
+    "status": "approved",
+    "prompt": {
+      "id": "RIA-GEN2-032",
+      "category": "intent",
+      "user_message": "Adhula paadhi mattum use pannu.",
+      "previous_user": null,
+      "previous_ria": null
+    },
+    "expected_english": "Use only half of it.",
+    "reviewed_at": "2026-10-17T11:37:36.209311+00:00"
+  },
+  "RIA-GEN2-033": {
+    "status": "approved",
+    "prompt": {
+      "id": "RIA-GEN2-033",
+      "category": "context",
+      "user_message": "Battery dhaan first priority.",
+      "previous_user": "Naan rendu laptops compare panren.",
+      "previous_ria": "Battery life mukkiyama, performance mukkiyama?"
+    },
+    "expected_english": "Battery life is the user's first priority.",
+    "reviewed_at": "2026-10-17T11:37:36.920935+00:00"
+  },
+  "RIA-GEN2-034": {
+    "status": "approved",
+    "prompt": {
+      "id": "RIA-GEN2-034",
+      "category": "context",
+      "user_message": "Maximum aaru slides podhum.",
+      "previous_user": "Naan oru presentation prepare panren.",
+      "previous_ria": "Evlo slides venum?"
+    },
+    "expected_english": "The user wants no more than six slides.",
+    "reviewed_at": "2026-10-17T11:37:37.759500+00:00"
+  },
+  "RIA-GEN2-035": {
+    "status": "approved",
+    "prompt": {
+      "id": "RIA-GEN2-035",
+      "category": "context",
+      "user_message": "Illa, thriller better.",
+      "previous_user": "Inniku evening movie polaama?",
+      "previous_ria": "Comedy movie paakalaama?"
+    },
+    "expected_english": "The user prefers a thriller instead of a comedy.",
+    "reviewed_at": "2026-10-17T11:37:38.543527+00:00"
+  },
+  "RIA-GEN2-036": {
+    "status": "approved",
+    "prompt": {
+      "id": "RIA-GEN2-036",
+      "category": "context",
+      "user_message": "Friday irukkuradhukku first.",
+      "previous_user": "Enakku rendu interviews schedule aayirukku.",
+      "previous_ria": "Edhukku first prepare pannalaam?"
+    },
+    "expected_english": "The user wants to prepare first for the interview on Friday.",
+    "reviewed_at": "2026-10-17T11:37:39.321445+00:00"
+  },
+  "RIA-GEN2-037": {
+    "status": "approved",
+    "prompt": {
+      "id": "RIA-GEN2-037",
+      "category": "context",
+      "user_message": "Tune mattum maathalaam.",
+      "previous_user": "Naan oru song write panren.",
+      "previous_ria": "Lyrics change panlama, tune change panlama?"
+    },
+    "expected_english": "The user wants to change only the tune, not the lyrics.",
+    "reviewed_at": "2026-10-17T11:37:40.002262+00:00"
+  },
+  "RIA-GEN2-038": {
+    "status": "approved",
+    "prompt": {
+      "id": "RIA-GEN2-038",
+      "category": "context",
+      "user_message": "Manager-ku mattum anuppu.",
+      "previous_user": "Indha file-a share pannava?",
+      "previous_ria": "Team full-ah anuppava?"
+    },
+    "expected_english": "The user wants the file sent only to the manager.",
+    "reviewed_at": "2026-10-17T11:37:40.669288+00:00"
+  },
+  "RIA-GEN2-039": {
+    "status": "approved",
+    "prompt": {
+      "id": "RIA-GEN2-039",
+      "category": "context",
+      "user_message": "Illa, moonu pothum.",
+      "previous_user": "Naalaikku morning run pogalaamnu irukken.",
+      "previous_ria": "Five kilometres try pannalama?"
+    },
+    "expected_english": "The user wants to run three kilometres instead of five.",
+    "reviewed_at": "2026-10-17T11:37:41.247013+00:00"
+  },
+  "RIA-GEN2-040": {
+    "status": "approved",
+    "prompt": {
+      "id": "RIA-GEN2-040",
+      "category": "context",
+      "user_message": "Rendume okay, aana first one easy.",
+      "previous_user": "Project-ku Python illa Java use pannalama?",
+      "previous_ria": "Ungalukku endha language comfortable?"
+    },
+    "expected_english": "The user is comfortable with both but finds Python easier.",
+    "reviewed_at": "2026-10-17T11:37:41.725876+00:00"
+  },
+  "RIA-GEN2-010": {
+    "status": "approved",
+    "prompt": {
+      "id": "RIA-GEN2-010",
+      "category": "pronouns",
+      "user_message": "Avangalukku naan already message anuppitten.",
+      "previous_user": null,
+      "previous_ria": null
+    },
+    "expected_english": "I've already sent them a message.",
+    "reviewed_at": "2026-10-17T11:37:49.696340+00:00"
+  },
+  "RIA-GEN2-026": {
+    "status": "approved",
+    "prompt": {
+      "id": "RIA-GEN2-026",
+      "category": "variation",
+      "user_message": "Iniki seekiram thoonganum.",
+      "previous_user": null,
+      "previous_ria": null
+    },
+    "expected_english": "I need to sleep early today.",
+    "reviewed_at": "2026-10-17T11:37:50.396363+00:00"
+  }
+}

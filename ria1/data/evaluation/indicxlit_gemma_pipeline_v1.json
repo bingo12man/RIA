@@ -1,0 +1,116 @@
+{
+  "model": "gemma3:4b",
+  "converter": "indicxlit_node_top1",
+  "created_at": "2026-10-17T11:17:19.564063+00:00",
+  "evaluation_type": "development_diagnostic",
+  "tests": [
+    {
+      "id": "RIA-IX-001",
+      "tanglish": "Amma inniku veetukku varala.",
+      "indicxlit_tamil": "அம்மா இன்னிகு வீட்டுக்கு வரல.",
+      "reference_tamil": "அம்மா இன்னைக்கு வீட்டுக்கு வரல.",
+      "expected_english": "Mom didn't come home today.",
+      "predicted_english": "Mom didn't come home today.",
+      "human_review": "pending"
+    },
+    {
+      "id": "RIA-IX-002",
+      "tanglish": "Amma inniku veetukku pogala.",
+      "indicxlit_tamil": "அம்மா இன்னிகு வீட்டுக்கு பொகல.",
+      "reference_tamil": "அம்மா இன்னைக்கு வீட்டுக்கு போகல.",
+      "expected_english": "Mom didn't go home today.",
+      "predicted_english": "Mom is going home right now.",
+      "human_review": "pending"
+    },
+    {
+      "id": "RIA-IX-003",
+      "tanglish": "Naan naalaikku college-ku varuven.",
+      "indicxlit_tamil": "நான் நாளைக்கு college-கு வருவென்.",
+      "reference_tamil": "நான் நாளைக்கு காலேஜுக்கு வருவேன்.",
+      "expected_english": "I'll come to college tomorrow.",
+      "predicted_english": "I am going to college tomorrow.",
+      "human_review": "pending"
+    },
+    {
+      "id": "RIA-IX-004",
+      "tanglish": "Naan naalaikku college-ku poven.",
+      "indicxlit_tamil": "நான் நாளைக்கு college-கு போவன்.",
+      "reference_tamil": "நான் நாளைக்கு காலேஜுக்கு போவேன்.",
+      "expected_english": "I'll go to college tomorrow.",
+      "predicted_english": "I am going to college tomorrow.",
+      "human_review": "pending"
+    },
+    {
+      "id": "RIA-IX-005",
+      "tanglish": "Avalukku indha food vendaam.",
+      "indicxlit_tamil": "அவளுக்கு இந்த food வெண்டாம்.",
+      "reference_tamil": "அவளுக்கு இந்த சாப்பாடு வேண்டாம்.",
+      "expected_english": "She doesn't want this food.",
+      "predicted_english": "She doesn’t like this food.",
+      "human_review": "pending"
+    },
+    {
+      "id": "RIA-IX-006",
+      "tanglish": "Indha alavu saapadu podhum.",
+      "indicxlit_tamil": "இந்த அளவு சாபடு பொதும்.",
+      "reference_tamil": "இந்த அளவு சாப்பாடு போதும்.",
+      "expected_english": "This amount of food is enough.",
+      "predicted_english": "That’s absolutely ridiculous.",
+      "human_review": "pending"
+    },
+    {
+      "id": "RIA-IX-007",
+      "tanglish": "Nethu avan call pannala.",
+      "indicxlit_tamil": "நேது அவன் call பண்ணல.",
+      "reference_tamil": "நேத்து அவன் கால் பண்ணல.",
+      "expected_english": "He didn't call yesterday.",
+      "predicted_english": "He didn't call me back.",
+      "human_review": "pending"
+    },
+    {
+      "id": "RIA-IX-008",
+      "tanglish": "Inniku enakku velai mudiyala.",
+      "indicxlit_tamil": "இன்னிகு எனக்கு வேலை முடியல.",
+      "reference_tamil": "இன்னைக்கு எனக்கு வேலை முடியல.",
+      "expected_english": "I couldn't finish my work today.",
+      "predicted_english": "I didn't finish my work yet.",
+      "human_review": "pending"
+    },
+    {
+      "id": "RIA-IX-009",
+      "tanglish": "Naalaikku vara mudiyuma?",
+      "indicxlit_tamil": "நாளைக்கு வரா முடியுமா?",
+      "reference_tamil": "நாளைக்கு வர முடியுமா?",
+      "expected_english": "Can you come tomorrow?",
+      "predicted_english": "Could you not come tomorrow?",
+      "human_review": "pending"
+    },
+    {
+      "id": "RIA-IX-010",
+      "tanglish": "Aval konjam kovama irukka.",
+      "indicxlit_tamil": "அவல் கொஞ்சம் கோவமா இருக்க.",
+      "reference_tamil": "அவள் கொஞ்சம் கோபமா இருக்கா.",
+      "expected_english": "She's a little angry.",
+      "predicted_english": "He is a little bit angry.",
+      "human_review": "pending"
+    },
+    {
+      "id": "RIA-IX-011",
+      "tanglish": "Enakku ippo pesa thonala.",
+      "indicxlit_tamil": "எனக்கு இப்போ பேசா தொணல.",
+      "reference_tamil": "எனக்கு இப்போ பேசத் தோணல.",
+      "expected_english": "I don't feel like talking right now.",
+      "predicted_english": "I don’t feel like speaking right now.",
+      "human_review": "pending"
+    },
+    {
+      "id": "RIA-IX-012",
+      "tanglish": "Avan vara maattennu sonnaan.",
+      "indicxlit_tamil": "அவன் வரா மாட்டென்னு சொன்னான்.",
+      "reference_tamil": "அவன் வர மாட்டேன்னு சொன்னான்.",
+      "expected_english": "He said he wouldn't come.",
+      "predicted_english": "He said that he wouldn’t be able to come.",
+      "human_review": "pending"
+    }
+  ]
+}

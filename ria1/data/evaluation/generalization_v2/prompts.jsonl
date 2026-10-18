@@ -1,0 +1,40 @@
+{"id": "RIA-GEN2-001", "category": "negation", "user_message": "Indha parcel-a open panna koodaadhu.", "previous_user": null, "previous_ria": null}
+{"id": "RIA-GEN2-002", "category": "negation", "user_message": "Enakku ippo saapida ishtam illa.", "previous_user": null, "previous_ria": null}
+{"id": "RIA-GEN2-003", "category": "negation", "user_message": "Andha photo-va share pannidaadha.", "previous_user": null, "previous_ria": null}
+{"id": "RIA-GEN2-004", "category": "negation", "user_message": "Naan anuppuna parcel innum deliver aagala.", "previous_user": null, "previous_ria": null}
+{"id": "RIA-GEN2-005", "category": "tense", "user_message": "Nethu night current poiduchu.", "previous_user": null, "previous_ria": null}
+{"id": "RIA-GEN2-006", "category": "tense", "user_message": "Adutha vaaram oorukku kelamburen.", "previous_user": null, "previous_ria": null}
+{"id": "RIA-GEN2-007", "category": "tense", "user_message": "Naan vandhadhukulla avanga kelambittaanga.", "previous_user": null, "previous_ria": null}
+{"id": "RIA-GEN2-008", "category": "tense", "user_message": "Meeting mudinju apram pesalaam.", "previous_user": null, "previous_ria": null}
+{"id": "RIA-GEN2-009", "category": "pronouns", "user_message": "Ava sonnadha avankitta sollaadha.", "previous_user": null, "previous_ria": null}
+{"id": "RIA-GEN2-010", "category": "pronouns", "user_message": "Avangalukku naan already message anuppitten.", "previous_user": null, "previous_ria": null}
+{"id": "RIA-GEN2-011", "category": "pronouns", "user_message": "En thambi innikki late-ah varuvaan.", "previous_user": null, "previous_ria": null}
+{"id": "RIA-GEN2-012", "category": "pronouns", "user_message": "Nee kudutha book-a naan padichitten.", "previous_user": null, "previous_ria": null}
+{"id": "RIA-GEN2-013", "category": "questions", "user_message": "Idhukku vera vazhi irukka?", "previous_user": null, "previous_ria": null}
+{"id": "RIA-GEN2-014", "category": "questions", "user_message": "Bus stop enga irukku nu solla mudiyuma?", "previous_user": null, "previous_ria": null}
+{"id": "RIA-GEN2-015", "category": "questions", "user_message": "Indha issue yen thirumba varudhu?", "previous_user": null, "previous_ria": null}
+{"id": "RIA-GEN2-016", "category": "questions", "user_message": "Nee confirm pannitiya illaya?", "previous_user": null, "previous_ria": null}
+{"id": "RIA-GEN2-017", "category": "emotion", "user_message": "Avanga pesunadha ketu enakku manasu kashtama irukku.", "previous_user": null, "previous_ria": null}
+{"id": "RIA-GEN2-018", "category": "emotion", "user_message": "Konjam thaniya irukkanum pola irukku.", "previous_user": null, "previous_ria": null}
+{"id": "RIA-GEN2-019", "category": "emotion", "user_message": "Indha paattu kekkumbodhu sandhoshama irukku.", "previous_user": null, "previous_ria": null}
+{"id": "RIA-GEN2-020", "category": "emotion", "user_message": "Yaarayum disturb panna virumbala.", "previous_user": null, "previous_ria": null}
+{"id": "RIA-GEN2-021", "category": "code_switch", "user_message": "API response slow-ah irukku, logs check pannu.", "previous_user": null, "previous_ria": null}
+{"id": "RIA-GEN2-022", "category": "code_switch", "user_message": "Deployment panna munnaadi backup eduthuko.", "previous_user": null, "previous_ria": null}
+{"id": "RIA-GEN2-023", "category": "code_switch", "user_message": "Indha branch-a merge panna ready-ah irukka?", "previous_user": null, "previous_ria": null}
+{"id": "RIA-GEN2-024", "category": "code_switch", "user_message": "Camera feed freeze aagudhu, restart panni paaru.", "previous_user": null, "previous_ria": null}
+{"id": "RIA-GEN2-025", "category": "variation", "user_message": "Enaku adhu seriya purila.", "previous_user": null, "previous_ria": null}
+{"id": "RIA-GEN2-026", "category": "variation", "user_message": "Iniki seekiram thoonganum.", "previous_user": null, "previous_ria": null}
+{"id": "RIA-GEN2-027", "category": "variation", "user_message": "Neenga engayo paatha madhiri iruku.", "previous_user": null, "previous_ria": null}
+{"id": "RIA-GEN2-028", "category": "variation", "user_message": "Adha marubadiyum sollunga.", "previous_user": null, "previous_ria": null}
+{"id": "RIA-GEN2-029", "category": "intent", "user_message": "Rendu perukku mattum ticket book pannu.", "previous_user": null, "previous_ria": null}
+{"id": "RIA-GEN2-030", "category": "intent", "user_message": "Mazhai penja veliya poga vendaam.", "previous_user": null, "previous_ria": null}
+{"id": "RIA-GEN2-031", "category": "intent", "user_message": "Oru mani neram kazhichu nyabagam paduthu.", "previous_user": null, "previous_ria": null}
+{"id": "RIA-GEN2-032", "category": "intent", "user_message": "Adhula paadhi mattum use pannu.", "previous_user": null, "previous_ria": null}
+{"id": "RIA-GEN2-033", "category": "context", "user_message": "Battery dhaan first priority.", "previous_user": "Naan rendu laptops compare panren.", "previous_ria": "Battery life mukkiyama, performance mukkiyama?"}
+{"id": "RIA-GEN2-034", "category": "context", "user_message": "Maximum aaru slides podhum.", "previous_user": "Naan oru presentation prepare panren.", "previous_ria": "Evlo slides venum?"}
+{"id": "RIA-GEN2-035", "category": "context", "user_message": "Illa, thriller better.", "previous_user": "Inniku evening movie polaama?", "previous_ria": "Comedy movie paakalaama?"}
+{"id": "RIA-GEN2-036", "category": "context", "user_message": "Friday irukkuradhukku first.", "previous_user": "Enakku rendu interviews schedule aayirukku.", "previous_ria": "Edhukku first prepare pannalaam?"}
+{"id": "RIA-GEN2-037", "category": "context", "user_message": "Tune mattum maathalaam.", "previous_user": "Naan oru song write panren.", "previous_ria": "Lyrics change panlama, tune change panlama?"}
+{"id": "RIA-GEN2-038", "category": "context", "user_message": "Manager-ku mattum anuppu.", "previous_user": "Indha file-a share pannava?", "previous_ria": "Team full-ah anuppava?"}
+{"id": "RIA-GEN2-039", "category": "context", "user_message": "Illa, moonu pothum.", "previous_user": "Naalaikku morning run pogalaamnu irukken.", "previous_ria": "Five kilometres try pannalama?"}
+{"id": "RIA-GEN2-040", "category": "context", "user_message": "Rendume okay, aana first one easy.", "previous_user": "Project-ku Python illa Java use pannalama?", "previous_ria": "Ungalukku endha language comfortable?"}

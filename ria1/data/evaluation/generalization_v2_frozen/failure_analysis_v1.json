@@ -1,0 +1,266 @@
+{
+  "category_breakdown": {
+    "negation": {
+      "direct": {
+        "correct": 0,
+        "partial": 0,
+        "wrong": 4,
+        "critical": 4
+      },
+      "indicxlit_top1": {
+        "correct": 1,
+        "partial": 1,
+        "wrong": 2,
+        "critical": 2
+      },
+      "verified_converter": {
+        "correct": 1,
+        "partial": 1,
+        "wrong": 2,
+        "critical": 2
+      }
+    },
+    "tense": {
+      "direct": {
+        "correct": 0,
+        "partial": 0,
+        "wrong": 4,
+        "critical": 4
+      },
+      "indicxlit_top1": {
+        "correct": 2,
+        "partial": 1,
+        "wrong": 1,
+        "critical": 1
+      },
+      "verified_converter": {
+        "correct": 2,
+        "partial": 1,
+        "wrong": 1,
+        "critical": 1
+      }
+    },
+    "pronouns": {
+      "direct": {
+        "correct": 0,
+        "partial": 1,
+        "wrong": 3,
+        "critical": 3
+      },
+      "indicxlit_top1": {
+        "correct": 0,
+        "partial": 4,
+        "wrong": 0,
+        "critical": 1
+      },
+      "verified_converter": {
+        "correct": 0,
+        "partial": 4,
+        "wrong": 0,
+        "critical": 1
+      }
+    },
+    "questions": {
+      "direct": {
+        "correct": 0,
+        "partial": 0,
+        "wrong": 4,
+        "critical": 4
+      },
+      "indicxlit_top1": {
+        "correct": 1,
+        "partial": 2,
+        "wrong": 1,
+        "critical": 1
+      },
+      "verified_converter": {
+        "correct": 1,
+        "partial": 2,
+        "wrong": 1,
+        "critical": 1
+      }
+    },
+    "emotion": {
+      "direct": {
+        "correct": 0,
+        "partial": 0,
+        "wrong": 4,
+        "critical": 4
+      },
+      "indicxlit_top1": {
+        "correct": 1,
+        "partial": 2,
+        "wrong": 1,
+        "critical": 1
+      },
+      "verified_converter": {
+        "correct": 1,
+        "partial": 3,
+        "wrong": 0,
+        "critical": 0
+      }
+    },
+    "code_switch": {
+      "direct": {
+        "correct": 0,
+        "partial": 3,
+        "wrong": 1,
+        "critical": 1
+      },
+      "indicxlit_top1": {
+        "correct": 2,
+        "partial": 2,
+        "wrong": 0,
+        "critical": 0
+      },
+      "verified_converter": {
+        "correct": 2,
+        "partial": 2,
+        "wrong": 0,
+        "critical": 0
+      }
+    },
+    "variation": {
+      "direct": {
+        "correct": 0,
+        "partial": 0,
+        "wrong": 4,
+        "critical": 4
+      },
+      "indicxlit_top1": {
+        "correct": 1,
+        "partial": 1,
+        "wrong": 2,
+        "critical": 2
+      },
+      "verified_converter": {
+        "correct": 1,
+        "partial": 1,
+        "wrong": 2,
+        "critical": 2
+      }
+    },
+    "intent": {
+      "direct": {
+        "correct": 0,
+        "partial": 0,
+        "wrong": 4,
+        "critical": 4
+      },
+      "indicxlit_top1": {
+        "correct": 0,
+        "partial": 3,
+        "wrong": 1,
+        "critical": 1
+      },
+      "verified_converter": {
+        "correct": 0,
+        "partial": 3,
+        "wrong": 1,
+        "critical": 1
+      }
+    },
+    "context": {
+      "direct": {
+        "correct": 2,
+        "partial": 1,
+        "wrong": 5,
+        "critical": 5
+      },
+      "indicxlit_top1": {
+        "correct": 3,
+        "partial": 3,
+        "wrong": 2,
+        "critical": 2
+      },
+      "verified_converter": {
+        "correct": 3,
+        "partial": 3,
+        "wrong": 2,
+        "critical": 2
+      }
+    }
+  },
+  "verified_better_ids": [
+    "RIA-GEN2-020"
+  ],
+  "verified_worse_ids": [],
+  "equal_score_ids": [
+    "RIA-GEN2-001",
+    "RIA-GEN2-002",
+    "RIA-GEN2-003",
+    "RIA-GEN2-004",
+    "RIA-GEN2-005",
+    "RIA-GEN2-006",
+    "RIA-GEN2-007",
+    "RIA-GEN2-008",
+    "RIA-GEN2-009",
+    "RIA-GEN2-010",
+    "RIA-GEN2-011",
+    "RIA-GEN2-012",
+    "RIA-GEN2-013",
+    "RIA-GEN2-014",
+    "RIA-GEN2-015",
+    "RIA-GEN2-016",
+    "RIA-GEN2-017",
+    "RIA-GEN2-018",
+    "RIA-GEN2-019",
+    "RIA-GEN2-021",
+    "RIA-GEN2-022",
+    "RIA-GEN2-023",
+    "RIA-GEN2-024",
+    "RIA-GEN2-025",
+    "RIA-GEN2-026",
+    "RIA-GEN2-027",
+    "RIA-GEN2-028",
+    "RIA-GEN2-029",
+    "RIA-GEN2-030",
+    "RIA-GEN2-031",
+    "RIA-GEN2-032",
+    "RIA-GEN2-033",
+    "RIA-GEN2-034",
+    "RIA-GEN2-035",
+    "RIA-GEN2-036",
+    "RIA-GEN2-037",
+    "RIA-GEN2-038",
+    "RIA-GEN2-039",
+    "RIA-GEN2-040"
+  ],
+  "critical_case_ids": [
+    "RIA-GEN2-001",
+    "RIA-GEN2-002",
+    "RIA-GEN2-003",
+    "RIA-GEN2-004",
+    "RIA-GEN2-005",
+    "RIA-GEN2-006",
+    "RIA-GEN2-007",
+    "RIA-GEN2-008",
+    "RIA-GEN2-010",
+    "RIA-GEN2-011",
+    "RIA-GEN2-012",
+    "RIA-GEN2-013",
+    "RIA-GEN2-014",
+    "RIA-GEN2-015",
+    "RIA-GEN2-016",
+    "RIA-GEN2-017",
+    "RIA-GEN2-018",
+    "RIA-GEN2-019",
+    "RIA-GEN2-020",
+    "RIA-GEN2-022",
+    "RIA-GEN2-025",
+    "RIA-GEN2-026",
+    "RIA-GEN2-027",
+    "RIA-GEN2-028",
+    "RIA-GEN2-029",
+    "RIA-GEN2-030",
+    "RIA-GEN2-031",
+    "RIA-GEN2-032",
+    "RIA-GEN2-034",
+    "RIA-GEN2-035",
+    "RIA-GEN2-036",
+    "RIA-GEN2-038",
+    "RIA-GEN2-039",
+    "RIA-GEN2-040"
+  ],
+  "total_cases": 40
+}
