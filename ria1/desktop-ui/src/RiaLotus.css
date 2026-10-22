@@ -1,0 +1,47 @@
+/* Interactive RIA lotus. These styles are scoped; no existing voice logic is touched. */
+.ria-lotus-container { position:relative; width:min(100%,440px); margin:0 auto; display:flex; flex-direction:column; align-items:center; }
+.ria-lotus { position:relative; width:100%; aspect-ratio:1; isolation:isolate; animation:ria-lotus-float 5s ease-in-out infinite; filter:drop-shadow(0 0 18px #6f5fff88); }
+.ria-lotus-halo { position:absolute; inset:13%; border-radius:50%; background:radial-gradient(circle,#3724b480 22%,#2935d71c 65%,transparent 74%); filter:blur(22px); }
+.orbit-aura .orbit-ring { display:none; }
+.ria-lotus--idle .ria-petal--side-left { animation:ria-lotus-breathe-left 4.8s ease-in-out infinite alternate; }
+.ria-lotus--idle .ria-petal--side-right { animation:ria-lotus-breathe-right 4.8s ease-in-out infinite alternate; }
+.ria-lotus-petals,.ria-lotus-front { width:100%; height:100%; position:absolute; inset:0; overflow:visible; pointer-events:none; }
+.ria-lotus-petals { z-index:1; }.ria-lotus-front { z-index:3; }
+.ria-petal { transform-box:fill-box; transform-origin:50% 88%; transition:transform 850ms cubic-bezier(.22,.77,.27,1),opacity 600ms ease; filter:drop-shadow(0 0 7px #65baff9c); }
+.ria-petal--back-left { transform-origin:80% 88%; }.ria-petal--back-right { transform-origin:20% 88%; }
+.ria-petal--side-left,.ria-petal--front-left { transform-origin:95% 80%; }.ria-petal--side-right,.ria-petal--front-right { transform-origin:5% 80%; }
+.ria-face.ria-lotus-face { position:absolute; z-index:2; left:25%; top:23%; width:50%; height:50%; aspect-ratio:1; min-width:0; border-radius:50%; border:4px solid #83f5ff; background:radial-gradient(circle at 83% 83%,#ff9c8e 0%,#b747a5 19%,#402182 49%,#081d65 78%,#2bebff 115%); box-shadow:0 0 20px #19d2ffae,0 0 48px #955dffa1,inset 0 0 27px #511ccb9e,inset -17px -20px 30px #ff7b9655; opacity:1; transform:none; display:flex; align-items:center; justify-content:center; }
+.ria-lotus-face .ria-lotus-eyes { display:flex; gap:clamp(17px,3vw,44px); align-items:center; position:absolute; top:39%; left:50%; transform:translate(-50%,-50%); margin:0; }
+.ria-lotus-face .eye { width:30px; height:15px; background:transparent!important; border:0; border-top:6px solid #f5feff; border-radius:55% 55% 0 0; box-shadow:0 -3px 12px #a695ff; transform:none!important; animation:ria-lotus-blink 6s infinite; transition:all 250ms ease; }
+.ria-lotus-face .mouth { position:absolute; top:59%; width:27px; height:12px; border:0; border-bottom:5px solid white; border-radius:0 0 50% 50%; background:transparent; box-shadow:none; transition:width 80ms ease,height 80ms ease; transform:none; }
+.ria-lotus-face .cheek { opacity:.35; width:17px; height:8px; top:58%; background:#ffb1c9; filter:blur(4px); }
+.ria-lotus-face .cheek-left { left:14%; }.ria-lotus-face .cheek-right { right:14%; }
+.ria-lotus-particle { position:absolute; z-index:4; border-radius:50%; width:7px; height:7px; background:#63f5ff; box-shadow:0 0 13px 5px #32bdfc9c; animation:ria-lotus-particle 3s ease-in-out infinite alternate; }
+.ria-lotus-particle--a { left:12%; top:23%; }.ria-lotus-particle--b { right:8%; top:34%; width:5px; height:5px; background:#ff8fbf; box-shadow:0 0 14px 4px #e363ca; animation-delay:-1s; }.ria-lotus-particle--c { bottom:13%; left:18%; width:5px; height:5px; animation-delay:-2s; }
+.ria-lotus-bubble { position:absolute; z-index:4; top:17%; right:9%; min-width:10%; min-height:10%; display:grid; place-items:center; background:radial-gradient(circle at 30% 22%,#ffc9fa,#e477ff 65%,#944af3); box-shadow:0 0 16px #e764ef; border-radius:52% 50% 52% 24%; color:#fff; font-weight:800; font-size:clamp(10px,2.5vw,22px); transform:rotate(8deg); }
+.ria-lotus--listening .ria-petal--back-left { transform:rotate(-19deg) translateX(-7px); }.ria-lotus--listening .ria-petal--back-right { transform:rotate(19deg) translateX(7px); }
+.ria-lotus--listening .ria-petal--side-left { transform:rotate(-16deg) }.ria-lotus--listening .ria-petal--side-right { transform:rotate(16deg) }
+.ria-lotus--listening .ria-lotus-face .eye,.ria-lotus--alert .ria-lotus-face .eye { width:24px; height:29px; background:#fafdff!important; border:5px solid #aef7ff; border-radius:50%; box-shadow:0 0 16px #6be8ff; animation:none; }
+.ria-lotus--listening .ria-lotus-face .mouth,.ria-lotus--alert .ria-lotus-face .mouth { width:10px; height:10px; border:3px solid #fff; border-radius:50%; background:#171757; }
+.ria-lotus--thinking .ria-lotus-face .eye { transform:rotate(-12deg)!important; animation:none; }.ria-lotus--thinking .ria-lotus-face .mouth { width:15px; border-radius:30%; }
+.ria-lotus--happy .ria-lotus-face .mouth { width:39px; height:24px; background:#491e80; border:4px solid #fff; border-radius:40% 40% 55% 55%; }
+.ria-lotus--happy .ria-petal--side-left { transform:rotate(-13deg) }.ria-lotus--happy .ria-petal--side-right { transform:rotate(13deg) }
+.ria-lotus--speaking .ria-lotus-face .mouth { top:59%; width:calc(24px + var(--ria-mouth-open,0) * 14px)!important; height:calc(9px + var(--ria-mouth-open,0) * 24px)!important; background:#17104b; border:4px solid #fff; border-radius:45% 45% 55% 55%; animation:ria-lotus-talk 320ms ease-in-out infinite alternate; }
+.ria-lotus--speaking .ria-petal--front-left { animation:ria-lotus-petal-talk-left 600ms ease-in-out infinite alternate; }.ria-lotus--speaking .ria-petal--front-right { animation:ria-lotus-petal-talk-right 600ms ease-in-out infinite alternate; }
+.ria-lotus--sleepy .ria-petal--back-left { transform:rotate(27deg) translateX(17px) }.ria-lotus--sleepy .ria-petal--back-right { transform:rotate(-27deg) translateX(-17px) }.ria-lotus--sleepy .ria-petal--side-left { transform:rotate(19deg) }.ria-lotus--sleepy .ria-petal--side-right { transform:rotate(-19deg) }
+.ria-lotus--sleepy .ria-petal--front-left { transform:rotate(10deg) translateY(-19px) }.ria-lotus--sleepy .ria-petal--front-right { transform:rotate(-10deg) translateY(-19px) }.ria-lotus--sleepy .ria-lotus-face .eye { height:5px; border-top-width:4px; animation:none; }.ria-lotus--sleepy .ria-lotus-face { filter:brightness(.72); }
+.ria-lotus--wink .ria-lotus-face .eye:last-child { height:29px; width:24px; border:4px solid #fff; border-radius:50%; background:#fff!important; box-shadow:0 0 15px #8fefff; animation:none; }
+.ria-lotus--alert .ria-petal--back-left { transform:rotate(-22deg); }.ria-lotus--alert .ria-petal--back-right { transform:rotate(22deg); }
+.ria-lotus-preview { z-index:5; position:relative; margin-top:-7px; font-size:11px; color:#91aee1; text-align:center; }
+.ria-lotus-preview summary { cursor:pointer; padding:7px 12px; }.ria-lotus-preview-options { display:flex; flex-wrap:wrap; justify-content:center; gap:4px; max-width:400px; }
+.ria-lotus-preview-options button { border:1px solid #334a87; border-radius:20px; background:#152046; color:#caddfa; padding:5px 8px; text-transform:capitalize; font-size:11px; }.ria-lotus-preview-options button.active { border-color:#77e1ff; background:#244d75; }
+@keyframes ria-lotus-breathe-left { from{transform:rotate(0deg)}to{transform:rotate(-7deg)} }
+@keyframes ria-lotus-breathe-right { from{transform:rotate(0deg)}to{transform:rotate(7deg)} }
+@keyframes ria-lotus-float { 0%,100% {transform:translateY(0)} 50% {transform:translateY(-6px)} }
+@keyframes ria-lotus-particle { from{opacity:.4;transform:scale(.7)}to{opacity:1;transform:scale(1.2)} }
+@keyframes ria-lotus-blink { 0%,92%,96%,100%{scale:1 1}94%{scale:1 .13} }
+@keyframes ria-lotus-talk { from{border-radius:50%;}to{border-radius:36%;} }
+@keyframes ria-lotus-petal-talk-left { from{transform:rotate(-2deg)}to{transform:rotate(6deg)} }
+@keyframes ria-lotus-petal-talk-right { from{transform:rotate(2deg)}to{transform:rotate(-6deg)} }
+@media(max-width:600px) { .ria-lotus-container { width:min(73vw,280px); }.ria-lotus-face .eye { width:19px;height:10px;border-top-width:4px; }.ria-lotus-face .ria-lotus-eyes { gap:23px; }.ria-lotus-preview { font-size:10px; } }
+@media(prefers-reduced-motion:reduce) { .ria-lotus,.ria-lotus-particle,.ria-lotus-face .eye,.ria-lotus--speaking .ria-lotus-face .mouth,.ria-lotus--speaking .ria-petal,.ria-lotus--idle .ria-petal { animation:none!important; }.ria-petal { transition:none; } }

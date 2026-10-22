@@ -1,0 +1,519 @@
+:root {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  color: #e9f4f7;
+  background: #090c13;
+  font-synthesis: none;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  min-width: 240px;
+}
+
+button {
+  font: inherit;
+  cursor: pointer;
+}
+
+button:focus-visible {
+  outline: 3px solid #fff;
+  outline-offset: 4px;
+}
+
+.ria-app {
+  min-height: 100dvh;
+  display: grid;
+  place-items: center;
+  padding: 12px;
+}
+
+.ria-screen {
+  position: relative;
+  width: min(100%, 460px);
+  height: min(94dvh, 680px);
+  min-height: 320px;
+  overflow: hidden;
+  border-radius: 28px;
+  border: 1px solid #253343;
+  background: radial-gradient(
+    circle at 50% 40%,
+    #1a2b37 0%,
+    #111923 40%,
+    #080c13 85%
+  );
+  display: flex;
+  flex-direction: column;
+}
+
+.topbar {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 17px 20px;
+}
+
+.brand {
+  font-size: 18px;
+  font-weight: 800;
+  letter-spacing: 3px;
+}
+
+.brand span { color: #80e3df; }
+
+.top-actions {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.connection {
+  height: 7px;
+  width: 7px;
+  border-radius: 50%;
+  background: #71e4be;
+  box-shadow: 0 0 9px #71e4be;
+}
+
+.connection.offline {
+  background: #f0a177;
+  box-shadow: none;
+}
+
+.icon-button {
+  color: #b4d8de;
+  background: #1d2a34;
+  border: 1px solid #354955;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  font-size: 23px;
+}
+
+.face-stage {
+  flex: 1;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  padding: 8px;
+}
+
+.ria-face {
+  position: relative;
+  width: min(80%, 280px);
+  aspect-ratio: 1.65;
+  border: 2px solid #2b4b59;
+  border-radius: 28%;
+  background: #05090f;
+  box-shadow:
+    0 0 55px #143a4a50,
+    inset 0 0 26px #17354390;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.eyes {
+  display: flex;
+  gap: clamp(30px, 10vw, 64px);
+  align-items: center;
+}
+
+.eye {
+  width: clamp(27px, 8vw, 42px);
+  height: clamp(45px, 14vw, 70px);
+  background: #79e8df;
+  border-radius: 50%;
+  box-shadow: 0 0 24px #42c7ca70;
+  animation: blink 5.4s infinite;
+}
+
+.mouth {
+  position: absolute;
+  top: 70%;
+  width: 26px;
+  height: 12px;
+  border-bottom: 4px solid #79e8df;
+  border-radius: 50%;
+}
+
+.cheek {
+  position: absolute;
+  top: 67%;
+  width: 18px;
+  height: 8px;
+  border-radius: 50%;
+  background: #dc8eb1;
+  opacity: 0;
+}
+
+.cheek-left { left: 14%; }
+.cheek-right { right: 14%; }
+
+.ria-face.happy {
+  transform: rotate(-3deg);
+}
+
+.ria-face.happy .eye {
+  height: 21px;
+  border-radius: 50% 50% 0 0;
+  animation: none;
+}
+
+.ria-face.happy .mouth {
+  width: 42px;
+  height: 19px;
+}
+
+.ria-face.happy .cheek { opacity: .6; }
+
+.ria-face.curious .eye {
+  height: 75px;
+  animation: none;
+}
+
+.ria-face.listening .eye {
+  animation: pulse 1.2s infinite alternate;
+}
+
+.ria-face.sleepy .eye {
+  height: 5px;
+  animation: none;
+}
+
+.ria-face.sleepy {
+  opacity: .45;
+}
+
+.status {
+  text-align: center;
+  font-size: 14px;
+  color: #aac8d0;
+  min-height: 24px;
+  padding: 0 16px;
+}
+
+.bottom-controls {
+  padding: 8px 16px 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 9px;
+}
+
+.mic-button {
+  width: 66px;
+  height: 66px;
+  border-radius: 50%;
+  border: 1px solid #568e93;
+  background: #204a50;
+  color: #a3f6ec;
+  display: grid;
+  place-items: center;
+}
+
+.mic-button:hover { background: #2a6266; }
+
+.hint {
+  font-size: 11px;
+  color: #91a7b1;
+  letter-spacing: 1px;
+}
+
+.reminder-overlay {
+  background: #172b34;
+  border-top: 1px solid #39646a;
+  padding: 16px;
+  text-align: center;
+}
+
+.reminder-label {
+  color: #81e0df;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.reminder-title {
+  font-size: 18px;
+  font-weight: 600;
+  overflow-wrap: anywhere;
+  margin: 12px 0 17px;
+}
+
+.reminder-actions {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 7px;
+}
+
+.reminder-actions button {
+  background: #2b4350;
+  color: #fff;
+  border: 1px solid #47616b;
+  border-radius: 11px;
+  padding: 12px;
+  min-height: 44px;
+}
+
+.reminder-actions .primary {
+  background: #75deda;
+  color: #0b2930;
+  border-color: #75deda;
+  font-weight: 700;
+}
+
+button:disabled {
+  opacity: .5;
+  cursor: wait;
+}
+
+.error {
+  position: absolute;
+  top: 62px;
+  left: 12px;
+  right: 12px;
+  z-index: 3;
+  background: #472a32;
+  color: #fff;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 12px;
+  text-align: center;
+}
+
+@keyframes blink {
+  0%, 42%, 46%, 100% { transform: scaleY(1); }
+  44% { transform: scaleY(.07); }
+}
+
+@keyframes pulse {
+  from { transform: scaleY(.8); }
+  to { transform: scaleY(1.12); }
+}
+
+@media (max-width: 380px) {
+  .ria-app { padding: 0; }
+  .ria-screen {
+    width: 100%;
+    height: 100dvh;
+    border-radius: 0;
+  }
+  .reminder-title { font-size: 15px; }
+  .reminder-actions button { padding: 10px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation: none !important;
+    transition: none !important;
+  }
+}
+
+/* RIA Mini v2 — improved natural blinking */
+.ria-face.idle .eye,
+.ria-face.curious .eye {
+  transform-origin: center center;
+  animation: ria-blink 3.5s infinite ease-in-out;
+}
+
+@keyframes ria-blink {
+  0%, 40%, 52%, 100% {
+    transform: scaleY(1);
+  }
+  44%, 48% {
+    transform: scaleY(0.08);
+  }
+}
+
+/* Respect OS reduced-motion preferences */
+@media (prefers-reduced-motion: reduce) {
+  .ria-face .eye {
+    animation: none !important;
+  }
+}
+
+/* RIA: recording indicator */
+.ria-face.listening .eye {
+  animation: pulse 1.2s infinite alternate;
+}
+
+.mic-button:active {
+  transform: scale(0.96);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .ria-face.listening .eye {
+    animation: none !important;
+  }
+}
+
+/* Compact RIA reminder notification */
+
+.reminder-bell {
+  position: relative;
+  width: 38px;
+  height: 38px;
+  border: 1px solid #35515a;
+  border-radius: 50%;
+  background: #1c3540;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.bell-dot {
+  position: absolute;
+  top: 2px;
+  right: 2px;
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: #ffba77;
+  box-shadow: 0 0 8px #ffba77;
+}
+
+.reminder-overlay {
+  position: absolute;
+  z-index: 5;
+  top: 70px;
+  right: 12px;
+  left: 12px;
+  bottom: auto;
+  padding: 14px;
+  max-height: calc(100% - 95px);
+  overflow-y: auto;
+  border: 1px solid #39646a;
+  border-radius: 16px;
+  background: #172b34;
+  box-shadow: 0 12px 35px #0009;
+}
+
+.reminder-title {
+  font-size: 15px;
+  margin: 9px 0 12px;
+}
+
+.reminder-actions button {
+  flex: 1;
+  min-width: 65px;
+}
+
+.top-actions {
+  gap: 9px;
+}
+
+/* Reminder notification attached to microphone */
+
+.bottom-controls {
+  position: relative;
+  z-index: 2;
+}
+
+.mic-reminder-group {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mic-button.has-reminder {
+  border: 2px solid #ffca82;
+  box-shadow: 0 0 17px #ffca8266;
+}
+
+.mic-reminder-badge {
+  position: absolute;
+  top: -11px;
+  right: -23px;
+  width: 38px;
+  height: 38px;
+  border: 2px solid #090c13;
+  border-radius: 50%;
+  background: #e6a94f;
+  color: #14202a;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+.reminder-overlay {
+  position: absolute;
+  z-index: 5;
+  top: auto;
+  bottom: 115px;
+  left: 12px;
+  right: 12px;
+  max-height: 55%;
+  overflow-y: auto;
+  border-radius: 17px;
+  border: 1px solid #39646a;
+  background: #172b34;
+  box-shadow: 0 10px 35px #000b;
+}
+
+.mic-reminder-badge:focus-visible {
+  outline: 3px solid white;
+  outline-offset: 3px;
+}
+
+/* Module 9.3 — RIA speaking expression */
+@keyframes ria-speaking-mouth {
+  0%, 100% {
+    transform: scaleY(0.55);
+  }
+
+  50% {
+    transform: scaleY(1.45);
+  }
+}
+
+.ria-face.speaking .mouth {
+  animation: ria-speaking-mouth 260ms ease-in-out infinite;
+  transform-origin: center;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .ria-face.speaking .mouth {
+    animation: none;
+  }
+}
+
+/* Module 10.7 — Microphone processing state */
+.mic-button:disabled {
+  opacity: 0.45;
+  cursor: wait;
+}
+
+.mic-button:disabled:hover {
+  transform: none;
+}
+
+/* Module 10.14 — Mouth movement driven by real speech audio */
+.ria-face.speaking .mouth {
+  animation: none !important;
+
+  width: calc(24px + var(--ria-mouth-open, 0) * 14px);
+  height: calc(4px + var(--ria-mouth-open, 0) * 24px);
+
+  border: 3px solid #79e8df;
+  border-radius: 50%;
+  background: #07141a;
+
+  transform: none;
+  transition:
+    width 65ms linear,
+    height 65ms linear;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .ria-face.speaking .mouth {
+    transition: none;
+  }
+}
