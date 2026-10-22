@@ -36,6 +36,7 @@ def transcribe(model, audio):
         np.asarray(audio, dtype=np.float32),
         beam_size=2,
         vad_filter=True,
+        language="en",
     )
 
     text = " ".join(

@@ -1,0 +1,35 @@
+{
+  "source": "ria1/scripts/module19_decision_runner.py",
+  "original_sha256": "12304b469eac67dee21cbf1f64fda387774eede09966049cb1ea861c9a15ca0a",
+  "original_characters": 12441,
+  "requirements": {
+    "decision_schema": [
+      "\"decision\"",
+      "\"tool\"",
+      "\"arguments\"",
+      "\"reply\""
+    ],
+    "memory_operations": [
+      "memory_save",
+      "memory_list",
+      "memory_update",
+      "memory_forget"
+    ],
+    "reminder_operations": [
+      "reminder_create",
+      "reminder_create_absolute",
+      "reminder_cancel_lookup",
+      "reminder_snooze_lookup",
+      "reminder_manage_lookup",
+      "reminder_list"
+    ],
+    "important_policies": [
+      "RIA_MEMORY_TRUTH_AND_SPEECH_POLICY",
+      "RIA_P110822_CREATION_CONTEXT_POLICY",
+      "RIA_P11075_CALENDAR_POLICY",
+      "RIA_P112_SPEECH_AMBIGUITY_POLICY",
+      "RIA_P110821_NUMERIC_FOLLOWUP"
+    ]
+  },
+  "missing_requirements": {}
+}

@@ -96,6 +96,52 @@ def delete_memory(user_id: str, key: str):
         return result.rowcount > 0
 
 
+
+# RIA_P052_ATOMIC_MEMORY_REPLACE
+
+def replace_memory(user_id: str, old_key: str, new_key: str, new_value: str):
+    """Atomically replace one owned memory without creating duplicates."""
+    user_id = user_id.strip()
+    old_key = old_key.strip().lower()
+    new_key = new_key.strip().lower()
+    new_value = new_value.strip()
+
+    if not user_id or not old_key or not new_key or not new_value:
+        raise ValueError("Memory fields cannot be empty")
+
+    if len(user_id) > 128 or len(new_key) > 64 or len(new_value) > 500:
+        raise ValueError("Memory field exceeds allowed length")
+
+    initialize()
+
+    with connect() as db:
+        existing = db.execute(
+            "SELECT id FROM memories WHERE user_id = ? AND memory_key = ?",
+            (user_id, old_key),
+        ).fetchone()
+
+        if existing is None:
+            return False
+
+        conflict = db.execute(
+            "SELECT id FROM memories WHERE user_id = ? AND memory_key = ?",
+            (user_id, new_key),
+        ).fetchone()
+
+        if conflict is not None and conflict["id"] != existing["id"]:
+            raise ValueError("The replacement memory already exists")
+
+        db.execute(
+            """
+            UPDATE memories
+            SET memory_key = ?, memory_value = ?, updated_at = CURRENT_TIMESTAMP
+            WHERE id = ? AND user_id = ?
+            """,
+            (new_key, new_value, existing["id"], user_id),
+        )
+
+    return True
+
 if __name__ == "__main__":
     initialize()
 

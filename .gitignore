@@ -43,3 +43,30 @@ __pycache__/
 *.pt
 *.pth
 *.ckpt
+
+# RIA development environments
+.venv-*/
+.venv-ria-stt/
+
+# RIA local state and generated data
+ria1/data/
+ria1/logs/
+logs/
+backups/
+evaluation/
+training/
+models/
+ria1/models/
+ria1/voice_samples/
+
+# Frontend generated content
+node_modules/
+dist/
+.vite/
+
+# Local backups
+*.bak
+*.backup
+*.p*_backup
+*.before_*
+*.before-*

@@ -4,6 +4,7 @@ import os
 import re
 import subprocess
 import tempfile
+import unicodedata
 from pathlib import Path
 
 import edge_tts
@@ -16,7 +17,7 @@ from voice.text_processing import clean_for_speech
 TTS_ENGINE = os.getenv("RIA_TTS_ENGINE", "edge")
 
 ENGLISH_VOICE = os.getenv(
-    "RIA_ENGLISH_VOICE", "en-US-JennyNeural"
+    "RIA_ENGLISH_VOICE", "en-IN-NeerjaNeural"
 )
 
 TAMIL_VOICE = os.getenv(
@@ -24,7 +25,7 @@ TAMIL_VOICE = os.getenv(
 )
 
 MAC_VOICE = os.getenv("RIA_MAC_VOICE", "Samantha")
-SPEECH_RATE = os.getenv("RIA_TTS_RATE", "-10%")
+SPEECH_RATE = os.getenv("RIA_TTS_RATE", "+0%")
 
 OUTPUT_SAMPLE_RATE = 24000
 
@@ -42,6 +43,17 @@ def prepare_text(text):
         "Ria",
         text,
         flags=re.IGNORECASE
+    )
+
+    # Remove decorative emoji before speech synthesis.
+    # Keep ordinary letters, accents, punctuation and numbers.
+    text = "".join(
+        char for char in text
+        if not (
+            unicodedata.category(char) == "So"
+            or char in ("\\u200d", "\\ufe0f", "\\u20e3")
+            or 0x1F3FB <= ord(char) <= 0x1F3FF
+        )
     )
 
     return clean_for_speech(text)
