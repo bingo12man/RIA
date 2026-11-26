@@ -1,0 +1,33 @@
+build/
+managed_components/
+.venv/
+.env
+.env.*
+sdkconfig
+sdkconfig.old
+*.bin
+*.elf
+*.map
+.DS_Store
+
+*.bak
+*.bak_*
+*.backup
+*.backup_*
+
+# RIA private configuration
+main/private/
+**/private/
+
+# Firmware backups
+*.bak
+*.bak_*
+*.backup
+*.backup_*
+*.backup-*
+*.old
+
+# Local development files
+.venv/
+__pycache__/
+.DS_Store
